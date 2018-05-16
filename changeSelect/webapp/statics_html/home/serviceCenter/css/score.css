@@ -1,0 +1,29 @@
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.Bulkimport {
+    background: #eee;
+    margin-left: 0 !important;
+    line-height: 36px;
+}
+
+.Bulkimport a {
+    color: blue;
+}
+
+.Bulkimport label {
+    margin-bottom: 0;
+}
+table > tbody > tr > td a {
+    margin-right: 10px;
+}
+
+table > tbody > tr > td a i {
+    font-size: 18px;
+}
+
+#imports input {
+	border: 0;
+	background: transparent;
+}

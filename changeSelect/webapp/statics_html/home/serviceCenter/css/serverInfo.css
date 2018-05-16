@@ -1,0 +1,231 @@
+.widget-nameTitle{
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.nameTitle-name,.nameTitle-state{
+    font-size: 16px;
+}
+
+.tabbable-center{
+    width: 90%; 
+}
+
+.DynamicImage img {
+    width: 41px;
+    height: 41px;
+}
+
+.dynamic-head-left {
+    font-size: 12px;
+    color: blue;
+}
+
+.dynamic-head-right {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.dynamic-content {
+    text-align: center;
+
+}
+
+.dynamic-content1-left {
+    border: 1px solid #888888;
+    padding: 5px;
+}
+
+.dynamic-content1-right {
+    border: 1px solid #799153;
+    padding: 5px;
+    color: #799153;
+}
+
+.media-footer {
+    color: #ccc;
+}
+
+.glyphicon-arrow-right {
+    color: #ccc;
+}
+
+.center-sel {
+    border: none !important;
+    height: 38px !important;
+    padding: 0 !important;
+    height: 36.01px !important;
+}
+
+.media-wen {
+    border: 1px solid #eee !important;
+}
+
+.media-body-content {
+    padding: 10px;
+}
+
+.talk-right {
+    float: right;
+    color: #71b7e5;
+}
+
+.talk-right a {
+    color: #71b7e5;
+    padding-right: 5px;
+}
+
+.media-talk {
+    background: #eee;
+}
+
+.media-headphones {
+    width: 18px;
+    height: 18px;
+    background: #71b7e5;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding-top: 2px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.media-headphones:hover, .media-headphones:visited {
+    color: #fff;
+}
+
+.server-head {
+    width: 84px;
+    height: 74px;
+    margin-right: 5px;
+}
+
+.server-pic {
+    margin-left: -14px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.server-pic .center-iconr {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #169bd5;
+    font-size: 16px;
+}
+
+.server-pic .center-iconl {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: #169bd5;
+    font-size: 16px;
+}
+
+.all-dowload {
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+.dowload-zi {
+    margin-left: 11px;
+}
+
+.btn-info{
+    margin: 10px;
+}
+
+.trademark{
+    width: 20%;
+    float: left;
+    font-size: 14px;
+}
+
+.material-course{
+    width: 100%;
+    border: 1px solid #bbbbbb;
+}
+
+.course-title{
+    text-align: center;
+    line-height: 30px;
+    background-color: #dddddd;
+}
+
+.course{
+    padding: 10px;
+}
+
+.course-tab{
+    padding: 10px;
+    
+}
+
+.detail-btn{
+    margin-left: 40px;
+    vertical-align: top;
+    height: 24px;
+    line-height: 14px;
+    margin-top: 3px;
+}
+
+.plan-box{
+    padding: 20px;
+}
+
+.plan-btn{
+    padding: 12px;
+    
+}
+
+.info-btns{
+    position: fixed;
+    top: 300px;
+    right: 30px;   
+}
+
+.btns-block{
+    width: 100px;
+    display: block;
+}
+
+.px-int{
+    margin-top: 10px;
+}
+
+.glyphicon-plus-sign{
+    font-size: 24px;
+}
+
+.glyphicon-minus-sign{
+    font-size: 24px;
+    color:	#FF0000;
+}
+
+.discounts-form{
+    display: none;
+}
+
+.modal-body{
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.plan-btn{
+    position: relative
+}
+
+.hover-show{
+    background-color: #ccc;
+    position: absolute;
+    left:0px;
+    top:-80px;
+    display: none;
+}
+
+.plan-hover{
+    padding: 10px
+}

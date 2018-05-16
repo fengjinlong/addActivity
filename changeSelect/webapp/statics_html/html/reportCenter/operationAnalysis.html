@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>数据中心--运营分析表</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+	
+	<!--Basic Styles-->
+	<link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet"/>
+	<link id="bootstrap-rtl-link" href="" rel="stylesheet"/>
+	<link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet"/>
+
+	<link rel="stylesheet" href="../../dep/assets/css/dataTables.bootstrap.css">
+	<!-- loading -->
+	<link rel="stylesheet" href="../../dep/jquery-mloading/jquery.mloading.css">
+	
+	<!--Beyond styles-->
+	<link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css"/>
+	<link href="../../dep/assets/css/animate.min.css" rel="stylesheet"/>
+	<link id="skin-link" href="" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="../../dep/bootstrap-select/css/bootstrap-select.css">
+	<link rel="stylesheet" href="../../dep/chosen/css/chosen.css">
+	<link rel="stylesheet" href="../../dep/assets/css/daterangepicker.css">
+	<link rel="stylesheet" href="../../common/css/common.css">
+	<link rel="stylesheet" href="../../home/reportCenter/css/operateAnalyze.css">
+	
+	<script src="../../dep/assets/js/skins.js"></script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+<body>
+
+
+<!-- Main Container -->
+<div class="main-container container-fluid">
+	<!-- Page Container -->
+	<div class="page-container">
+
+		<!-- Page Content -->
+		<div class="page-content" style="margin-left:0">
+			<!-- Page Breadcrumb -->
+			<div class="page-breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<a href="#">报表中心</a>
+					</li>
+					<li class="active">运营分析表</li>
+				</ul>
+			</div>
+			<!-- /Page Breadcrumb -->
+			<!-- Page Header -->
+			<div class="page-header position-relative">
+				<div class="header-title">
+					<h5 class="title">
+						运营分析表
+					</h5>
+				</div>
+				<!--Header Buttons-->
+				<div class="header-buttons">
+					<a class="sidebar-toggler" href="#">
+						<i class="fa fa-arrows-h"></i>
+					</a>
+					<a class="refresh" id="refresh-toggler" href="">
+						<i class="glyphicon glyphicon-refresh"></i>
+					</a>
+					<a class="fullscreen" id="fullscreen-toggler" href="#">
+						<i class="glyphicon glyphicon-fullscreen"></i>
+					</a>
+				</div>
+				<!--Header Buttons End-->
+			</div>
+			<!-- /Page Header -->
+			<!-- Page Body -->
+			<div class="page-body clearfix">
+				<div class="col-sm-12 form-horizontal public-conditions">
+					<div class="form-group col-sm-12">
+						<label class="control-label pull-left" style="margin-right: 15px">时间</label>
+						<div class="btn-group date-btn pull-left">
+							<a href="#" class="btn btn-default today-btn active">今天</a>
+							<a href="#" class="btn btn-default yesterday-btn">昨天</a>
+							<a href="#" class="btn btn-default recent7-btn">最近7天</a>
+							<a href="#" class="btn btn-default recent30-btn">最近30天</a>
+						</div>
+						<div class="col-sm-4" style="width: 29%;">
+							<div class="input-group pull-left">
+								<input type="text" class="form-control" id="timeQuantum">
+								<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+							</div>
+						</div>
+						<div class="btn-group interval pull-left">
+							<a href="#" class="btn btn-default active">按天</a>
+							<a href="#" class="btn btn-default week-btn">按周</a>
+							<a href="#" class="btn btn-default month-btn">按月</a>
+							<a href="#" class="btn btn-default quarter-btn">按季度</a>
+							<a href="#" class="btn btn-default  year-btn">按年</a>
+						</div>
+						<div class="col-sm-3">
+							<button id="reportSubmit" class="btn increase search-btn">搜索</button>
+						</div>
+						<div class="pull-right">
+							<label class="control-label blue advanced-filter">高级筛选<i class="fa fa-angle-down margin-left-5"></i></label>
+						</div>
+					</div>
+					<div class="col-sm-12 no-padding condition-filtrate">
+						<div class="form-group col-sm-3">
+							<label class="control-label pull-left">分校</label>
+							<div class="col-sm-10 no-padding-right">
+								<select id="branchSchool" name="" class="selectpicker form-control" multiple title="--请选择--">
+								</select>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<label class="control-label pull-left">品牌</label>
+							<div class="col-sm-10 no-padding-right">
+								<select id="brand" name="" class="selectpicker form-control" multiple title="--请选择--">
+								</select>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<label class="control-label pull-left">产品模型</label>
+							<div class="col-sm-10 no-padding-right">
+								<select id="productModel" name="" class="selectpicker form-control" multiple title="--请选择--">
+								</select>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<label class="control-label pull-left">产品名称</label>
+							<div class="col-sm-9 no-padding-right">
+								<select id="product" name="" class="selectpicker form-control" multiple title="--请选择--">
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 widget no-padding-right aggregate-data">
+					<div class="widget-header">
+                        <span class="widget-caption">
+                            总数据量
+                        </span>
+					</div>
+					<div class="widget-body clearfix">
+						<div class="col-sm-12 table-scrollable totalData">
+							<table class="table tableload table-bordered table-responsive text-center">
+								<thead>
+								<tr>
+									<th class="text-center"></th>
+									<th class="text-center">广告费</th>
+									<th class="text-center">咨询量</th>
+									<th class="text-center">成本/元</th>
+									<th class="text-center">业绩合计</th>
+									<th class="text-center">收益费用</th>
+									<th class="text-center">支出费用</th>
+									<th class="text-center">费比</th>
+									<th class="text-center">补费</th>
+									<th class="text-center">预约</th>
+									<th class="text-center">上门量</th>
+									<th class="text-center">报名量</th>
+									<th class="text-center">预约比</th>
+									<th class="text-center">电转比</th>
+									<th class="text-center">面转比</th>
+									<th class="text-center">总转比</th>
+									<th class="text-center">客单价</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr id="addtext">
+									<td>
+										<i class="fa collapse-btn fa-plus-square-o"></i>
+									</td>
+									<td class="totalmoneyAd"></td>
+									<td class="totalinfoCount"></td>
+									<td class="totalmoneyCost"></td>
+									<td class="totalsumPerformance"></td>
+									<td class="totalinFee"></td>
+									<td class="totaloutFee"></td>
+									<td class="totalfeeScale"></td>
+									<td class="totalsupFee"></td>
+									<td class="totalserverCount"></td>
+									<td class="totaldoorCount"></td>
+									<td class="totalsignCount"></td>
+									<td class="totalserverScale"></td>
+									<td class="totalelScale"></td>
+									<td class="totaldoorScale"></td>
+									<td class="totalsumScale"></td>
+									<td class="totalonlyFee"></td>
+								</tr>
+							</tbody>
+							</table>
+						</div>
+						<div class="col-sm-12 table-scrollable campusData">
+							<table id="table" class="table table-bordered table-responsive text-center" data-height="100">
+								<thead>
+								<tr>
+									<th class="text-center">分校</th>
+									<th class="text-center">广告费</th>
+									<th class="text-center">咨询量</th>
+									<th class="text-center">成本/元</th>
+									<th class="text-center">业绩合计</th>
+									<th class="text-center">收益费用</th>
+									<th class="text-center">支出费用</th>
+									<th class="text-center">费比</th>
+									<th class="text-center">补费</th>
+									<th class="text-center">预约</th>
+									<th class="text-center">上门量</th>
+									<th class="text-center">报名量</th>
+									<th class="text-center">预约比</th>
+									<th class="text-center">电转比</th>
+									<th class="text-center">面转比</th>
+									<th class="text-center">总转比</th>
+									<th class="text-center">客单价</th>
+								</tr>
+								</thead>
+								<tbody id="calculation">
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				
+				<div class="operate-data clearfix" style="padding-bottom:50px">
+					<div class="col-sm-12 widget">
+						<div class="widget-header" id="monthly-title">
+							<span class="widget-caption">广告费对比图</span>
+						</div>
+						<div class="widget-body clearfix form-horizontal">
+							<div class="form-group col-sm-4">
+								<label class="control-label pull-left margin-left-20">维度</label>
+								<div class="col-md-9 col-sm-9">
+									<select id="selectDimension" class="form-control">
+										<option value="moneyAd" selected>广告费</option>
+										<option value="infoCount">咨询量</option>
+										<option value="moneyCost">成本</option>
+										<option value="sumPerformance">业绩合计</option>
+										<option value="inFee">收益费用</option>
+										<option value="outFee">支出费用</option>
+										<option value="feeScale">费比</option>
+										<option value="supFee">补费</option>
+										<option value="serverCount">预约</option>
+										<option value="doorCount">上门量</option>
+										<option value="signCount">报名量</option>
+										<option value="serverScale">预约比</option>
+										<option value="elScale">电转比</option>
+										<option value="doorScale">面转比</option>
+										<option value="sumScale">总转比</option>
+										<option value="onlyFee">客单价</option>
+									</select>
+								</div>
+							</div>
+							<div class="data-box" id="adFee"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Basic Scripts-->
+<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="../../dep/assets/js/beyond.min.js"></script>
+
+<!--图表插件-->
+<script src="../../dep/echarts/echarts.js"></script>
+<script src="../../dep/echarts/chart/china.js"></script>
+
+<!--日期插件-->
+<script src="../../dep/assets/js/datetime/moment.js"></script>
+<script src="../../dep/assets/js/datetime/daterangepicker.js"></script>
+
+<!--下拉框插件-->
+<script src="../../dep/chosen/js/chosen.jquery.js"></script>
+<script src="../../dep/bootstrap-select/js/bootstrap-select.js"></script>
+<!-- loading -->
+<script src="../../dep/jquery-mloading/jquery.mloading.js"></script>
+<!-- datatable -->
+<script src="../../dep/assets/js/datatable/jquery.dataTables.min.new.js"></script>
+<script src="../../dep/assets/js/datatable/dataTables.bootstrap.min.js"></script>
+
+<script src="../../home/reportCenter/js/comInterface.js"></script>
+<script src="../../home/reportCenter/js/operateAnalyze.js"></script>
+
+</body>
+</html>
+

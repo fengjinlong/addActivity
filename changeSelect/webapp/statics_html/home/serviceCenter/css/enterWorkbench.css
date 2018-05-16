@@ -1,0 +1,64 @@
+
+.btnexam-box .btn-block{
+    width: 120px;
+    display: block;
+    margin-top: 15px;
+}
+
+.btnexam-box{
+    position: fixed;
+    top: 160px;   
+    right: 20px;
+}
+
+
+/* 银行所在省市相关弹窗样式设置 */
+.application{
+    overflow-x: hidden;
+}
+
+.attribution {
+    position: absolute !important;
+    top: 34px;
+    left: 17px;
+    z-index: 9999;
+    display: none;
+}
+
+.attribution .modal-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.attribution .modal-sm {
+    width: 220px;
+}
+
+.attribution .modal-dialog {
+    margin: 0 auto !important;
+}
+
+.attribution .attribution-body {
+    padding: 15px;
+}
+
+.modal .attribution .form-group button, .modal .attribution .form-group button,
+.modal .attribution .form-group button:focus, .modal .attribution .form-group button:visited {
+    height: 32px;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.attribution .modal-footer {
+    padding: 0;
+
+}
+/* 银行所在省市相关弹窗样式设置 -------结束*/
+
+/* 树 */
+.ztreeList{
+    margin-top: 20px;
+}
+#ztreeList{
+    border: 1px solid #e5e5e5;
+}

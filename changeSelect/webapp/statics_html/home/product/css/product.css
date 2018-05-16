@@ -1,0 +1,97 @@
+.well {
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.well .header {
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 0;
+    background-color: #f0f0f0;
+}
+.well .header span.header-title{
+    margin-left: -50px;
+}
+.well .header span i{
+    font-size: 20px;
+    padding: 0 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.table-striped > tbody > tr:nth-child(odd) > th,
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(even) > th,
+.table-striped > tbody > tr:nth-child(even) > td,
+.table > thead > tr > th, .table > tbody > tr > th,
+.table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td{
+    text-align: center !important;
+}
+
+.examinationDate .well-body,.paymentPeriod .well-body{
+    padding-bottom: 30px;
+}
+
+.productAddInfo .form-button {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.control-label-text{
+    margin-left: -30px;
+}
+.actions a {
+    line-height: 18px;
+    font-size: 14px;
+    margin-right: 20px;
+    width: 100px;
+}
+.actions.actions-footer{
+    padding-bottom: 30px;
+}
+.wizard.wizard-wired{
+    border-bottom: 0;
+}
+.wizard.wizard-wired ul li{
+    width: 50%;
+}
+.wizard.wizard-wired ul li .step{
+    cursor: pointer;
+}
+.step-content{
+    box-shadow: none;
+}
+.step-content .step-pane{
+    border: 1px solid #e0e2e5;
+}
+
+.actions.actions-footer{
+    text-align: center;
+    box-shadow: none;
+}
+.actions.actions-footer button{
+    margin-right: 20px;
+    width: 100px;
+}
+
+.serviceConfigModal .well{
+    border: 1px solid #e0e2e5;
+}
+
+.serviceConfigModal  .modal-lg{
+    width: 1020px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu.inner{
+    overflow-x: hidden;
+}
+.serviceConfigModal  .table > tbody > tr > td .btn-group.bootstrap-select,
+.pricesEditModal  .table > tbody > tr > td .btn-group.bootstrap-select{
+    min-width: 100px !important;
+    max-width: 140px !important;
+}
+.pricesEditModal .costCategory .operate-btn{
+    font-size: 14px;
+    margin-left: 6px;
+}
+

@@ -1,0 +1,32 @@
+#schollDetails>td{
+    padding: 0;
+}
+.dataTable .collapse-btn {
+    font-size: 22px !important;
+    cursor: pointer;
+}
+.dataChart{
+    padding:20px 0;
+}
+.data-box{
+    height:370px;
+}
+.dataChart .widget-header[class*="bg-"] {
+    color: #fff;
+    border-bottom: 0;
+    text-align: left;
+}
+.dataChart .widget-body .form-group{
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}
+.dataChart h4{
+    margin-top: 45px!important;
+}
+.aggregate-data .campusData {
+    display: none;
+    max-height: 380px;
+    overflow-y: auto;
+    margin-top: 20px
+}

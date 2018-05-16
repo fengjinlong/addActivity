@@ -1,0 +1,61 @@
+.tab-content.tabs-flat {
+    border-top-width: 2px;
+}
+
+.nav-tabs > li {
+    margin-bottom: -2px;
+}
+
+ul.nav-tabs > li.active > a, ul.nav-tabs > li.active > a:hover, ul.nav-tabs > li.active > a:focus {
+    border: 1px solid #2dc3e8;
+    border-radius: 3px 3px 0 0 !important;
+    border-bottom: 0;
+}
+.modal-header {
+    background-color: #fff;
+    border-width: 2px;
+}
+
+.modal-header .modal-title {
+    font: 600 16px "Microsoft YaHei" !important;
+}
+
+.modal-sm {
+    width: 400px;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+}
+ .form-group {
+    margin-bottom: 15px;
+/*     overflow: hidden;
+ */}
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+.has-feedback{
+/* 	line-height:34px; */
+} 
+.datepicker.dropdown-menu{
+    z-index:99999 !important;
+}
+.professionalConfigure .modal-body,.educationConfigure .modal-body{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.descripition-text{
+	margin-left: -55px;
+}
+
+.chosen-container-single .chosen-single {
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d5d5d5;
+}

@@ -1,0 +1,138 @@
+h4{
+    font-family: "microsoft yahei";
+}
+.menu {
+    height: 600px;
+}
+
+.widget-header.menu-title {
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 2px solid #5db2ff ;
+    padding-right: 10px;
+}
+
+.menu.drop-down > .sidebar-menu > li > .menu-dropdown {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.widget-body {
+    
+}
+
+.widget-body .table > tbody > tr > td {
+    border: 0;
+    height: 50px;
+    line-height: 15px;
+}
+
+.menu .sidebar-menu {
+    height: 559px;
+    overflow-y: auto;
+}
+
+.menu .sidebar-menu .submenu {
+    display: none;
+}
+
+.drop-down > .sidebar-menu .submenu a {
+    padding-right: 15px;
+}
+
+.menu .sidebar-menu > li > .submenu > li > a > .menu-text {
+    margin-right: 20px;
+}
+/*修改位置*/
+.menu .sidebar-menu > li > .submenu > li > a > i {
+    padding: 10px 0;
+}
+
+.modal-header, .modal-footer {
+    background-color: #fff;
+}
+.modal-body {
+    background-color: #fff;
+}
+
+#selectIcon .modal-body {
+    
+    overflow-y: auto;
+}
+
+#selectIcon .modal-body .fontawesome-icon-list .fa-hover {
+    line-height: 36px;
+    cursor: pointer;
+}
+
+#selectIcon .fontawesome-icon-list .fa-hover .fa {
+    margin-right: 8px;
+    transition: all 0.3s;
+}
+#selectIcon .fontawesome-icon-list .fa-hover:hover .fa{
+    transform: scale(2);
+}
+
+#menu-icon, #menu-icon1 {
+    display: inline-block;
+    line-height: 33px;
+    font-size: 16px;
+}
+
+.modal.fade .modal-dialog {
+    margin-top: 8%;
+}
+
+.widget-header {
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 2px solid #5db2ff ;
+}
+
+.modal-footer{
+    border-radius: 0 0 6px 6px;
+}
+.modal-footer button, .modal-footer button:hover, .modal-footer button:focus, .modal-footer button:visited{
+    margin-top: 0;
+}
+.drop-down > .sidebar-menu .submenu  .operate-btn{
+	height:40px;
+	line-height:40px;
+}
+.drop-down > .sidebar-menu .submenu  .operate-btn i {
+	height:40px;
+    line-height: 40px;
+    display: none;
+}
+
+.drop-down > .sidebar-menu .submenu a {
+    padding-left: 20px;
+}
+/*修改位置*/
+.drop-down > .sidebar-menu .submenu .submenu > li > a.menu-dropdown i {
+    margin-top: 10px;
+}
+
+.operate-btn i {
+    display: none;
+    cursor: pointer;
+}
+
+.addMenu{
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.add-menu button, .edit-menu button {
+    margin-right: 20px;
+}
+/*.widget-body {
+    padding-top: 30px;
+} */
+
+.menu-icon i.fa:before,#menu-icon:before,#menu-icon1:before{
+    margin-right: 10px !important;
+}
+
+.form-group {
+    margin-bottom: 25px!important;
+}

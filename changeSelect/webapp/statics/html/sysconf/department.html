@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html>
+<!-- Head -->
+<head>
+    <meta charset="utf-8"/>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../dep/assets/css/typicons.min.css" rel="stylesheet"/>
+    <link href="../../dep/assets/css/animate.min.css" rel="stylesheet"/>
+
+
+    <link href="../../dep/assets/css/dataTables.bootstrap.css" rel="stylesheet"/>
+    <link href="../../css/common.css" rel="stylesheet"/>
+    <link href="../../home/sysconf/css/department.css" rel="stylesheet"/>
+
+    <script src="../../dep/assets/js/skins.min.js"></script>
+</head>
+
+<body>
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <!-- S= 左侧菜单栏 -->
+        <div class="page-sidebar" id="sidebar">
+            <!-- S= 左侧菜单栏头部 -->
+            <div class="sidebar-header-wrapper">
+                <!--S= logo-->
+                <div class="logo-1">
+                    <img src="../../dep/assets/img/logo1.png" alt="">
+                </div>
+                <div class="logo-2">
+                    <img src="../../dep/assets/img/logo2.png" alt="">
+                </div>
+                <!--E= logo-->
+                <!--S= 折叠按钮-->
+                <div class="sidebar-collapse" id="sidebar-collapse">
+                    <img src="../../dep/assets/img/collapse-btn.png" alt="">
+                </div>
+                <!--E= 折叠按钮-->
+            </div>
+            <!-- E= 左侧菜单栏头部 -->
+
+            <!-- S= 功能菜单 -->
+            <ul class="nav sidebar-menu">
+                <!--工作台-->
+                <li>
+                    <a href="index.html">
+                        <i class="menu-icon glyphicon glyphicon-home"></i>
+                        <span class="menu-text">工作台</span>
+                    </a>
+                </li>
+                <!--咨询中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-comments"></i>
+                        <span class="menu-text">咨询中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">信息采集管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">信息分发管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--服务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-stack-exchange"></i>
+                        <span class="menu-text">服务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">招生资源管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">报告管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">服务管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--财务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-tasks"></i>
+                        <span class="menu-text">财务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">集团财务</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">分校财务</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">中培财务</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--质检中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-star-half-empty"></i>
+                        <span class="menu-text">质检中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">奖励管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">罚款管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">回访管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">查漏管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">变更管理(学员)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--配置中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-pencil-square-o"></i>
+                        <span class="menu-text">配置中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">活动管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">藏宝阁管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">分校分成比例管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">财务配置</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--系统管理-->
+                <li class="open">
+                    <a href="" class="menu-dropdown">
+                        <i class="menu-icon fa fa-bar-chart-o"></i>
+                        <span class="menu-text">系统管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="user.html">
+                                <span class="menu-text">用户管理</span>
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a href="../../html/sysconf/department.html" class="active">
+
+                                <span class="menu-text">部门管理(职位)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">权限管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">菜单管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">字典管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">
+                                        <span>学员属性</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>区域属性</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">公告管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">
+                                        <span>制度管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>奖惩明细</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--日志管理-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-tasks"></i>
+                        <span class="menu-text">日志管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">操作日志</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">系统日志</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- S= 功能菜单 -->
+        </div>
+        <!-- E= 左侧菜单栏 -->
+        <!-- S= 右侧内容 -->
+        <div class="page-content">
+            <!-- S= 右侧顶部导航 -->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="navbar-container">
+                        <!-- S= 通知 -->
+                        <div class="navbar-header pull-left">
+                            <i class="fa fa-bell pull-left"></i>
+                            <ul class="list-unstyled notification pull-left">
+                                <li>
+                                    <a href="">通知：上下滚动效果</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- E= 通知-->
+
+                        <!-- S= 信息和设置 --->
+                        <div class="navbar-header pull-right">
+                            <div class="navbar-account">
+                                <ul class="account-area">
+                                    <!--S= 信息-->
+                                    <li>
+                                        <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
+                                            <i class="icon fa fa-envelope"></i>
+                                            <span class="badge">3</span>
+                                        </a>
+
+                                        <ul class="pull-right dropdown-menu dropdown-arrow dropdown-messages">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/divyia.jpg"
+                                                         class="message-avatar"
+                                                         alt="Divyia Austin">
+                                                    <div class="message">
+                                                <span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+                                                <span class="message-time">
+                                                    两分钟前
+                                                </span>
+                                                <span class="message-subject">
+                                                    邮件标题
+                                                </span>
+                                                <span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/bing.png"
+                                                         class="message-avatar"
+                                                         alt="Microsoft Bing">
+                                                    <div class="message">
+                                                <span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+                                                <span class="message-time">
+                                                    昨天
+                                                </span>
+                                                <span class="message-subject">
+                                                    邮件标题
+                                                </span>
+                                                <span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                                         class="message-avatar"
+                                                         alt="Divyia Austin">
+                                                    <div class="message">
+                                                    <span class="message-sender">
+                                                        集团质检中心经理-王大伟
+                                                    </span>
+                                                    <span class="message-time">
+                                                        一周前
+                                                    </span>
+                                                    <span class="message-subject">
+                                                        邮件标题
+                                                    </span>
+                                                    <span class="message-body">
+                                                        邮件内容邮件内容邮件内容
+                                                    </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!--E= 信息-->
+                                    <!-- S=任务-->
+                                    <li>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" title="Tasks" href="#">
+                                            <i class="icon fa fa-tasks"></i>
+                                            <span class="badge">4</span>
+                                        </a>
+
+                                        <ul class="pull-right dropdown-menu dropdown-tasks dropdown-arrow ">
+                                            <li class="dropdown-header bordered-darkorange">
+                                                标题
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Account Creation</span>
+                                                        <span class="pull-right">65%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:65%" class="progress-bar"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Profile Data</span>
+                                                        <span class="pull-right">35%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:35%"
+                                                             class="progress-bar progress-bar-success"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Updating Resume</span>
+                                                        <span class="pull-right">75%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:75%"
+                                                             class="progress-bar progress-bar-darkorange"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Adding Contacts</span>
+                                                        <span class="pull-right">10%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:10%"
+                                                             class="progress-bar progress-bar-warning"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-footer">
+                                                <a href="#">
+                                                    See All Tasks
+                                                </a>
+                                                <button class="btn btn-xs btn-default shiny darkorange icon-only pull-right">
+                                                    <i
+                                                            class="fa fa-check"></i></button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- E= 任务-->
+                                    <!-- S= 用户信息-->
+                                    <li>
+                                        <a class="login-area dropdown-toggle" data-toggle="dropdown">
+                                            <div class="avatar" title="View your public profile">
+                                                <img src="../../dep/assets/img/avatars/adam-jansen.jpg">
+                                            </div>
+                                            <section>
+                                                <h2><span class="profile"><span>集团质检中心经理-王大伟</span></span></h2>
+                                            </section>
+                                        </a>
+                                        <!--Login Area Dropdown-->
+                                        <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
+                                            <li class="username"><a>集团质检中心经理-王大伟</a></li>
+                                            <li class="email"><a>wdw@xuehuiwang.com</a></li>
+                                            <!--Avatar Area-->
+                                            <li>
+                                                <div class="avatar-area">
+                                                    <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                                         class="avatar">
+                                                    <span class="caption">修改照片</span>
+                                                </div>
+                                            </li>
+                                            <!--Avatar Area-->
+                                            <li class="edit">
+                                                <a href="profile.html" class="pull-left">简介</a>
+                                                <a href="#" class="pull-right">设置</a>
+                                            </li>
+                                            <!-- E= 颜色主题-->
+                                            <li class="theme-area">
+                                                <ul class="colorpicker" id="skin-changer">
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#5DB2FF;"
+                                                           rel="../../dep/assets/css/skins/blue.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#2dc3e8;"
+                                                           rel="../../dep/assets/css/skins/azure.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#03B3B2;"
+                                                           rel="../../dep/assets/css/skins/teal.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#53a93f;"
+                                                           rel="../../dep/assets/css/skins/green.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#FF8F32;"
+                                                           rel="../../dep/assets/css/skins/orange.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#cc324b;"
+                                                           rel="../../dep/assets/css/skins/pink.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#AC193D;"
+                                                           rel="../../dep/assets/css/skins/darkred.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#8C0095;"
+                                                           rel="../../dep/assets/css/skins/purple.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#0072C6;"
+                                                           rel="../../dep/assets/css/skins/darkblue.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#585858;"
+                                                           rel="../../dep/assets/css/skins/gray.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#474544;"
+                                                           rel="../../dep/assets/css/skins/black.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#001940;"
+                                                           rel="../../dep/assets/css/skins/deepblue.min.css"></a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- E= 颜色主题-->
+                                            <li class="dropdown-footer">
+                                                <a href="login.html">
+                                                    退出
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <!-- E= 用户信息-->
+                                </ul>
+                                <!-- S= 设置-->
+                                <div class="setting">
+                                    <a id="btn-setting" title="Setting" href="#">
+                                        <i class="icon glyphicon glyphicon-cog"></i>
+                                    </a>
+                                </div>
+                                <div class="setting-container">
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixednavbar">
+                                        <span class="text">固定导航条</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedsidebar">
+                                        <span class="text">固定左侧导航</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedbreadcrumbs">
+                                        <span class="text">固定面包屑导航</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedheader">
+                                        <span class="text">固定头部</span>
+                                    </label>
+                                </div>
+                                <!-- E= Settings -->
+                            </div>
+                        </div>
+                        <!-- E= 信息和设置 --->
+                    </div>
+                </div>
+            </div>
+            <!-- S= 右侧顶部导航 -->
+            <!-- S= 右侧头部按钮 -->
+            <div class="page-header position-relative">
+                <div class="header-buttons">
+                    <a class="sidebar-toggler" href="#">
+                        <i class="fa fa-arrows-h"></i>
+                    </a>
+                    <a class="refresh" id="refresh-toggler" href="">
+                        <i class="glyphicon glyphicon-refresh"></i>
+                    </a>
+                    <a class="fullscreen" id="fullscreen-toggler" href="#">
+                        <i class="glyphicon glyphicon-fullscreen"></i>
+                    </a>
+                </div>
+                <!--S= 功能切换-->
+                <div class="tabs">
+                    <ul class="tabs-list">
+                        <li>
+                            <a href="#">
+                                <i class="menu-icon glyphicon glyphicon-home"></i>
+                                <span>工作台</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">
+                                <i class="menu-icon glyphicon glyphicon-home"></i>
+                                <span>部门管理(职位)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--E= 功能切换-->
+            </div>
+            <!-- = 右侧头部按钮 -->
+
+            <!-- S= 右侧页面主体 -->
+            <div class="page-body">
+                <!--部门-->
+                <h5 class="row-title">
+                    <img src="../../image/department-icon.png" alt="">
+                    <span>部门</span>
+                    <i class="fa fa-plus-square-o pull-right addDepartment-btn"></i>
+                </h5>
+                <div class="row">
+                    <!--部门-->
+                    <div class="col-xs-6 col-sm-3">
+                        <div class="department">
+                            <ul class="nav sidebar-menu">
+                                <li>
+                                    <a href="#" class="menu-dropdown">
+                                        <img src="../../dep/assets/img/group-icon.png" alt="">
+                                        <span class="menu-text">集团</span>
+                                        <i class="fa fa-plus-square-o pull-right"></i>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="active">
+                                            <a href="javascript:;">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">总裁办(7人)</span>
+                                                <i class="fa fa-plus-square-o pull-right"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">财务中心(9人)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-dropdown">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">销售中心(100人)</span>
+                                                <i class="fa fa-angle-right pull-right"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">学历一部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">学历二部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">学历三部</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu-dropdown">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">综合管理中心(43人)</span>
+                                                <i class="fa fa-angle-right pull-right"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">综合管理中心一部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">综合管理中心二部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">综合管理中心三部</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;" class="menu-dropdown">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">市场营销中心(19人)</span>
+                                                <i class="fa fa-angle-right pull-right"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">市场营销中心一部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">市场营销中心二部</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:;">
+                                                        <span class="menu-text">市场营销中心三部</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <i class="fa fa-user"></i>
+                                                <span class="menu-text">质检中心(8人)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-dropdown">
+                                        <img src="../../dep/assets/img/branchSchool-icon.png" alt="">
+                                        <span class="menu-text">分校</span>
+                                        <i class="fa fa-plus-square-o pull-right"></i>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="javascript:;">
+                                                <i class="fa fa-map-marker"></i>
+                                                <span class="menu-text">北京分校</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <i class="fa fa-map-marker"></i>
+                                                <span class="menu-text">上海分校</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--职位名称-->
+                    <div class="col-sm-3">
+                        <div class="position-name">
+                            <ul class="nav sidebar-menu">
+                                <li>
+                                    <a href="#" class="menu-dropdown">
+                                        <span class="menu-text pn-title">职位名称</span>
+                                        <i class="fa fa-plus-square-o pull-right"></i>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span class="menu-text">总裁(1人)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span class="menu-text">副总裁(3人)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span class="menu-text">总裁秘书(1人)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span class="menu-text">工会主席(1人)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span class="menu-text">区域负责人(1人)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--部门/职位信息-->
+                    <div class="col-xs-6 col-sm-6">
+                        <!--S= 部门信息展示-->
+                        <div class="widget department-info department-information">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">部门信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-pencil department-edit "></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="col-xs-3">编号:</td>
+                                        <td class="depNum">0000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">简称:</td>
+                                        <td class="depShort">总裁办</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">部门名称:</td>
+                                        <td class="depName">总裁办</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">上级部门:</td>
+                                        <td class="depSuperior">集团</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">状态:</td>
+                                        <td class="depSatus">无效</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="col-xs-3 describe">描述:</td>
+                                        <td>
+                                            <textarea class="form-control depDescribe" rows="6" readonly>暂无</textarea>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--Widget Body-->
+                        </div>
+                        <!--E= 部门信息展示-->
+                        <!--S= 添加部门信息-->
+                        <div class="widget department-info addDepartment hidden">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">部门信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <form role="form" class="form-horizontal">
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depNum" class="col-sm-3 control-label">编号</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" name="depName" class="form-control"
+                                                   id="depNum" placeholder="请输入编号">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depShort" class="col-xs-3 control-label">简称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="depShort" class="form-control"
+                                                   id="depShort" placeholder="请输入部门简称(例:总裁办)">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depName" class="col-xs-3 control-label">部门名称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="depName" class="form-control"
+                                                   id="depName" placeholder="请输入部门名称(例:总裁办)">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="superior" class="col-xs-3 control-label">上级部门</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="superior" class="form-control" id="superior"
+                                                   value="集团" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label class="col-xs-3 control-label">状态</label>
+                                        <div class="col-xs-9">
+                                            <div class="radio">
+                                                <label>
+                                                    <input name="depStatus" type="radio" checked>
+                                                    <span class="text">有效</span>
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input name="depStatus" type="radio">
+                                                    <span class="text">无效</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-md-12">
+                                        <label for="superior" class="control-label col-xs-3">描述</label>
+                                        <div class="col-xs-9 col-ms-10">
+                                            <textarea class="form-control" name="depDescribe" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12">
+                                        <div class="col-xs-3 col-xs-offset-3">
+                                            <button type="reset"
+                                                    class="btn btn-danger btn-lg form-control cancel-btn">取消
+                                            </button>
+                                        </div>
+                                        <div class="col-xs-3 col-xs-offset-1">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-lg form-control confirm-btn">确认
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div><!--Widget Body-->
+                        </div>
+                        <!--E= 添加部门信息-->
+                        <!--S= 编辑部门信息-->
+                        <div class="widget department-info editDepartment hidden">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">部门信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <form role="form" class="form-horizontal">
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depNum" class="col-sm-3 control-label">编号</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" name="depNum" class="depNum form-control"
+                                                   placeholder="请输入编号">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depShort" class="col-xs-3 control-label">简称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="abbreviation" class="form-control depShort"
+                                                   placeholder="请输入部门简称(例:总裁办)">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depName" class="col-xs-3 control-label">部门名称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="depName" class="form-control depName"
+                                                   placeholder="请输入部门名称(例:总裁办)">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="superior" class="col-xs-3 control-label">上级部门</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="superior" class="form-control"
+                                                   value="集团" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label class="col-xs-3 control-label">状态</label>
+                                        <div class="col-xs-9">
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="depStatus" type="radio" class="valid" checked>
+                                                    <span class="text">有效</span>
+                                                </label>
+                                            </div>
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="depStatus" type="radio" class="invalid">
+                                                    <span class="text">无效</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-md-12">
+                                        <label class="control-label col-xs-3">描述</label>
+                                        <div class="col-xs-9 col-ms-10">
+                                            <textarea class="form-control depDescribe" name="depDescribe"
+                                                      rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12">
+                                        <div class="col-xs-3 col-xs-offset-3">
+                                            <button type="button"
+                                                    class="btn btn-danger btn-lg form-control cancel-btn">取消
+                                            </button>
+                                        </div>
+                                        <div class="col-xs-3 col-xs-offset-1">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-lg form-control confirm-btn">确认
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div><!--Widget Body-->
+                        </div>
+                        <!--E= 编辑部门信息-->
+                        <!--S= 职位信息展示-->
+                        <div class="widget department-info position-information hidden">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">职位信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-pencil position-edit"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="col-xs-3">编号:</td>
+                                        <td class="posNum">00001</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">简称:</td>
+                                        <td class="posShort">总裁</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">职位名称:</td>
+                                        <td class="posName">总裁</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col-xs-3">状态:</td>
+                                        <td class="posStatus">有效</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="col-xs-3 describe">描述:</td>
+                                        <td>
+                                            <textarea class="form-control posDescribe" rows="6">制定公司的月度、季度和年度计划和指标;监控各个部门运营发展状况，对公的人力资源状况，财务收入和支出状况，公司资产整体状况进行监控管理。</textarea>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--Widget Body-->
+                        </div>
+                        <!--E= 职位信息展示-->
+                        <!--S= 添加职位信息-->
+                        <div class="widget department-info addPosition hidden">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">职位信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <form role="form" class="form-horizontal">
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="posNum" class="col-sm-3 control-label">编号</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" name="posNum" class="form-control"
+                                                   id="posNum" placeholder="请输入编号">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="posShort" class="col-xs-3 control-label">简称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="posShort" class="form-control"
+                                                   id="posShort" placeholder="请输入职位简称(例:区域负责人)">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="posName" class="col-xs-3 control-label">职位名称</label>
+                                        <div class="col-xs-9">
+                                            <input name="posName" class="form-control posName" id="posName"
+                                                   placeholder="请输入职位名称">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label class="col-xs-3 control-label">状态</label>
+                                        <div class="col-xs-9">
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="posStatus" type="radio" checked="checked">
+                                                    <span class="text">有效</span>
+                                                </label>
+                                            </div>
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="posStatus" type="radio">
+                                                    <span class="text">无效</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-md-12">
+                                        <label for="posDescribe" class="control-label col-xs-3">描述</label>
+                                        <div class="col-xs-9 col-ms-10">
+                                            <textarea class="form-control" id="posDescribe" name="posDescribe"
+                                                      rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12">
+                                        <div class="col-xs-3 col-xs-offset-3">
+                                            <button type="reset"
+                                                    class="btn btn-danger btn-lg form-control cancel-btn">取消
+                                            </button>
+                                        </div>
+                                        <div class="col-xs-3 col-xs-offset-1">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-lg form-control confirm-btn">确认
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div><!--Widget Body-->
+                        </div>
+                        <!--E= 添加职位信息-->
+                        <!--S= 编辑职位信息-->
+                        <div class="widget department-info editPosition hidden">
+                            <div class="widget-header">
+                                <i class="widget-icon fa fa-gear"></i>
+                                <span class="widget-caption">职位信息</span>
+                                <div class="widget-buttons">
+                                    <a href="#">
+                                        <i class="glyphicon glyphicon-refresh"></i>
+                                    </a>
+                                    <a href="#" data-toggle="dispose">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+                                </div><!--Widget Buttons-->
+                            </div><!--Widget Header-->
+                            <div class="widget-body">
+                                <form role="form" class="form-horizontal">
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depNum" class="col-sm-3 control-label">编号</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" name="depNum" class="form-control posNum">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="depShort" class="col-xs-3 control-label">简称</label>
+                                        <div class="col-xs-9">
+                                            <input type="text" name="depShort" class="form-control posShort">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label for="superior" class="col-xs-3 control-label">职位名称</label>
+                                        <div class="col-xs-9">
+                                            <input name="posName" class="form-control posName">
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-xs-12">
+                                        <label class="col-xs-3 control-label">状态</label>
+                                        <div class="col-xs-9">
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="depStatus" type="radio" checked="checked"
+                                                           class="valid">
+                                                    <span class="text">有效</span>
+                                                </label>
+                                            </div>
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input name="depStatus" type="radio" class="invalid">
+                                                    <span class="text">无效</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12 col-md-12">
+                                        <label for="superior" class="control-label col-xs-3">描述</label>
+                                        <div class="col-xs-9 col-ms-10">
+                                            <textarea class="form-control" name="describe" rows="6"
+                                                      class="posDescribe"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-xs-12">
+                                        <div class="col-xs-3 col-xs-offset-3">
+                                            <button type="button"
+                                                    class="btn btn-danger btn-lg form-control cancel-btn">取消
+                                            </button>
+                                        </div>
+                                        <div class="col-xs-3 col-xs-offset-1">
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-lg form-control confirm-btn">确认
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div><!--Widget Body-->
+                        </div>
+                        <!--E= 编辑职位信息-->
+                    </div>
+                </div>
+
+                <!--部门职位列表-->
+                <h5 class="row-title position-list-title">
+                    <i class="fa fa-align-justify"></i>
+                    <span>部门职位列表</span>
+                </h5>
+                <div class="widget position-list">
+                    <div class="widget-header clearfix">
+                        <div class="pull-left search-position">
+                            <label>
+                                <input type="search" class="input-sm" placeholder="职位名称/所属部门">
+                                <span class="fa fa-search"></span>
+                            </label>
+                        </div>
+                        <div class="widget-buttons">
+                            <a href="#" data-toggle="config">
+                                <i class="fa fa-cog"></i>
+                            </a>
+                            <a href="#" data-toggle="maximize">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            <a href="#" data-toggle="collapse">
+                                <i class="fa fa-minus"></i>
+                            </a>
+                            <a href="#" data-toggle="dispose">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget-body">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </th>
+                                <th>职位名称</th>
+                                <th>职位编码</th>
+                                <th>上级职位</th>
+                                <th>所属部门</th>
+                                <th>角色</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>总裁</td>
+                                <td>000001</td>
+                                <td>总裁办</td>
+                                <td>总裁办</td>
+                                <td>超级管理员</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i>编辑</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i>删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>副总裁</td>
+                                <td>000002</td>
+                                <td>总裁</td>
+                                <td>总裁办</td>
+                                <td>超级管理员</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i>编辑</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i>删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>总经理</td>
+                                <td>000003</td>
+                                <td>副总裁</td>
+                                <td>总裁办</td>
+                                <td>超级管理员</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i>编辑</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i>删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>总监
+                                </td>
+                                <td>000004</td>
+                                <td>总经理</td>
+                                <td>总裁办</td>
+                                <td>超级管理员</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i>编辑</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i>删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radio">
+                                        <label>
+                                            <input name="form-field-radio" type="radio" checked="checked">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>总裁秘书
+                                </td>
+                                <td>000005</td>
+                                <td>总监</td>
+                                <td>总裁办</td>
+                                <td>超级管理员</td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i>编辑</a>
+                                    <a href="#" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i>删除</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="row widget-footer">
+                            <div class="col-xs-6">
+                                <ul class="pagination">
+                                    <li class="prev disabled">
+                                        <a href="#"><i class="fa fa-angle-double-left"></i></a>
+                                    </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">...</a></li>
+                                    <li class="next">
+                                        <a href="#"><i class="fa fa-angle-double-right"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group text-align-right">
+                                    <label>转到
+                                        <select class="form-inline">
+                                            <option class="1">1</option>
+                                            <option class="2">2</option>
+                                            <option class="3">3</option>
+                                            <option class="4">4</option>
+                                            <option class="5">5</option>
+                                        </select>
+                                        页 <span class="line">|</span>
+                                    </label>
+                                    <label>
+                                        每页显示
+                                        <select class="form-inline">
+                                            <option value="5">5</option>
+                                            <option value="10">10</option>
+                                            <option value="15">15</option>
+                                            <option value="20">20</option>
+                                        </select>
+                                        条 <span class="line">|</span>
+                                    </label>
+                                    <label>共计<span>48</span>条</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E= 右侧页面主体 -->
+        </div>
+        <!-- E= 右侧内容 -->
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="../../dep/assets/js/beyond.min.js"></script>
+
+
+<script src="../../dep/assets/js/datatable/jquery.dataTables.min.js"></script>
+<script src="../../dep/assets/js/datatable/dataTables.tableTools.min.js"></script>
+<script src="../../dep/assets/js/datatable/dataTables.bootstrap.min.js"></script>
+<script src="../../dep/assets/js/datatable/datatables-init.js"></script>
+<script>
+    InitiateSimpleDataTable.init();
+    InitiateEditableDataTable.init();
+    InitiateExpandableDataTable.init();
+    InitiateSearchableDataTable.init();
+</script>
+
+
+<script src="../../dep/assets/js/validation/bootstrapValidator.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../home/sysconf/js/department.js"></script>
+
+</body>
+</html>

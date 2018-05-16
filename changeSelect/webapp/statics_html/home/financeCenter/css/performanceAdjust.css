@@ -1,0 +1,19 @@
+.adjustmentAdd .modal-dialog,.adjustmentEdit .modal-dialog {
+    margin-top: 10%;
+}
+
+.modal-body {
+    overflow: inherit;
+}
+
+.adjustment .modal-dialog {
+    margin-top: 10%;
+}
+
+/*.datetimepicker.dropdown-menu {*/
+    /*top: 234px !important;*/
+/*}*/
+
+.search .search-btn, .increase {
+    width: 85px;
+}

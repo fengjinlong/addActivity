@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>当日数据统计</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+
+	<!--Basic Styles-->
+	<link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link id="bootstrap-rtl-link" href="" rel="stylesheet" />
+	<link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet" />
+	<!--下拉菜单-->
+	<link rel="stylesheet" href="../../dep/bootstrap-select/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="../../dep/chosen/css/chosen.css">
+	<!-- loading -->
+	<link rel="stylesheet" href="../../dep/jquery-mloading/jquery.mloading.css">
+	<!--Beyond styles-->
+	<link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
+	<link href="../../dep/assets/css/animate.min.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="../../dep/assets/css/dataTables.bootstrap.css">
+
+	<link id="skin-link" href="" rel="stylesheet" type="text/css" />
+	<link href="../../common/css/common.css" rel="stylesheet">
+	<link href="../../home/reportCenter/css/toDataStatistics.css" rel="stylesheet">
+
+
+	<script src="../../dep/assets/js/skins.js"></script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+
+<body>
+
+
+	<!-- /顶部导航条 -->
+	<!-- Main Container -->
+	<style>
+	.bs-actionsbox div button.bs-select-all {
+		margin-right: 0px;
+	}
+	.bs-actionsbox div {
+		display: flex;
+		justify-content: space-around;
+	}
+	</style>
+
+	<div style="width: 280px">
+		<select id="branchSchool" name="klj" class="selectpicker form-control col-12" multiple title="--请选择--">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="3">3</option>
+			<option value="3">3</option>
+			<option value="3">3</option>
+			<option value="3">3</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+	</div>
+
+
+	<!--Basic Scripts-->
+	<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+	<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+	<!--下来框-->
+	<script src="../../dep/bootstrap-select/js/test1111111.js"></script>
+	<script src="../../dep/bootstrap-select/js/i18n/defaults-zh_CN.min.js"></script>
+	<script src="../../dep/chosen/js/chosen.jquery.js"></script>
+	<!--图表插件-->
+	<script src="../../dep/echarts/echarts.js"></script>
+	<!--Beyond Scripts-->
+	<script src="../../dep/assets/js/beyond.min.js"></script>
+	<!-- loading -->
+	<script src="../../dep/jquery-mloading/jquery.mloading.js"></script>
+
+	<!-- datatable -->
+	<script src="../../dep/assets/js/datatable/jquery.dataTables.min.new.js"></script>
+	<script src="../../dep/assets/js/datatable/dataTables.bootstrap.min.js"></script>
+
+	<script src="../../home/reportCenter/js/comInterface.js"></script>
+	<!-- <script src="../../home/reportCenter/js/toDataStatistics.js"></script> -->
+
+	<script>
+		$('.selectpicker').selectpicker({
+			'liveSearch': true,
+			'liveSearchPlaceholder': '请输入关键字',
+			'actionsBox': true,
+			'selectAllText': '全选',
+			'deselectAllText': '清除',
+			'selectClose': '关闭',
+			'selectRe': '反选',
+			'noneSelectedText': '没有匹配项'
+		});
+	</script>
+
+</body>
+
+</html>
