@@ -50,31 +50,50 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-// import Component from 'vue-class-component'
-export default class App extends Vue {
-  msg: 'Welcome to Your Vue.js App'
-  created () {
-    let a = 1
-    console.log(a)
-    this.fun()
-  }
-  mounted () {
-    let f = (a:number) => {
-      console.log(a + 1)
+  import Vue from 'vue'
+  import Component from 'vue-class-component'
+  // @Component({})
+  export default class App extends Vue {
+    msg: 'Welcome to Your Vue.js App'
+    created () {
+      let a = 1
+      console.log(a)
+      this.fun()
     }
-    let a = '2'
-    // let a = 3
-    f(a)
+    mounted () {
+      let fun = (a) => {
+        console.log(a+1)
+      }
+      let a = 2
+    }
+    fun () {
+      console.log('methods')
+    }
+    get computed () {
+      return 'computed'
+    }
   }
-  fun () {
-    console.log('methods')
-  }
-  get computed () {
-    return 'computed'
-  }
-}
 
+// export default {
+  // name: 'HelloWorld',
+  // data () {
+  //   return {
+  //     msg: 'Welcome to Your Vue.js App'
+  //   }
+  // },
+  // created () {
+  //   let a = 1
+  //   console.log(a)
+  // },
+  // mounted () {
+  //   let fun = (a) => {
+  //     console.log(a+1)
+  //   }
+  //   let a = 2
+  //   fun(a)
+  // }
+  
+// }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
