@@ -1,31 +1,21 @@
-
-// export default {
-//   state: {
-//     idd : 12
-//   },
-//   mutations: {
-//   },
-//   actions: {
-//   },
-//   getters: {
-//   }
-// }
-
-let state = {
-  info: {
-    data: 'store data from user'
-  },
-  auth: '88888888888'
+import { ActionTree } from 'vuex'
+const state = {
+  auth: '88888888888',
+  auth2: '66666662'
 }
-
-const mutations = {}
-const actions = {}
-
+const actions: ActionTree<any, any> = {
+  aa({ commit }, val: any) {
+    commit('ch', val)
+  }
+}
+const mutations = {
+  ch: (state: any, n:any) => {
+    state.auth2 = n
+  }
+}
 const getters = {
-  // info: state => state.info
-  info: (state: any) => state.info
+  info: (state: any) => state.auth2
 }
-
 export default {
   state,
   mutations,
