@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { State, Getter, Mutation, Action} from "vuex-class"
-import { Vue, Component, Prop, Emit } from 'vue-property-decorator'
+import { Vue, Component, Prop, Emit, Watch } from 'vue-property-decorator'
 import { symlink } from "fs";
 import { setTimeout } from "timers";
 import { constants } from "http2";
@@ -33,7 +33,6 @@ export default class HelloWorld extends Vue {
   }
   ch(){
     this.acfun(20)
-    console.log(this.gt)
   }
   created() {
     this.mutationFoo( 1000000000000 )
