@@ -16,19 +16,10 @@ export default {
     this.asyncReadFile()
   },
   methods: {
-    async asyncReadFile () {
-      console.log(f1.toString())
-      console.log(f2.toString())
-      const f2 = await this.fun2()
-      const f1 = await this.fun1()
-    },
-    fun1 () {
-      console.log('fun1+++++')
-      return 'fun1'
-    },
-    fun2 () {
-      console.log('fun2+++++')
-      return 'fun2'
+    asyncReadFile () {
+      const num = 4
+
+      console.log(!!(num & 1))
     }
   }
 }
