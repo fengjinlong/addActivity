@@ -1,28 +1,27 @@
 <template>
   <div class="hello">
     <h1>{{ str }}</h1>
-    <h2>Essential Links</h2>
-    <H1></H1>
-    <H2></H2>
+    <h2>ttttt</h2>
+    <button @click="send">btn1</button>
   </div>
 </template>
 
 <script>
-import H1 from './HelloWorld1'
-import H2 from './HelloWorld2'
+import eventBus from '../eventBus.js'
 export default {
   data () {
     return {
-      str: '111111111111'
+      str: '11111111111111111111111'
     }
   },
   created () {
     let str = '★★★★★☆☆☆☆☆'
     console.log(str)
   },
-  components: {
-    H1,
-    H2
+  methods: {
+    send () {
+      eventBus.$emit('reset-component')
+    }
   }
 }
 
@@ -30,7 +29,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1{
+h1 {
   color: #000;
   height: 200px;
   background-color: rgba(25,25,55,.5)

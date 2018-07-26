@@ -1,11 +1,7 @@
 <template>
   <div id="app">
-    <transition name="fade">  //fade 自定义名称
-      <router-view/>
-    </transition>
-
-    <router-link to="/" tag="a">a</router-link>
-    <router-link to="/a" tag="a">aa</router-link>
+    <img src="./assets/logo.png">
+    <router-view/>
   </div>
 </template>
 
@@ -23,11 +19,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-.fade-enter-active{
-  transition: opacity .5s;
-}
-.fade-enter {
-  opacity: 0;
 }
 </style>

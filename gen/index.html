@@ -9,4 +9,44 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script>
+        function GithubUser (username, password) {
+        // private属性
+          let _password = password
+          // public属性
+          this.username = username
+          // public方法
+          GithubUser.prototype.login = function () {
+            console.log(this.username + '要登录Github，密码是' + _password)
+          }
+        }
+        // 静态方法
+        GithubUser.getPublicServices = function () {
+          return ['login']
+        }
+        let u = new GithubUser('name', 123123)
+        u.login()
+        console.log(GithubUser.getPublicServices())
+
+        class Animal{
+          constructor(color){
+            this.color = color;
+          }
+          run(){
+            return "run";
+          }
+        }
+        class Bear extends Animal{
+          constructor(){
+            super();
+            console.log(super.run());
+            console.log(this.run());
+          }
+          run(){
+            return 12
+          }
+        }
+        let b = new Bear()
+        b.run()
+  </script>
 </html>
