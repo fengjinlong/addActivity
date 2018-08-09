@@ -1,0 +1,2 @@
+## Vue.js是如何做到数据响应的？  
+许多前端JavaScript框架（例如Angular，React和Vue）都有自己的数据相应引擎。通过了解相应性及其工作原理，您可以提高开发技能并更有效地使用JavaScript框架。在视频和下面的文章中，我们构建了您在Vue源代码中看到的相同类型的Reactivity。

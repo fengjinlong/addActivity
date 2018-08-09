@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let data = {price: 5, num: 2}
+    let target = null
+
+    class Dep {
+      constructor () {
+        this.subscribers = []
+      }
+      depend () {
+        if (target && !this.subscribers.includes(target)) {
+          this.subscribers.push(target)
+        }
+      }
+      notify () {
+        this.subscribers.forEach(sub => sub())
+      }
+    }
+    Object.keys(data).forEach(key => {
+      let internal = data[key]
+      const dep = new Dep()
+      Object.defineProperty(data, key, {
+        get () {
+          dep.depend()
+          return internal
+        },
+        set (newVal) {
+          internal = newVal
+          dep.notify()
+        }
+      })
+    })
+    function watcher (myFun) {
+      target = myFun
+      target ()
+      target = null
+    }
+    watcher(() => {
+      data.total = data.price * data.num
+    })
+
+    console.log(data.total)
+    data.num = 5
+    console.log(data.total)
+    data.price = 1
+    console.log(data.total)
+  </script>
+</body>
+</html>
