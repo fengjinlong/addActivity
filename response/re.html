@@ -52,6 +52,74 @@
     console.log(data.total)
     data.price = 1
     console.log(data.total)
+
+setTimeout(function(){
+    console.log('setTimeout1')
+    Promise.resolve().then(()=>{
+        console.log('then1');
+
+    })
+},0)
+
+Promise.resolve().then(()=>{
+    console.log('then2');
+    Promise.resolve().then(()=>{
+        console.log('then3');
+    })
+    setTimeout(function(){
+        console.log('setTimeout2')
+    },0)
+})
+
+class User {
+  constructor(name = '', viewPage = []) {
+    if(new.target === User) {
+      throw new Error('抽象类不能实例化!');
+    }
+    this.name = name;
+    this.viewPage = viewPage;
+  }
+}
+// let a = new User()
+
+function deepCopy(obj) {
+    // 创建一个新对象
+    let result = {}
+    let keys = Object.keys(obj),
+        key = null,
+        temp = null;
+
+    for (let i = 0; i < keys.length; i++) {
+        key = keys[i];    
+        temp = obj[key];
+        // 如果字段的值也是一个对象则递归操作
+        if (temp && typeof temp === 'object') {
+            result[key] = deepCopy(temp);
+        } else {
+        // 否则直接赋值给新对象
+            result[key] = temp;
+        }
+    }
+    return result;
+}
+
+var obj1 = {
+    x: {
+        m: 1
+    },
+    y: undefined,
+    z: function add(z1, z2) {
+        return z1 + z2
+    },
+    a: Symbol("foo")
+};
+
+var obj2 = deepCopy(obj1);
+obj2.x.m = 2;
+
+console.log(obj1); //{x: {m: 1}, y: undefined, z: ƒ, a: Symbol(foo)}
+console.log(obj2); //{x: {m: 2}, y: undefined, z: ƒ, a: Symbol(foo)}
+
   </script>
 </body>
 </html>
