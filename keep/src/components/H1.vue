@@ -1,32 +1,27 @@
 <template>
 
   <div class="hello1">
-    <div>信息1：{{msg1}}</div>
-    <div>信息2：{{msg2}}</div>
     <input type="text">
-    <router-link tag="button" to="/add">去添加内容</router-link>
+    <router-link tag="button" to="/h2">h2</router-link>
+    <router-link tag="button" to="/h3">h3</router-link>
+    <router-link tag="button" to="/h4">h4</router-link>
   </div>
 
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
   data () {
     return {
-      msg1: '',
-      msg2: ''
+      parms: ''
     }
   },
-  created () {
-    let r = this.$route.query
-    if (JSON.stringify(r) !== '{}') {
-      console.log(Object.keys(r).join())
-      if (Object.keys(r).join() === 'k') {
-        this.msg1 = r['k']
-      } else {
-        this.msg2 = r['kk']
-      }
+  activated () {
+    this.parms = this.$route.query.k
+  },
+  watch: {
+    parms () {
+      console.log('加载数据')
     }
   }
 }

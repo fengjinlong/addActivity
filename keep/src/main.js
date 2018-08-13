@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import {fun} from './mixin.js'
 
 Vue.config.productionTip = false
+
+Vue.mixin(fun)
 
 /* eslint-disable no-new */
 new Vue({

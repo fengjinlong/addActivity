@@ -4,10 +4,11 @@ import HelloWorld from '@/components/HelloWorld'
 import H1 from '@/components/H1'
 import H2 from '@/components/H2'
 import H3 from '@/components/H3'
+import H4 from '@/components/H4'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
       path: '/',
@@ -19,23 +20,33 @@ export default new Router({
           path: '/h1',
           component: H1,
           meta: {
-            keepAlive: true // 需要被缓存
+            rank: 2.5
           }
         },
         {
-          path: '/add',
+          path: '/h2',
           component: H2,
-          beforeEnter: (to, from, next) => {
-            console.log(to)
-            to.meta.keepAlive = false
-            next()
+          meta: {
+            rank: 1.5
           }
         },
         {
           path: '/h3',
-          component: H3
+          component: H3,
+          meta: {
+            rank: 3.5
+          }
+        },
+        {
+          path: '/h4',
+          component: H4,
+          meta: {
+            rank: 3.5
+          }
         }
       ]
     }
   ]
 })
+
+export default router

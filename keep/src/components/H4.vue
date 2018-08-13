@@ -1,17 +1,16 @@
 <template>
-  <div class="hello">
-        <keep-alive>
-      <!-- <router-view v-if="!$route.meta.noKeepAlive"> -->
-      <router-view>
-        <!-- 这里是会被缓存的视图组件 -->
-      </router-view>
-    </keep-alive>
-
+  <div class="hello2">
+    <router-link tag="button" to="/h1?k=1323">下一个h1</router-link>
   </div>
 </template>
 
 <script>
 export default {
+  methods: {
+    back () {
+      this.$router.back()
+    }
+  }
 }
 </script>
 

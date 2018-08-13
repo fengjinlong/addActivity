@@ -1,26 +1,15 @@
 <template>
   <div class="hello2">
-    <router-link tag="button" to="/h1">下一个h1</router-link>
+    <router-link tag="button" to="/h1?k=1">下一个h1</router-link>
+    <!-- <button @click="back">back</button> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg1: '',
-      msg2: ''
-    }
-  },
   methods: {
-    save1 () {
-      let str = this.msg1
-      this.$router.push(`/?k=${str}`)
-    },
-    save2 () {
-      let str = this.msg2
-      this.$router.push(`/?kk=${str}`)
+    back () {
+      this.$router.back()
     }
   }
 }
