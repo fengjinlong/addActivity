@@ -36,18 +36,21 @@ export default {
     this.init()
   },
   mounted () {
-    this.loop()
+    this.loop(2)
   },
   methods: {
-    loop () {
-      let num = 0
-      // if (f) {
-      //   clearInterval(f)
-      // }
-      let f = setInterval(() => {
+    loop (num) {
+      console.log(6)
+      let t = setTimeout(() => {
         this.trans(num)
         num++
-      }, 1000)
+        if (t) {
+          t = null
+        }
+        if (num <= 5) {
+          this.loop(num)
+        }
+      }, 1500)
     },
     // 初始化
     init () {
@@ -98,7 +101,8 @@ export default {
     overflow hidden
     position relative
     ul
-      transition: transform 1s ease;
+      transition transform 1s ease
+      transform translate3d(-500px,0,0)
       height 280px
       position absolute
       li
