@@ -28,7 +28,8 @@ export default {
       actualArr: [],
       boxWidth: 500,
       ulWidth: '',
-      style: ''
+      style: '',
+      num: 1
     }
   },
   created () {
@@ -36,19 +37,26 @@ export default {
     this.init()
   },
   mounted () {
-    this.loop(2)
+    this.loop(this.num)
   },
   methods: {
     loop (num) {
-      console.log(6)
       let t = setTimeout(() => {
         this.trans(num)
-        num++
+        this.num++
         if (t) {
           t = null
         }
-        if (num <= 5) {
-          this.loop(num)
+        if (num < 4) {
+          this.loop(this.num)
+        } else if (num === 4) {
+          console.log(this.num)
+          // this.num++
+          // this.style = this.ulWidth
+          this.$refs.ul.style.left = '-500px'
+          this.style = ''
+          // this.$refs.ul.style.transform = 'translate3d(0px,0,0)'
+          // this.loop(this.num)
         }
       }, 1500)
     },
@@ -73,16 +81,15 @@ export default {
     },
     // 修改ul尺寸
     changeSize () {
-      let len = this.actualArr.length
-      this.ulWidth = 'width:' + (len + 2) * this.boxWidth + 'px'
-      this.trans()
+      // let len = this.actualArr.length
+      // this.ulWidth = 'width:' + (len + 2) * this.boxWidth + 'px'
     },
     // 偏移
     trans (n) {
       let p = -500 * n
       let str = `transform:translate3d(${p}px,0,0);`
       // let str = 'transform:translate3d(-500px,0,0);'
-      this.style = str + this.ulWidth
+      this.style = str
       // this.$refs.ul.style.left = p + 'px'
     }
   }
@@ -101,10 +108,12 @@ export default {
     overflow hidden
     position relative
     ul
-      transition transform 1s ease
-      transform translate3d(-500px,0,0)
+      // transition transform 1s ease
+      // transform translate3d(-500px,0,0)
+      left -500px
       height 280px
       position absolute
+      width 3500px
       li
         border 1px solid red
         width 500px
