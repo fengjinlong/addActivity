@@ -1,14 +1,21 @@
 <template>
   <div class="hello">{{myArray}}
     <draggable v-model="myArray">
-        <transition-group>
-            <div class="div" v-for="element in myArray" :key="element.id">
-                {{element.name}}
-                <draggable v-model="element.my">
-                  <p v-for="(e,i) in element.my" :key="i">{{e}}</p>
-                </draggable>
+      <div class="div" v-for="element in myArray" :key="element.id">
+
+          <p>{{element.name}}</p>
+          <draggable v-model="element.my">
+            <div v-for="(e,i) in element.my" :key="i">
+              <p>{{e.name}}</p>
+              <draggable v-model="e.y">
+                <div v-for="(e,i) in e.y" :key="i">
+                  <p>{{e}}</p>
+                </div>
+              </draggable>
             </div>
-        </transition-group>
+
+          </draggable>
+      </div>
     </draggable>
   </div>
 </template>
@@ -20,10 +27,10 @@ export default {
   data () {
     return {
       myArray: [
-        {id: 1, name: 'qqqqq', my: [1, 2, 3, 4, 5]},
-        {id: 14, name: 'wwwwww', my: [1, 2, 3, 4, 5]},
-        {id: 12, name: 'eeeeee', my: [1, 2, 3, 4, 5]},
-        {id: 13, name: 'rrrrrr', my: [1, 2, 3, 4, 5]}
+        {id: 1, name: 'qqqqq1', my: [{id: 12, name: 'qqqqq6', y: [1, 2, 3]}, {id: 12, name: 'qqqqq6111'}]},
+        {id: 11, name: 'qqqqq2', my: [{id: 13, name: 'qqqqq7', y: [1, 2, 3]}]},
+        {id: 111, name: 'qqqqq3', my: [{id: 14, name: 'qqqqq8', y: [1, 2, 3]}]},
+        {id: 1111, name: 'qqqqq4', my: [{id: 15, name: 'qqqqq9', y: [1, 2, 3]}]}
       ]
     }
   },
