@@ -1,0 +1,79 @@
+<keep-alive><router-view class="transit-view"></router-view></keep-alive>
+
+回到上一个页面时使用缓存，进入下一个页面时不使用缓存，
+
+routes: [
+        {   path: '/', redirect:'/yingshou', },
+        {   path: '/yingshou',                meta:{rank:1.5,isShowFooter:true},          },
+        {   path: '/yingfu',                  meta:{rank:1.5,isShowFooter:true},          },
+        {   path: '/yingfu/pact_list',        meta:{rank:2.5},                            },
+        {   path: '/yingfu/pact_detail',      meta:{rank:3.5},                            },
+    ]
+
+    核心的思路是，在定义路由时，在 meta 中定义一个 rank 字段来声明该路由的页面优先级， 比如 1.5 标识第 1 层如首页，2.5 表示第 2 层如商品列表页， 3.5标识第 3 层商品详情页，以此类推。
+
+如果大家同在一层，也可以通过 1.4 和 1.5 这样小数位来约定先后层级。
+
+总之，我们期望的是，从第1层进入第2层是前进，从第3层回到第2层是后退。
+
+
+在路由跳转里动态判断移除缓存
+// main.js
+Vue.mixin({
+    beforeRouteLeave:function(to, from, next){
+        if (from && from.meta.rank && to.meta.rank && from.meta.rank>to.meta.rank)
+        {//此处判断是如果返回上一层，你可以根据自己的业务更改此处的判断逻辑，酌情决定是否摧毁本层缓存。
+            if (this.$vnode && this.$vnode.data.keepAlive)
+            {
+                if (this.$vnode.parent && this.$vnode.parent.componentInstance && this.$vnode.parent.componentInstance.cache)
+                {
+                    if (this.$vnode.componentOptions)
+                    {
+                        var key = this.$vnode.key == null
+                                    ? this.$vnode.componentOptions.Ctor.cid + (this.$vnode.componentOptions.tag ? `::${this.$vnode.componentOptions.tag}` : '')
+                                    : this.$vnode.key;
+                        var cache = this.$vnode.parent.componentInstance.cache;
+                        var keys  = this.$vnode.parent.componentInstance.keys;
+                        if (cache[key])
+                        {
+                            if (keys.length) {
+                                var index = keys.indexOf(key);
+                                if (index > -1) {
+                                    keys.splice(index, 1);
+                                }
+                            }
+                            delete cache[key];
+                        }
+                    }
+                }
+            }
+            this.$destroy();
+        }
+        next();
+    },
+});
+
+
+所以就算是缓存了也要更新数据？
+即使是路由页面复用了缓存，也只是复用了缓存的组件和数据，在实际场景中，从列表 A 进入详情 B 再进入列表 C ，请问 列表 C 和列表 A 是同一个路由页，但他们的数据会一样吗？应该一样吗？
+
+
+需要缓存的页面
+export default {
+  data () {
+    return {
+      parms: ''
+    }
+  },
+  activated () {
+    this.parms = this.$route.query.k
+  },
+  watch: {
+    parms () {
+      console.log('加载数据')
+    }
+  }
+}
+
+不同页面进入缓存的页面，设置页面的this.$route.query.k（to="/h1?k=1"）为不同值
+如果是相同页面返回需要缓存的页面，只需要更改路由的k值（to="/h1?k=2"）（类似于更改版本号）
