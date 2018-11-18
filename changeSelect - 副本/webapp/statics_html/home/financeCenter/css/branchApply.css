@@ -1,0 +1,25 @@
+.widget-body{
+    overflow: inherit;
+}
+.search-condition button.btn{
+    height: 34px;
+}
+
+.search-condition{
+    height: auto !important;
+    border: 1px solid #e5e5e5;
+    padding: 15px 0 0;
+    margin-bottom: 15px;
+}
+.search-condition.form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.search-btn{
+    margin-left: 42px;
+}
+.type.form-control{
+    padding: 6px;
+}
+

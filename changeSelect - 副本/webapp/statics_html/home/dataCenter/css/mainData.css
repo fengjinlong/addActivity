@@ -1,0 +1,145 @@
+.widget {
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.widget-body {
+    width: 100%;
+    box-shadow: none;
+    overflow: inherit !important;
+    border: 1px solid #dedede;
+    border-top: 0;
+    padding-bottom: 20px;
+}
+
+.widget-header {
+    box-shadow: none;
+    border: 1px solid #dedede;
+    min-height: 40px;
+}
+
+.operate-data .widget .widget-body {
+    height: 370px;
+}
+
+.operate-data .widget .widget-body .data-box {
+    width: 100%;
+    height: 300px;
+}
+
+.totalData .table > thead:first-child > tr:first-child > th {
+    background-color: #fff;
+    color: #777 !important;
+}
+
+.totalData .table > tbody > tr > td {
+    font-size: 22px !important;
+    cursor: pointer;
+}
+
+.aggregate-data .campusData {
+    display: none;
+    max-height: 380px;
+    overflow-y: auto;
+}
+
+.aggregate-data .campusData .table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+}
+
+.public-conditions {
+    border: 1px solid #dedede;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px 15px;
+    padding-bottom: 8px;
+}
+
+.date-btn .btn {
+    padding: 7px 12px;
+}
+
+.interval a.active, .date-btn a.active, .project-type a.active, .comparison a.active {
+    background-color: #4da7fd;
+    border-color: #4da7fd;
+    color: #fff;
+}
+
+div.dropdown-menu {
+    border: 0 !important;
+    padding: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+}
+
+div.dropdown-menu .dropdown-menu {
+    border: 0 !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline-style: none !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #fff;
+}
+
+.comparison {
+    height: 34px;
+}
+
+.comparison-item {
+    width: 120px;
+}
+
+.comparison .control-label {
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.chosen-container-active .chosen-single, .chosen-container-single .chosen-single {
+    box-shadow: none;
+}
+
+.chosen-container .chosen-drop {
+    height: auto;
+    top: 104%;
+    padding-top: 4px;
+    border-top: 1px solid #aaa;
+}
+
+.current-dimension {
+    color: #999;
+}
+
+.dimensionTotals {
+    font-family: Helvetica;
+    margin-left: 6px;
+    font-size: 24px;
+    color: #333;
+}
+
+.reduced-value.up, .comparisonUp {
+    color: #28c29b;
+}
+
+.reduced-value.down, .comparisonDown {
+    color: #f25252;
+}
+
+.last-week {
+    color: #83bdf2;
+}
+
+.current-week {
+    color: #60cea1;
+}
+
+.advanced-filter {
+    cursor: pointer;
+}
+
+.public-conditions .search-btn{
+    width: 60px;
+    padding: 0;
+    height: 32px;
+}

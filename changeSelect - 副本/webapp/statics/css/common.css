@@ -1,0 +1,471 @@
+/*公共样式*/
+html, body {
+    font-family: "Microsoft YaHei";
+    width: 100%;
+    height: 100%;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body:before {
+    background-color: #E9F0F4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    border-radius: 3px !important;
+}
+
+input[type=radio] + .text:before {
+    line-height: 19px;
+}
+
+.main-container, .page-container {
+    height: 100%;
+    position: relative;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0;
+}
+
+/* S= 左侧菜单*/
+.main-container div.page-sidebar:before {
+    width: 224px;
+    left: 0;
+    background-color: #2D3541;
+    z-index: 1;
+}
+
+div.page-sidebar .sidebar-header-wrapper {
+    height: 162px;
+    background-color: #232B37;
+    padding: 21px 43px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+div.page-sidebar .sidebar-header-wrapper .logo-1 {
+    margin-bottom: 14px;
+}
+
+div.page-sidebar .sidebar-header-wrapper .sidebar-collapse {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('../../statics/image/collapse_bg.png');
+}
+
+.page-sidebar.menu-compact, .main-container div.page-sidebar.menu-compact:before, .page-sidebar.menu-compact .sidebar-menu {
+    width: 72px;
+}
+
+div.page-sidebar .sidebar-header-wrapper, div.page-sidebar .sidebar-menu {
+    margin-left: 0;
+}
+
+.page-sidebar .sidebar-menu > li > .submenu:before, .page-sidebar .sidebar-menu > li > .submenu > li > a:before {
+    display: none;
+}
+
+.page-sidebar .sidebar-menu a {
+    padding: 0 20px;
+    color: #e9f0f4;
+}
+
+.page-sidebar .sidebar-menu a .menu-expand {
+    color: #e9f0f4;
+}
+
+.sidebar-menu > li > .submenu > li > a > .menu-text {
+    font-size: 14px;
+}
+
+.page-sidebar .sidebar-menu > li:last-child > a {
+    border-color: #3e454f;
+}
+
+.page-sidebar .sidebar-menu li.active > a, .page-sidebar .sidebar-menu > li.open > a {
+    color: #FFF;
+    background-color: #f06960;
+    border-color: #3e454f;
+}
+
+.page-sidebar .sidebar-menu > li > a:hover {
+    border-color: #3e454f;
+    background-color: #f06960;
+    color: #FFF;
+}
+
+.page-sidebar .sidebar-menu .submenu {
+    background-color: #2D3541;
+}
+
+.page-sidebar .sidebar-menu > li a {
+    border-bottom: 1px solid #3e454f;
+    border-top: 0;
+}
+
+.page-sidebar .sidebar-menu .submenu > li > a {
+    border-left: 3px solid transparent;
+    padding-left: 42px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #2D3541;
+}
+
+.page-sidebar .sidebar-menu .submenu > li > a.active {
+    color: #F06960;
+    background-color: #232B37;
+    border-left: 3px solid #EF695F;
+}
+
+.page-sidebar .sidebar-menu .submenu > li > a:hover {
+    color: #F06960;
+    background-color: #232B37;
+    border-left: 3px solid #EF695F;
+}
+
+.page-sidebar .sidebar-menu > li > .submenu, .page-sidebar .sidebar-menu li.open > .submenu {
+    background-color: #2D3541;
+    color: #e9f0f4;
+    border-color: #3e454f;
+}
+
+.page-sidebar .sidebar-menu .submenu > li.open > a {
+    border-color: transparent;
+}
+
+.page-sidebar .sidebar-menu .submenu > li.open > a {
+    background-color: #2D3541;
+    color: #e9f0f4;
+}
+
+.page-sidebar .sidebar-menu .submenu > li .submenu > li > a {
+    padding-left: 85px;
+}
+
+.page-sidebar .sidebar-menu .submenu > li .submenu:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 65px;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #e2e2e2;
+}
+
+.page-sidebar .sidebar-menu .submenu > li .submenu > li > a:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    left: 62px;
+    top: 15px;
+    background-color: #2D3541;
+    border: 1px solid #e2e2e2;
+    z-index: 2;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > a .menu-text, .page-sidebar.menu-compact .sidebar-menu > li > .submenu, .page-sidebar.menu-compact .sidebar-menu > li > a.menu-dropdown > .menu-text {
+    left: 72px;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > a.menu-dropdown > .menu-text {
+    border-color: #3e454f;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > a:hover, .page-sidebar.menu-compact .sidebar-menu > li > a .menu-text {
+    background-color: #F06960;
+    color: #FFF;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > .submenu {
+    background-color: #D9E2E9;
+    border-left: 0;
+
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > .submenu .menu-text {
+    color: #000;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > .submenu > li > a:visited, .page-sidebar.menu-compact .sidebar-menu > li > .submenu > li > a:focus {
+    background-color: #D9E2E9;
+}
+
+.page-sidebar.menu-compact .sidebar-menu > li > .submenu > li > a:hover .menu-text {
+    color: #F06960;
+}
+
+/* E= 左侧菜单*/
+/* S= 右侧顶部导航*/
+.page-content div.navbar, .page-content div.navbar .navbar-inner {
+    background-color: #FFFFFF;
+    min-height: 68px;
+}
+
+.page-content div.navbar .navbar-inner .navbar-container {
+    padding-left: 17px;
+}
+
+.navbar-container .navbar-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*通知*/
+.navbar-header .fa-bell {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.navbar-header .notification {
+    margin-bottom: 0;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.navbar-header .notification a {
+    color: #D85252;
+    font-weight: 600;
+}
+
+/*信息和设置*/
+.navbar .navbar-inner .navbar-header .navbar-account .account-area {
+    right: 70px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account,
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li,
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li > a,
+.navbar .navbar-inner .navbar-header .navbar-account .account-area .login-area {
+    height: 68px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li > a {
+    min-width: 62px;
+    color: #2E3641;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li > a .icon {
+    color: #2E3641;
+    line-height: 68px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li > a span.badge {
+    top: 18px;
+    left: 11px;
+    color: #F06960;
+    border-color: #F06960;
+    background-color: #fff !important;
+    box-shadow: none;
+}
+
+.navbar .navbar-inner .navbar-header div.navbar-account .account-area > li.open > a,
+.navbar .navbar-inner .navbar-header div.navbar-account .account-area > li.open > a span.badge {
+    background-color: #EF695F !important;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.navbar .navbar-inner .navbar-header div.navbar-account .account-area > li.open > a .icon {
+    color: #FFF;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-arrow:before {
+    top: -68px;
+    width: 62px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-messages,
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-messages li {
+    padding: 0;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-messages li .message-avatar {
+    border-radius: 50%;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu li a:hover,
+.navbar-account .account-area .dropdown-menu > li > a:hover {
+    background-color: #E9F3FD;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li > a.login-area {
+    min-width: 212px;
+    padding-top: 16px;
+    background-color: #2E3641;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area .login-area section h2 span {
+    color: #FFF;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area .login-area div.avatar {
+    border-left: 0;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-login-area > li .avatar-area {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area .login-area div.avatar img,
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-login-area > li .avatar-area img {
+    border-radius: 50%;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .account-area > li .dropdown-menu.dropdown-login-area > li .avatar-area span.caption {
+    background-color: #2E3641;
+
+}
+
+/*设置*/
+.navbar .navbar-inner .navbar-header .navbar-account.setting-open .setting-container {
+    width: 541px;
+    padding: 22px;
+    height: 68px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting-container label {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting,
+.navbar .navbar-inner .navbar-header .navbar-account .setting a {
+    width: 70px;
+    height: 68px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting a .icon {
+    color: #2E3641;
+    line-height: 68px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account.setting-open .setting {
+    background-color: #EF695F !important;
+    right: 541px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account.setting-open .setting a .icon {
+    color: #FFF;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account.setting-open .setting a:before {
+    width: 70px;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting-container input[type=checkbox] + .text {
+    color: #2D3541;
+}
+
+.navbar .navbar-inner .navbar-header .navbar-account .setting-container input[type=checkbox] + .text {
+    margin-right: 22px;
+}
+
+/* E= 右侧顶部导航 */
+
+/*右侧头部按钮*/
+.page-content div.page-header {
+    height: 94px;
+    min-height: 94px;
+    padding-left: 0;
+    border-color: #d1d3d5;
+    background-image: none;
+    background-color: #E9EFF3;
+}
+
+.tabs {
+    width: 100%;
+    min-height: 52px;
+    line-height: 52px;
+    border-bottom: 2px solid #439BED;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    overflow: hidden;
+}
+
+.tabs-list > li {
+    padding: 0;
+    float: left;
+    border-right: 1px solid #d1d3d5;
+    line-height: 52px;
+}
+
+.tabs-list > li.active a {
+    background-color: #439BED;
+    color: #FFF;
+}
+
+.tabs-list > li a {
+    padding: 17.5px 20px;
+}
+
+/* S= 右侧页面主体*/
+.page-header.page-header-fixed + .page-body {
+    margin-top: 179px;
+}
+
+.page-body {
+    background-color: transparent;
+    padding: 36px;
+}
+
+.page-body .row {
+    margin: 0;
+}
+
+.page-body h5.row-title {
+    width: 148px;
+    min-height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    padding: 14px 15px 14px 28px;
+    margin: 0 0 36px;
+}
+
+.page-body h5.row-title:before {
+    background-color: #439BED;
+}
+
+.page-body h5.row-title span {
+    margin-left: 8px;
+    font-family: "微软雅黑";
+}
+
+/*E= 右侧页面主体*/

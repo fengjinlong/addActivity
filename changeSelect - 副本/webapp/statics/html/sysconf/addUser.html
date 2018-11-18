@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+<!-- Head -->
+<head>
+    <meta charset="utf-8"/>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../dep/assets/css/typicons.min.css" rel="stylesheet"/>
+    <link href="../../dep/assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="../../css/common.css" rel="stylesheet"/>
+    <link href="../../home/sysconf/css/user.css" rel="stylesheet"/>
+
+    <script src="../../dep/assets/js/skins.min.js"></script>
+</head>
+
+<body>
+<div class="main-container container-fluid">
+    <div class="page-container">
+        <!-- S= 左侧菜单栏 -->
+        <div class="page-sidebar" id="sidebar">
+            <!-- S= 左侧菜单栏头部 -->
+            <div class="sidebar-header-wrapper">
+                <!--S= logo-->
+                <div class="logo-1">
+                    <img src="../../dep/assets/img/logo1.png" alt="">
+                </div>
+                <div class="logo-2">
+                    <img src="../../dep/assets/img/logo2.png" alt="">
+                </div>
+                <!--E= logo-->
+                <!--S= 折叠按钮-->
+                <div class="sidebar-collapse" id="sidebar-collapse">
+                    <img src="../../dep/assets/img/collapse-btn.png" alt="">
+                </div>
+                <!--E= 折叠按钮-->
+            </div>
+            <!-- E= 左侧菜单栏头部 -->
+
+            <!-- S= 功能菜单 -->
+            <ul class="nav sidebar-menu">
+                <!--工作台-->
+                <li>
+                    <a href="index.html">
+                        <i class="menu-icon glyphicon glyphicon-home"></i>
+                        <span class="menu-text">工作台</span>
+                    </a>
+                </li>
+                <!--咨询中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-comments"></i>
+                        <span class="menu-text">咨询中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">信息采集管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">信息分发管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--服务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-stack-exchange"></i>
+                        <span class="menu-text">服务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">招生资源管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">报告管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">服务管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--财务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-tasks"></i>
+                        <span class="menu-text">财务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">集团财务</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">分校财务</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">中培财务</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--质检中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-star-half-empty"></i>
+                        <span class="menu-text">质检中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">奖励管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">罚款管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">回访管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">查漏管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">变更管理(学员)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--配置中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-pencil-square-o"></i>
+                        <span class="menu-text">配置中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">活动管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">藏宝阁管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">分校分成比例管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">财务配置</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--系统管理-->
+                <li class="open">
+                    <a href="" class="menu-dropdown">
+                        <i class="menu-icon fa fa-bar-chart-o"></i>
+                        <span class="menu-text">系统管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="user.html" class="active">
+                                <span class="menu-text">用户管理</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="department.html">
+                                <span class="menu-text">部门管理(职位)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">权限管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">菜单管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">字典管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">
+                                        <span>学员属性</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>区域属性</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">公告管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">
+                                        <span>制度管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>奖惩明细</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--日志管理-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-tasks"></i>
+                        <span class="menu-text">日志管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">操作日志</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="menu-text">系统日志</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- S= 功能菜单 -->
+        </div>
+        <!-- E= 左侧菜单栏 -->
+        <!-- S= 右侧内容 -->
+        <div class="page-content">
+            <!-- S= 右侧顶部导航 -->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="navbar-container">
+                        <!-- S= 通知 -->
+                        <div class="navbar-header pull-left">
+                            <i class="fa fa-bell pull-left"></i>
+                            <ul class="list-unstyled notification pull-left">
+                                <li>
+                                    <a href="">通知：上下滚动效果</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- E= 通知-->
+
+                        <!-- S= 信息和设置 --->
+                        <div class="navbar-header pull-right">
+                            <div class="navbar-account">
+                                <ul class="account-area">
+                                    <!--S= 信息-->
+                                    <li>
+                                        <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
+                                            <i class="icon fa fa-envelope"></i>
+                                            <span class="badge">3</span>
+                                        </a>
+
+                                        <ul class="pull-right dropdown-menu dropdown-arrow dropdown-messages">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/divyia.jpg"
+                                                         class="message-avatar"
+                                                         alt="Divyia Austin">
+                                                    <div class="message">
+                                                <span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+                                                <span class="message-time">
+                                                    两分钟前
+                                                </span>
+                                                <span class="message-subject">
+                                                    邮件标题
+                                                </span>
+                                                <span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/bing.png"
+                                                         class="message-avatar"
+                                                         alt="Microsoft Bing">
+                                                    <div class="message">
+                                                <span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+                                                <span class="message-time">
+                                                    昨天
+                                                </span>
+                                                <span class="message-subject">
+                                                    邮件标题
+                                                </span>
+                                                <span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                                         class="message-avatar"
+                                                         alt="Divyia Austin">
+                                                    <div class="message">
+                                                    <span class="message-sender">
+                                                        集团质检中心经理-王大伟
+                                                    </span>
+                                                    <span class="message-time">
+                                                        一周前
+                                                    </span>
+                                                    <span class="message-subject">
+                                                        邮件标题
+                                                    </span>
+                                                    <span class="message-body">
+                                                        邮件内容邮件内容邮件内容
+                                                    </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!--E= 信息-->
+                                    <!-- S=任务-->
+                                    <li>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" title="Tasks" href="#">
+                                            <i class="icon fa fa-tasks"></i>
+                                            <span class="badge">4</span>
+                                        </a>
+
+                                        <ul class="pull-right dropdown-menu dropdown-tasks dropdown-arrow ">
+                                            <li class="dropdown-header bordered-darkorange">
+                                                标题
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Account Creation</span>
+                                                        <span class="pull-right">65%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:65%" class="progress-bar"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Profile Data</span>
+                                                        <span class="pull-right">35%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:35%"
+                                                             class="progress-bar progress-bar-success"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Updating Resume</span>
+                                                        <span class="pull-right">75%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:75%"
+                                                             class="progress-bar progress-bar-darkorange"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="clearfix">
+                                                        <span class="pull-left">Adding Contacts</span>
+                                                        <span class="pull-right">10%</span>
+                                                    </div>
+
+                                                    <div class="progress progress-xs">
+                                                        <div style="width:10%"
+                                                             class="progress-bar progress-bar-warning"></div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-footer">
+                                                <a href="#">
+                                                    See All Tasks
+                                                </a>
+                                                <button class="btn btn-xs btn-default shiny darkorange icon-only pull-right">
+                                                    <i
+                                                            class="fa fa-check"></i></button>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- E= 任务-->
+                                    <!-- S= 用户信息-->
+                                    <li>
+                                        <a class="login-area dropdown-toggle" data-toggle="dropdown">
+                                            <div class="avatar" title="View your public profile">
+                                                <img src="../../dep/assets/img/avatars/adam-jansen.jpg">
+                                            </div>
+                                            <section>
+                                                <h2><span class="profile"><span>集团质检中心经理-王大伟</span></span></h2>
+                                            </section>
+                                        </a>
+                                        <!--Login Area Dropdown-->
+                                        <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
+                                            <li class="username"><a>集团质检中心经理-王大伟</a></li>
+                                            <li class="email"><a>wdw@xuehuiwang.com</a></li>
+                                            <!--Avatar Area-->
+                                            <li>
+                                                <div class="avatar-area">
+                                                    <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                                         class="avatar">
+                                                    <span class="caption">修改照片</span>
+                                                </div>
+                                            </li>
+                                            <!--Avatar Area-->
+                                            <li class="edit">
+                                                <a href="profile.html" class="pull-left">简介</a>
+                                                <a href="#" class="pull-right">设置</a>
+                                            </li>
+                                            <!-- E= 颜色主题-->
+                                            <li class="theme-area">
+                                                <ul class="colorpicker" id="skin-changer">
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#5DB2FF;"
+                                                           rel="../../dep/assets/css/skins/blue.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#2dc3e8;"
+                                                           rel="../../dep/assets/css/skins/azure.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#03B3B2;"
+                                                           rel="../../dep/assets/css/skins/teal.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#53a93f;"
+                                                           rel="../../dep/assets/css/skins/green.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#FF8F32;"
+                                                           rel="../../dep/assets/css/skins/orange.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#cc324b;"
+                                                           rel="../../dep/assets/css/skins/pink.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#AC193D;"
+                                                           rel="../../dep/assets/css/skins/darkred.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#8C0095;"
+                                                           rel="../../dep/assets/css/skins/purple.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#0072C6;"
+                                                           rel="../../dep/assets/css/skins/darkblue.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#585858;"
+                                                           rel="../../dep/assets/css/skins/gray.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#474544;"
+                                                           rel="../../dep/assets/css/skins/black.min.css"></a></li>
+                                                    <li><a class="colorpick-btn" href="#"
+                                                           style="background-color:#001940;"
+                                                           rel="../../dep/assets/css/skins/deepblue.min.css"></a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- E= 颜色主题-->
+                                            <li class="dropdown-footer">
+                                                <a href="login.html">
+                                                    退出
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <!-- E= 用户信息-->
+                                </ul>
+                                <!-- S= 设置-->
+                                <div class="setting">
+                                    <a id="btn-setting" title="Setting" href="#">
+                                        <i class="icon glyphicon glyphicon-cog"></i>
+                                    </a>
+                                </div>
+                                <div class="setting-container">
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixednavbar">
+                                        <span class="text">固定导航条</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedsidebar">
+                                        <span class="text">固定左侧导航</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedbreadcrumbs">
+                                        <span class="text">固定面包屑导航</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" id="checkbox_fixedheader">
+                                        <span class="text">固定头部</span>
+                                    </label>
+                                </div>
+                                <!-- E= Settings -->
+                            </div>
+                        </div>
+                        <!-- E= 信息和设置 --->
+                    </div>
+                </div>
+            </div>
+            <!-- S= 右侧顶部导航 -->
+            <!-- S= 右侧头部按钮 -->
+            <div class="page-header position-relative">
+                <div class="header-buttons">
+                    <a class="sidebar-toggler" href="#">
+                        <i class="fa fa-arrows-h"></i>
+                    </a>
+                    <a class="refresh" id="refresh-toggler" href="">
+                        <i class="glyphicon glyphicon-refresh"></i>
+                    </a>
+                    <a class="fullscreen" id="fullscreen-toggler" href="#">
+                        <i class="glyphicon glyphicon-fullscreen"></i>
+                    </a>
+                </div>
+                <!--S= 功能切换-->
+                <div class="tabs">
+                    <ul class="tabs-list">
+                        <li>
+                            <a href="#">
+                                <i class="menu-icon glyphicon glyphicon-home"></i>
+                                <span>工作台</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#">
+                                <i class="menu-icon glyphicon glyphicon-home"></i>
+                                <span>部门管理(职位)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--E= 功能切换-->
+            </div>
+            <!-- = 右侧头部按钮 -->
+
+            <!-- S= 右侧页面主体 -->
+            <div class="page-body">
+                <h5 class="row-title">
+                    <img src="../../image/userManagement.png" alt="">
+                    <span>用户</span>
+                </h5>
+                <div class="row">
+                    <div class="widget addUser">
+                        <div class="widget-header ">
+                            <div class="widget-buttons">
+                                <a href="#" data-toggle="maximize">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                                <a href="#" data-toggle="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </a>
+                                <a href="#" data-toggle="dispose">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="addUser-guide clearfix">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger progress-bar-striped"
+                                         role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="steps">
+                                    <div class="active col-xs-4 step1">
+                                        <span>1</span>
+                                        <p class="title">填写基本信息</p>
+                                    </div>
+                                    <div class="col-xs-4 step2">
+                                        <span>2</span>
+                                        <p class="title">填写档案信息</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="addUser-content" id="step1">
+                                <div class="step-pane">
+                                    <h3 class="step-title">用户填写基本信息</h3>
+                                    <div class="basic-info row">
+                                        <form method="" class="form-horizontal">
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">真实姓名：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="col-sm-1 control-label mandatory">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">姓名全拼：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">别名：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">年龄：</label>
+                                                <div class="col-sm-8">
+                                                    <select name="nation" class="form-control">
+                                                        <option value="0">汉族</option>
+                                                        <option value="1">苗族</option>
+                                                        <option value="2">满族</option>
+                                                        <option value="3">彝族</option>
+                                                    </select>
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">性别：</label>
+                                                <div class="radio pull-left">
+                                                    <label>
+                                                        <input name="sex" type="radio" class="">
+                                                        <span class="text">男</span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio pull-left">
+                                                    <label>
+                                                        <input name="sex" type="radio" class="">
+                                                        <span class="text">女</span>
+                                                    </label>
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">民族：</label>
+                                                <div class="col-sm-8">
+                                                    <select name="nation" class="form-control">
+                                                        <option value="0">汉族</option>
+                                                        <option value="1">苗族</option>
+                                                        <option value="2">满族</option>
+                                                        <option value="3">彝族</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">手机号码：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="tel" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">QQ号：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">微信号：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">所属公司：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">所属部门：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3 working-team">所属工作组：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">所属职位：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">所属角色：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <span class="mandatory control-label col-sm-1">*</span>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">办公电话：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">分机号：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-4">
+                                                <label class="control-label col-sm-3">邮箱地址：</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group col-sm-4">
+                                                    <label class="control-label col-sm-3">登录账号：</label>
+                                                    <div class="col-sm-8">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-sm-4">
+                                                    <label class="control-label col-sm-3">登录密码：</label>
+                                                    <div class="col-sm-8">
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-sm-4 dentifying">
+                                                    <i>注</i>
+                                                    <span class="mandatory">"*"</span>
+                                                    标识为必填项
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-sm-12">
+                                                <div class="col-sm-3 col-sm-offset-3">
+                                                    <button type="submit" class="btn btn-primary btn-lg btn-prev">
+                                                        直接创建
+                                                    </button>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <button type="button" class="btn btn-danger btn-lg btn-next">
+                                                        下一步
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="addUser-content hidden" id="step2">
+                                <div class="step-pane">
+                                    <ul class="timeline">
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        用户填写档案基础信息
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        社保及公积金信息
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        工资卡信息
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        异动信息
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        教育背景
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-badge darkorange">
+                                                <i class="fa fa-map-marker font-120"></i>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-header bordered-bottom bordered-blue">
+                                                    <h3 class="step-title">
+                                                        工作履历
+                                                            <span class="collapse-btn"><i
+                                                                    class="fa fa-angle-down pull-right"></i></span>
+                                                    </h3>
+
+                                                </div>
+                                                <div class="timeline-body">
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="form-group col-sm-12">
+                                        <div class="col-sm-3 col-sm-offset-3">
+                                            <button type="submit" class="btn btn-primary btn-lg btn-prev">
+                                                上一步
+                                            </button>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <button type="button" class="btn btn-danger btn-lg btn-next">
+                                                确定
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E= 右侧页面主体 -->
+            </div>
+            <!-- E= 右侧内容 -->
+        </div>
+    </div>
+</div>
+<!--Basic Scripts-->
+<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="../../dep/assets/js/beyond.min.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../home/sysconf/js/user.js"></script>
+
+</body>
+</html>

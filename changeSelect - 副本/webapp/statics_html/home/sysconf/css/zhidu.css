@@ -1,0 +1,31 @@
+.modal-header h4 {
+    font: 600 16px "microsoft yahei" !important;
+    color:#000;
+}
+
+.modal-header .close {
+    color:#000;
+}
+
+.tips {
+    color: #f00
+}
+
+.modal-body .img img {
+    border: 1px solid #e5eff9
+}
+
+.xian {
+    margin: 15px 22px 15px 20px;
+}
+
+a.btn, a.btn:hover {
+    text-decoration: none;
+}
+.ke-container{
+    width: 646px !important;
+}
+
+.row_padding.form-horizontal {
+    height: 40px;
+}

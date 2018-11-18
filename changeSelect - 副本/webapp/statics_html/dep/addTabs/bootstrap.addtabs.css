@@ -1,0 +1,129 @@
+.tabs-container{
+    position: relative;
+}
+.tabs-container .btn{
+    height: 40px;
+    line-height: 30px;
+    border-radius: 0;
+    color: #999;
+    border: 0;
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+}
+.tabs-container .btn i{
+    top:7px;
+}
+.tabs-container .left-btn{
+    left:0;
+    border-right: 1px solid #e9e7e7;
+}
+.tabs-container .right-btn{
+    right: 0;
+    border-left: 1px solid #e9e7e7;
+}
+.tabs-container .tabs-list{
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.tabs-container .nav-tabs{
+    width: 100000px;
+    border: 0;
+    height: 40px;
+    background-color: #fff;
+}
+
+.tabs-container .nav-tabs li {
+    position: relative;
+    height: 40px;
+    margin-bottom: 0;
+}
+.tabs-container .nav-tabs li:hover a{
+    color: #00a0e9;
+}
+.tabs-container .nav-tabs > li > a {
+    border-radius: 0;
+    margin-right: 0;
+    border:0;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 0;
+    border-right: 1px solid #e9e7e7;
+}
+
+
+.tabs-container .nav-tabs > li.active > a,
+.tabs-container ul.nav-tabs > li.active > a,
+.tabs-container ul.nav-tabs > li.active > a:hover,
+.tabs-container ul.nav-tabs > li.active > a:focus{
+    background-color: #00BFFF;
+    color: #FFF;
+    cursor: pointer;
+    border:0;
+    border-radius:0 !important;
+    margin-top: 0;
+    height: 40px;
+    line-height: 20px;
+}
+
+.tabs-container .nav-tabs > li.active > a .close-tab {
+    color: #FFF;
+}
+
+.tabs-container .nav-tabs li .close-tab {
+    font-size: 12px;
+    cursor: pointer;
+    color: #94A6B0;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+.tabs-container .nav-tabs li .close-tab:hover {
+    border-radius: 50%;
+    background-color: red;
+    color: #FFF;
+}
+
+.iframeClass {
+    z-index: 1;
+    visibility: inherit;
+    width: 100%;
+    frameborder: 'no';
+    border: 0;
+    marginwidth: 0;
+    marginheight: 0;
+    scrolling-x: 'no';
+    scrolling-y: auto;
+    allowtransparency: true;
+}
+
+
+.rightMenu {
+    position: absolute;
+    width: 150px;
+    z-index: 999;
+    display: none;
+}
+#popMenu a.list-group-item{
+    border-radius: 0;
+}
+/*.dragBack {
+    background-color: #ddd;
+}
+
+.dropdown-menu{
+    min-width: 100%;
+}
+.pull-right>.dropdown-menu {
+    right: auto;
+    left: 0;
+}*/
+#tabsPage{
+    box-shadow: none !important;
+    background-color: transparent;
+    padding: 0 !important;
+}

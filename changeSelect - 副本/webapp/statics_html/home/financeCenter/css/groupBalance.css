@@ -1,0 +1,150 @@
+.modal-header{
+	border-bottom:3px solid #2dc3e8 !important;
+	background:none!important;
+}
+.modal-header span{
+	color:#333;
+	font-size:16px;
+	
+}
+textarea{
+	width:100%;
+	resize:vertical;
+	min-height:100px;
+}
+.margin-left_24{
+	margin-left:-24px;
+}
+textarea.yijian{
+	min-height:280px;
+}
+
+.bg_white{
+	background:#fff!important;
+}
+.tab-content_1 {
+	background:#fff!important;
+}
+.nav-tabs > li:first-child > a{
+	border-left:none!important;
+}
+.tab-content.tabs-flat{
+	border-top:1px solid #2DC3E8!important;
+}
+.datepicker.dropdown-menu{
+	z-index:1600
+}
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+ul.tab_content li span {
+    color: #fff;
+    padding: 0 2px
+}
+
+ul.tab_content li p {
+    color: #fff !important;
+    line-height: 1 !important
+}
+
+ul.tab_content li ul {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 7px
+}
+i.fa-call {
+    background-position: 2px -1px;
+}
+
+i.fa-huifang {
+    background-position: -27px -1px;
+}
+
+i.fa-message {
+    background-position: -68px 2px;
+}
+
+i.fa-yuyue {
+    background-position: -100px 0px;
+}
+
+i.fa-shangmen {
+    background-position: -132px 0px;
+}
+
+i.fa-dingzuo {
+    background-position: -163px 0px;
+}
+
+i.fa-baoming {
+    background-position: 3px -32px;
+}
+
+i.fa-jiaofei {
+    background-position: -28px -32px;
+}
+
+i.fa-yidong {
+    background-position: 6px -64px;
+}
+
+i.fa-tuifei {
+    background-position: -71px -33px;
+}
+
+i.fa-zhuangban {
+    background-position: -100px -33px;
+}
+
+i.fa-xiuxue {
+    background-position: -132px -33px;
+}
+
+i.fa-email {
+    background-position: -28px -70px;
+}
+
+ul.tab_content li ul li {
+    background: #428bca;
+    border-radius: 0 5px 0px 5px
+}
+.tab_content_11 {
+    right: -46px !important
+}
+
+.tab_content_11 li {
+    width: 45px !important;
+    height: 45px !important;
+    position: relative;
+}
+
+.tab_content_11 div {
+    width: 45px;
+    height: 45px;
+    display: none;;
+    position: absolute;
+    top: 0px;
+    background: #f06960;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tab_content_11 div p {
+    padding: 10px 4px;
+}
+
+.tab_content_11 div p.special {
+    padding: 10px 2px;
+}
+ul.tab_content li.mg_bottom {
+    margin-bottom: 0
+}
