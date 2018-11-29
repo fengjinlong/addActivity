@@ -38,11 +38,11 @@ body { overflow: hidden; }
 /* 提问区样式 */
 .question { position: absolute; top: 195px; bottom: 0; width: 260px; z-index: 1; background-color: #355976; }
 .chat-title,
-.question-title { height: 44px; color: #FFF; background-color: #28445B; z-index: 1; }
+.question-title { height: 44px; color: #FFF; z-index: 1; }
 .chat-title { height: 40px; }
 .chat-title h2,
-.question-title h2 { position: relative; color: #FFF; font-weight: 400; font-size: 16px; line-height: 44px; text-indent: 45px; }
-.question-title h2 i { position: absolute; top: 12px; left: 15px; width: 20px; height: 20px; background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: -1px -1px; }
+/* .question-title h2 { position: relative; color: #FFF; font-weight: 400; font-size: 16px; line-height: 44px; text-indent: 45px; } */
+.question-title h2 { background-image: url(../../images/newLive/live-icons.png)}
 .checkbox { position: relative; top: 2px; *top: 0px; right: 5px; *right: 2px; }
 
 /* 提问列表 */
@@ -75,8 +75,8 @@ body { overflow: hidden; }
 .live-right .lrb-t .o-t i.active { background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: 0 -80px; }
 .question-user .llb-b { position: relative; width: 230px; height: 35px; margin: 0 auto; }
 .question-user .llb-b .chat-send-content { position: absolute; top: 0; left: 0; bottom: 0; width: 180px; background-color: #FFF; border: 1px solid transparent; border-radius: 3px; overflow-y: auto; outline: none; }
-a.btn-chat { position: absolute; right: 0; color: #FFF; background-color: #FF4545; width:38px; height:36px; line-height:36px; text-align:center; }
-.btn-chat.btn-mini { padding: 0; }
+a.btn-chat {   }
+.btn-chat.btn-mini { padding: 0;margin-left: 20px }
 a.btn-chat:hover { background-color: #FF2F2F; }
 
 /*
@@ -337,9 +337,9 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
 .btn-switch i { background-position: -403px -56px; }
 
 /* 右侧聊天区域 */
-.video-right { position: absolute; top: 0; right: 0; bottom: 0; width: 270px; }
+.video-right {width: 340px;position: relative; height: 100%;float: right;background: url('../../aloneImages/bg_pic.png') 100% 100% }
 .right-bar { right: 260px; }
-.chat-main { position: absolute; left: 10px; top: 0; right: 0; bottom: 0; width: 260px; }
+.chat-main { position: relative; width: 100%; }
 .chat-people { position: absolute; top: 10px; right: 10px; display: none; width: 20px; height: 20px; background-image: url(../../images/newLive/icons.png); background-repeat: no-repeat; background-position: -366px -56px; cursor: pointer; }
 .people-list { position: absolute; top: 35px; right: 8px; display: none; width: 130px; background-color: #FFF; border: 1px solid #DDD; z-index: 1; }
 .chat-userlist { max-height: 300px; *height: 300px; overflow-y: auto; }
@@ -352,7 +352,7 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
 .people-list li,
 .people-list li a { font-size: 12px; }
 .chat-title h2 i { position: absolute; top: 10px; left: 15px; width: 20px; height: 22px; background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: 0 -50px; }
-.chat-list { position: absolute; left: 0; top: 0; right: 0; *width: 260px; *height: auto;    /*padding: 8px 6px 8px 5px;*/ background-color: #355976; overflow: hidden; }
+.chat-list { position: absolute; left: 0; top: 0; right: 0; *width: 260px; *height: auto;    /*padding: 8px 6px 8px 5px;*/ overflow: hidden; }
 .chat-list li { margin-bottom: 0;}
 .icon-teacher em,
 .icon-aid em { padding-left: 35px; background-image: url(../../images/newLive/icons.png); background-repeat: no-repeat; color: #FF7E00; }
@@ -363,10 +363,11 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
 .system p { color: #FF7E00; }
 .icon-teacher em { background-position: -165px 0; }
 .icon-aid em { background-position: -165px -20px; }
-.chat-send { position: absolute; left: 0; right: 0; bottom: 0; *width: 260px; height: 85px; background-color: #28445B; }
+.chat-send { position: absolute; width: 100%;border-top: 1px solid  #767373;
+    bottom: 0; height: 190px; background-color: rgb(35,35,35); }
 
 /* 聊天信息 */
-.live-right .l-r-m { position: absolute; top: 40px; bottom: 85px; width: 260px; padding-bottom: 10px; overflow: hidden; overflow-y: auto }
+.live-right .l-r-m { position: absolute; top: 70px; bottom: 85px; padding-bottom: 10px; overflow: hidden; overflow-y: auto }
 .live-right .l-r-m-list li { padding: 10px 10px 0; clear: both }
 .live-right .l-r-m-list li:first-child { padding-top: 0; }
 .live-right .l-r-m-list .peo-infos { position: relative; width: 100%; height: 45px }
@@ -412,16 +413,26 @@ p.flow {
 .chat-tools { position: relative; height: 28px; }
 .emotion { position: absolute; top: -95px; left: 5px; display: none; width: 180px; height: 90px; border: 1px solid #DDD; background-color: #FFF; z-index: 9; }
 .emotion li { float: left; margin-bottom: 0; padding: 3px 3px; cursor: pointer; }
-.chat-tools .lrb-t { position: relative; width: 230px; height: 20px; margin: 10px auto; }
-.chat-tools .lrb-t .face { position: absolute; top: 0; left: 0; width: 20px; height: 20px; background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: -25px -235px; cursor: pointer }
+.chat-tools .lrb-t { position: relative; margin: 6px 10px }
+.chat-tools .lrb-t .face { position: absolute; top: 0; left: 10px; width: 24px; height: 24px; background-image: url(../../aloneImages/ic_smile.png); background-repeat: no-repeat; cursor: pointer }
 .chat-tools .lrb-t .o-t { position: absolute; right: 0; padding-left: 22px; color: #fff; font-family: Arial; font-size: 12px; font-size: 1.2rem; line-height: 20px; cursor: pointer }
 .chat-tools .lrb-t .o-t.right {right:100px;}
 .chat-tools .lrb-t .o-t.right.show {display:none;}
 .chat-tools .lrb-t .o-t i { position: absolute; top: 2px; left: 0; width: 16px; height: 16px; background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: -20px -80px }
 .chat-tools .llb-t .o-t i.active,
 .chat-tools .lrb-t .o-t i.active { background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: 0 -80px }
-.chat-area .lrb-b { position: relative; width: 230px; height: 35px; margin: 0 auto }
-.chat-area .lrb-b .chat-send-content { position: absolute; top: 0; left: 0; bottom: 0; width: 180px; background-color: #fff; border: 1px solid transparent; border-radius: 3px; overflow-y: auto; outline: none }
+.chat-area .lrb-b {  }
+.chat-area .lrb-b .chat-send-content {width: 280px;
+    margin-left: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    overflow-y: auto;
+    margin-bottom: 6px;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;}
 
 /* 只看老师 */
 .chat-tools .to-teacher { position: absolute; top: 15px; left: 100px; display: none; font-size: 14px; color: #666; line-height: 1; cursor: pointer; }
@@ -432,7 +443,7 @@ p.flow {
 .btn-flower { left: 50px; width: 19px; height: 24px; background-position: -70px 0; }
 .gray { background-position: -70px -25px; cursor: default; }
 .gray i { position: absolute; right: -22px; top: 5px; width: 20px; height: 20px; text-indent: 0; }
-.chat-area { position: absolute; left: 0; right: 0; }
+.chat-area {  }
 .public-layer {
     position: absolute;
     left: 50%;

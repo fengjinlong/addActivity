@@ -444,6 +444,7 @@
                 'msg': $.trim(msg),
                 'time': h + ':' + m + ':' + s
             };
+            console.log(Pusher.socket)
             Pusher.socket.emit('private_chat', JSON.stringify(j));
         },
 
