@@ -157,7 +157,7 @@ html,body{height: 100%;}
 .me .btnul{right: 5px; left: auto;}
 .me .btnul-arrow{right: 23px; left: auto;}
 .select-span{
-    display: inline-block;
+    display: none;
     background:#ffffff;
     border:1px solid #dddddd;
     width:114px;

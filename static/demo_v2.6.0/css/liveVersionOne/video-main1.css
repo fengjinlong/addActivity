@@ -192,7 +192,7 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
   box-align:center;
   -moz-box-align:center;
   -webkit-box-align:center;
-     
+     position: relative;
 } 
 .video-m-top { width: 100%;
     height: 100%; }
@@ -249,7 +249,23 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
     text-align: left;
     font-size: 12px;
 }
-
+.playBtn {
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+}
+.playBtn a{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 88px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background: #454545;
+    border-radius: 36px;
+}
 #mask-infos p{
     position: relative;
     text-align: left;
@@ -261,10 +277,10 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
 
 /* 新款工具条 */
 /* .video-middle .l-m-b { position: absolute; left: 50%; bottom: 36px; width: 806px; height: 50px; margin-left: -403px; background-color: #3d6181 } */
-.video-middle .l-m-b { position: absolute; left: 10px; right: 10px; bottom: 15px; height: 50px; background-color: #e4e4e4 }
+.video-middle .l-m-b { position: absolute; left: 0px;width: 100%; bottom: 65px; height: 50px; background-color: #e4e4e4 }
 .video-middle .l-m-b .lmb-l { position: absolute; top: 0; bottom: 0; left: 0; right: 280px; }
-.video-middle .l-m-b a { display: block; float: left; width: 23px; height: 23px }
-.video-middle .l-m-b ul { float: left; padding-top: 9px; padding-bottom: 8px }
+.video-middle .l-m-b a { display: block; float: left;  }
+/* .video-middle .l-m-b ul { float: left; padding-top: 9px; padding-bottom: 8px } */
 .video-middle .l-m-b .lmb-l-tools { width: 98%; border-right: 1px solid #27435b }
 .video-middle .l-m-b li { float: left; width: 23px; height: 23px; margin: 0 8px; padding: 5px 5px; overflow: hidden }
 .video-middle .l-m-b li.volue { position: relative; width: 80px; margin: 0; }
@@ -373,7 +389,7 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
 .people-list li,
 .people-list li a { font-size: 12px; }
 .chat-title h2 i { position: absolute; top: 10px; left: 15px; width: 20px; height: 22px; background-image: url(../../images/newLive/live-icons.png); background-repeat: no-repeat; background-position: 0 -50px; }
-.chat-list { position: absolute; left: 0; top: 0; right: 0; *width: 260px; *height: auto;    /*padding: 8px 6px 8px 5px;*/ overflow: hidden;   padding: 0 0 143px 0;}
+.chat-list { position: absolute; left: 0; top: 0; right: 0; *width: 260px; *height: auto;    /*padding: 8px 6px 8px 5px;*/ overflow: hidden;   padding: 0px 0 143px 0;}
 .chat-list li { margin-bottom: 0;}
 .icon-teacher em,
 .icon-aid em { padding-left: 35px; background-image: url(../../images/newLive/icons.png); background-repeat: no-repeat; color: #FF7E00; }

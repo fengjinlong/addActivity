@@ -33,52 +33,90 @@
 	
 		<!-- left start -->
 		<div class="divleft">
-			<div class="smallVideo"></div>
+			<!-- <div class="smallVideo"></div> -->
 			<img class="code" src="./aloneImages/bg_code.png" alt="">
+
+    <div id="widget-video" class="widget-video">
+        <div id="main-video" class="main-video">
+            <div id="videoInteractions"></div>
+            <div id="audioInteractions" style="display: none;"></div>
+            <div class="call-box call-box-small" id="videoInteraction" style="display: none;">
+                <div class="call-tit">视频通话申请中...</div>
+                <div class="btn-toggle"></div>
+                <video id="interactionLocalVideo" style="height: 100%; width: 100%;" autoplay></video>
+            </div>
+
+            <!-- 直播视频模块 -->
+            <div id="livePlayer"></div>
+        </div>
+        <div id="video-tools" class="video-tools">
+            <a href="javascript:;" id="full-video" class="btn-full"> </a>
+        </div>
+    </div>
 		</div>
 		<!-- left end -->
 		<!-- middle start -->
-		<div class="divMiddle">
-			<div class="midVideo setHeight"></div>
+		<div class="video-middle" id="video-middle">
+			<div class="midVideo setHeight">
+
+			<div class="video-m-top" id="doc-main" data-module="1">
+        <div class="document-main">
+
+            <!-- 直播文档模块 -->
+            <div id="drawPanel"></div>
+
+        </div>
+       
+			</div>
+		</div>
 		</div>
 		<!-- middle end -->
 		<!-- right start -->
-		<div class="video-right live-right" id="video-right">
-			<div class="chat-main">
-				<div class="chat-title">
-						<img src="./aloneImages/bg_talk.png" alt="">
-				</div>
-				<div class="chat-list l-r-m">
-					<ul id="chat-list" class="chat-list l-r-m-list">
-						<li><span class="name">啊手动：</span><span class="con">大阿斯顿发射点发射点发射点发阿迪斯发士大夫阿斯顿发射点</span></li>
-						<li><span class="name">啊手动1：</span><span class="con">大阿斯顿发射点发射点发射点发阿迪斯发士大夫阿斯顿发射点</span></li>
-						<li><span class="name">啊手动2：</span><span class="con">大阿斯顿发13124阿迪斯发士大夫阿斯顿发射点</span></li>
-					</ul>
-				</div>
-				<div class="chat-send">
-					<div class="chat-tips-scroll" id="chat-tips-scroll">有<em>0</em>条未读记录。</div>
-					<div class="chat-tools">
 
-						<div class="lrb-t">
-							<div class="face" id="btn-face"></div>
+		<div class="video-right live-right" id="video-right">
+				<div class="chat-main">
+						<div class="chtitle">
+								<img src="./aloneImages/bg_talk.png" alt="">
+						
 						</div>
-					</div>
-					<div class="chat-area">
-						<div class="lrb-b">
-							<input class="chat-send-content" contenteditable="true" id="chat-content">
-							
+						<div class="chat-list l-r-m">
+								<ul id="chat-list" class="chat-list l-r-m-list">
+								</ul>
 						</div>
-					</div>
-					<div>
-						<a href="javascript:;" class="abtn" id="chat-submit">
-							<img src="./aloneImages/btn_send.png" alt="">
-						</a>
-						<a href="javascript:;" class="abtn" >
-							<img src="./aloneImages/btn_teacher .png" alt="">
-						</a>
-					</div>
+						<div class="chat-send">
+								
+								<div class="chat-tools">
+		
+										<div class="lrb-t">
+												<div class="face" id="btn-face"></div>
+												<div class="o-t" id="isPrivateChat">
+														<span class="select-span">
+																		<span class="select-current" id="all"></span>
+																		<em class="p-arrow"></em>
+																</span>
+														<!-- <ul id="private-name">
+																<li id="all">所有人</li>
+														</ul> -->
+														
+												</div>
+										</div>
+								</div>
+								<div class="chat-area">
+									
+										<div class="lrb-b">
+												<input class="chat-send-content" contenteditable="true" id="chat-content">
+											</div>
+											<div>
+												<a href="javascript:;" class="btn btn-mini btn-chat" id="chat-submit">
+													<img src="./aloneImages/btn_send.png" alt="">
+												</a>
+												<a href="javascript:;" style="margin-left:18px" >
+													<img src="./aloneImages/btn_teacher .png" alt="">
+												</a>
+										</div>
+								</div>
+						</div>
 				</div>
-			</div>
 		</div>
 
 	</div>
@@ -106,14 +144,24 @@
 	<script type="text/javascript">
 		// 直播SDK参数配置
 		DWLive.init({
-			userid: localStorage.userid,
-			roomid: localStorage.roomid,
-			viewername: localStorage.viewername,
-			viewertoken: localStorage.viewertoken,
+			// userid: localStorage.userid,
+			// roomid: localStorage.roomid,
+			// viewername: localStorage.viewername,
+			// viewertoken: localStorage.viewertoken,
+			// viewercustomua: 'web',
+			// language: 'en',
+			// viewercustominfo: '',
+			// fastMode: localStorage.fastmode
+
+			userid: "5A48BAD2AA7C86FC",
+			roomid: "B07C86584BFCEA789C33DC5901307461",
+			viewername: "奥德赛",
+			viewertoken: "1321",
 			viewercustomua: 'web',
 			language: 'en',
 			viewercustominfo: '',
 			fastMode: localStorage.fastmode
+
 		});
 
 		DWLive.onLiveTime = function (e) {

@@ -136,7 +136,7 @@ body {
 
 /* 宸︿晶妗嗘灦 */
 .video-left {
-    width: 260px;
+    width: 295px;
     top: 0;
     left: 0;
     bottom: 0;
@@ -145,8 +145,8 @@ body {
 /* 宸︿晶鍐呭 */
 .widget-video { /*position: absolute;*/
     position: relative;
-    width: 260px;
-    height: 195px;
+    width: 295px;
+    height: 295px;
 }
 
 .main-video {
@@ -199,9 +199,10 @@ body {
     position: absolute;
     top: 195px;
     bottom: 0;
-    width: 260px;
+    width: 295px;
     z-index: 1;
-    border-top: 1px solid #999;
+    background: url(../aloneImages/bg_pic1.png) 100% 100%;
+    background-repeat-y: repeat;
 }
 
 .chat-title,
@@ -784,7 +785,7 @@ a.close-check {
 /* 涓棿鏂囨。 */
 .video-middle {
     position: absolute;
-    left: 270px;
+    left: 0px;
     top: 0;
     right: 270px;
     bottom: 0;
@@ -1657,7 +1658,7 @@ a.close-check {
 
 .chat-main {
     position: absolute;
-    left: 10px;
+    left: 0px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -1740,7 +1741,6 @@ a.close-check {
     right: 0;
     *width: 260px;
     *height: auto; /*padding: 8px 6px 8px 5px;*/
-    background-color: #FFF;
     overflow: hidden;
     overflow-y: auto;
 }
@@ -1791,11 +1791,10 @@ a.close-check {
     position: absolute;
     top: 35px;
     bottom: 85px;
-    width: 260px;
+    width: 340px;
     padding-bottom: 10px;
     overflow: hidden;
     overflow-y: auto;
-    border-top: 1px solid #ddd;
 }
 
 .live-right .l-r-m-list li {

@@ -29,17 +29,20 @@ header a.aa {
   height: 100%;
 }
 .divleft {
-  width: 300px;
+  position: relative;
+  width: 299px;
   height: 100%;
   float: left;
-  background: url('../../aloneImages/bg_talk_bg.png') 100% 100% no-repeat;
+  background: url('../../aloneImages/bg_pic1.png') 100% 100%;
+  background-repeat-y: repeat;
 }
 .divleft .code {
-  margin: 80px 19px auto 19px
+  position: absolute;
+  margin: 368px 19px auto 19px
 }
 .smallVideo {
-  width: 300px;
-  height: 300px;
+  width: 295px;
+  height: 295px;
   background: #e4393c;
 }
 .divMiddle {
@@ -52,8 +55,7 @@ header a.aa {
   -moz-box-align:center;
   -webkit-box-align:center;
 }
-.divMiddle .midVideo{
-  background: red;
+.video-middle .midVideo{
   width:100%;
 
 }
@@ -61,15 +63,4 @@ header a.aa {
   display:-webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
   flex:0 0 340px
 }
-.chat-list {
-  line-height: 24px;
-}
-.chat-list li .name {
-  color: #bcb6b6
-}
-.chat-list li .con {
-  color: #fff
-}
-.abtn {
-  margin-left: 20px
-}
+
