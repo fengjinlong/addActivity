@@ -1,0 +1,77 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+fieldset, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+body{overflow: hidden;}
+button, input, select, textarea {
+    font: 12px/1 microsoft yahei,Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; }
+small { font-size: 12px; }
+ul, ol { list-style: none; }
+a { text-decoration: none;font-size: 14px; color: #666;outline: none;}
+abbr[title], acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+i{font-style: normal}
+q:before, q:after { content: ''; }
+legend { color: #000; }
+fieldset, img { border: none; }
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+input:focus, select:focus, textarea:focus{
+    outline: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+html { overflow-y: scroll; }
+
+img{vertical-align: middle}
+
+pre{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    line-height: 28px;
+}
+pre{
+    display: block;
+    font-family: monospace;
+    margin: 1em 0;
+}
+.fl{float: left}
+.fr{float: right}
+body {font: 12px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+.clearfix{zoom:1}
+.clearfix:after{content: "";display:block;clear:both}
+.sep, .ndash {
+    margin: 0 .25em;
+    font-family: sans-serif;
+}
+

@@ -187,11 +187,11 @@ a.close-check { color: #FFF; background-color: #457594; padding: 5px 10px; }
     display: flex;
   flex:1;
   background: #303030;
-  align-items:center;
-  -webkit-align-items:center;
-  box-align:center;
-  -moz-box-align:center;
-  -webkit-box-align:center;
+  /* align-items:center; */
+  /* -webkit-align-items:center; */
+  /* box-align:center; */
+  /* -moz-box-align:center; */
+  /* -webkit-box-align:center; */
      
 } 
 .video-m-top { width: 100%;

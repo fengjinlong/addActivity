@@ -1,0 +1,92 @@
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+
+.top-btn {
+    margin-left: 0 !important;
+}
+
+.handle-num {
+    font-style: normal;
+    font-size: 26px;
+    color: #408ac8;
+}
+
+.pass {
+    background: #a5e7a6 !important;
+}
+
+.pass-content {
+    color: #fff;
+}
+
+.unpass {
+    background: #c3c3c3 !important;
+}
+
+.unpass-content {
+    color: #fff;
+}
+.state-btn a{
+    height: 34px;
+    line-height: 20px;
+}
+.state-active {
+    background: #439cee;
+    color: #fff !important;
+}
+.state-active,.state-active:hover,.state-active:focus,.state-active:visited{
+    background: #439cee;
+    color: #fff !important;
+}
+
+
+.bordered-orange {
+    border-color: transparent !important;
+}
+
+.bordered-azure {
+    border-color: transparent !important;
+}
+
+.datepicker.dropdown-menu {
+    z-index: 99999 !important;
+}
+
+
+
+.handle-num {
+    font-style: normal;
+    font-size: 26px;
+    color: #408ac8;
+}
+
+.pass {
+    background: #a5e7a6 !important;
+}
+
+.pass-content {
+    color: #fff;
+}
+
+.unpass {
+    background: #c3c3c3 !important;
+}
+
+.unpass-content {
+    color: #fff;
+}
+
+.ke-container {
+    width: 100% !important;
+}
+
+/*正在进行*/
+.timeline > li .timeline-badge.pass-ing {
+    background: #5db2ff !important;
+}
+
+.timeline > li .timeline-badge .passing-content {
+    color: #fff;
+}

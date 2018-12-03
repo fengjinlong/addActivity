@@ -57,6 +57,7 @@ header a.aa {
 }
 .video-middle .midVideo{
   width:100%;
+  background: red
 
 }
 .video-right.live-right {

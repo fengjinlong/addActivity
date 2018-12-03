@@ -1,0 +1,15 @@
+button.form-control,button.form-control:hover,button.form-control:focus,button.form-control:visited {
+    color: #FFF;
+}
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.blue{
+    cursor: pointer;
+}

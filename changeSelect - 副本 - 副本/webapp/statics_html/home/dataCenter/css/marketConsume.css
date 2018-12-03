@@ -1,0 +1,49 @@
+.modal-body{
+    overflow: inherit !important;
+}
+.search-condition button.btn{
+    height: 34px;
+}
+
+.search-condition{
+    height: auto !important;
+    border: 1px solid #e5e5e5;
+    padding: 15px 0 0;
+    margin-bottom: 15px;
+}
+.search-condition.form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+.operation-btn{
+    margin-bottom: 15px;
+}
+.addMarket .modal-dialog,.bulkAdd .modal-dialog{
+    margin-top: 10%;
+}
+
+.Bulkimport{
+    background:#eee;
+    margin-left:0 !important;
+    line-height:36px;
+}
+.Bulkimport a{
+    color:blue;
+}
+
+.public-conditions .search-btn{
+    width: 60px;
+}
+#imports tbody input{
+	border:0;
+	text-align:center;
+	background-color: #f9f9f9;
+}
+
+#imports > thead > tr > th,#imports > tbody > tr > td{
+	text-align:center;
+}
+#imports > tbody > tr > td:nth-child(2) input,#imports > tbody > tr > td:nth-child(5) input,
+#imports > tbody > tr > td:nth-child(6) input,#imports > tbody > tr > td:last-child input{
+	width:80px;
+}

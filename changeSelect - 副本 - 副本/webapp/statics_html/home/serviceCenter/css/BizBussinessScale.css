@@ -1,0 +1,7 @@
+.asingleEntry .modal-dialog{
+    margin-top: 10%;
+}
+.form-horizontal .has-feedback .form-control-feedback {
+    top: 0;
+    right: 0px;
+}

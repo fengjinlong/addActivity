@@ -794,22 +794,38 @@ a.close-check {
 }
 
 .video-m-top {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 80px;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .document-main {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
 }
-
+.iframeCon .button{
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+.iframeCon {
+    position: fixed;
+    width: 336px;
+    height: 400px;
+    background: red;
+    bottom: 0;
+    right: 0;
+    z-index: 666;
+}
+.iframeCon .mainContent{
+    border: none
+}
 .ppt-mask {
     position: absolute;
     left: 0;

@@ -1,0 +1,91 @@
+input[type=radio] + .text:before {
+    line-height: 19px;
+    min-width: 18px;
+}
+
+.form-group button, .form-group button:hover, .form-group button:focus {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.tabbable {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+
+.tab-content {
+    overflow: hidden;
+}
+
+#regulation .form-group {
+    margin-bottom: 30px;
+}
+#regulation .hitSingle{
+    margin-bottom: 0;
+}
+
+#regulation h5{
+    margin: 0;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: 600!important;
+}
+#infoFlow {
+    padding: 20px;
+}
+#infoFlow .table button {
+    width: 105px;
+    height: 34px;
+    margin-right: 30px;
+}
+
+.nav-tabs.tabs-flat {
+    background-color: #fff;
+}
+
+.tab-content.tabs-flat {
+    border-top-width: 1px;
+}
+
+.nav-tabs > li {
+    margin-bottom: -2px;
+}
+
+ul.nav-tabs > li.active > a, ul.nav-tabs > li.active > a:hover, ul.nav-tabs > li.active > a:focus {
+    border: 1px solid #2dc3e8;
+    border-radius: 3px 3px 0 0 !important;
+    border-bottom: 0;
+}
+
+.rule-title h3 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    font: 600 16px/40px "Microsoft YaHei" !important;
+    margin: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #5db2ff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+.margin-left {
+    margin-left: 72px;
+}
+
+#infoFlowRule input {
+    padding: 2px 5px;
+    font-size: 13px;
+    width: 80px;
+}
+
+select {
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.explain{
+    padding-left: 15px;
+    color: red;
+}
+

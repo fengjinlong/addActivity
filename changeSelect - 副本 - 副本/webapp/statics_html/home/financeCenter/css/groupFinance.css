@@ -1,0 +1,163 @@
+.modal-header{
+	border-bottom:2px solid #2dc3e8 !important;
+	background:none!important;
+}
+.modal-header span{
+	color:#333;
+	font-size:16px;
+	
+}
+textarea{
+	width:100%;
+	resize:vertical;
+	min-height:100px;
+}
+.margin-left_24{
+	margin-left:-24px;
+}
+textarea.yijian{
+	min-height:280px;
+}
+
+.bg_white{
+	background:#fff!important;
+}
+.tab-content_1 {
+	background:#fff!important;
+}
+.nav-tabs > li:first-child > a{
+	border-left:none!important;
+}
+.tab-content.tabs-flat{
+	border-top:1px solid #2DC3E8!important;
+}
+.datepicker.dropdown-menu{
+	z-index:1600
+}
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+div.modal_padding {
+    padding: 0px !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.btn_special_edit {
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.collapse-btn i {
+    line-height: 38px;
+}
+
+.modal-header_border {
+    border-bottom: 2px solid #5db2ff !important;
+}
+.information .has-feedback .form-control{
+    padding-right: 12px;
+}
+/*固定按钮图标*/
+.right-toolbar {
+    position: fixed;
+    left: 100%;
+    z-index: 5;
+    padding-left: 0;
+    bottom: 200px;
+}
+
+.right-toolbar a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: rgb(85, 122, 254);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 2px;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    -moz-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+.right-toolbar a .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background: #215594;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    display: none;
+}
+
+.right-toolbar a .up p {
+    padding: 4px 6px;
+}
+
+.right-toolbar a img {
+    vertical-align: middle;
+}
+
+.right-toolbar a i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+

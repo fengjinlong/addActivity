@@ -1,0 +1,32 @@
+#avatar-modal-label {
+    position: relative;
+    top: 8px;
+}
+
+li .avatar-area {
+    width: 100% !important;
+}
+
+li .avatar-area .caption {
+    width: 100% !important;
+    opacity: 0.8 !important;
+    -webkit-opacity: 0.8 !important;
+}
+
+li .avatar-area img {
+    width: 100% !important;
+}
+
+#avatar-modal .modal-dialog {
+    margin-top: 60px;
+}
+
+.avatar-upload .avatar-input {
+    display: none;
+}
+
+.avatar-upload .picture-format {
+    margin-left: 114px;
+    line-height: 32px;
+    height: 32px;
+}

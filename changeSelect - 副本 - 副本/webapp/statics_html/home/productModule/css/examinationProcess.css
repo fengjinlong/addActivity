@@ -1,0 +1,13 @@
+.table .operate-btn{
+    font-size: 14px;
+    padding: 0 6px;
+    cursor: pointer;
+}
+.bootstrap-select.btn-group .dropdown-menu.inner{
+    overflow-x: hidden;
+}
+.table > tbody > tr > td .btn-group.bootstrap-select,
+.table > tbody > tr > td .btn-group.bootstrap-select{
+    min-width: 100px !important;
+    max-width: 340px !important;
+}

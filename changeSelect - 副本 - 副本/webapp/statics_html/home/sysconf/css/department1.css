@@ -1,0 +1,42 @@
+.ztree * {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    color: #333;
+}
+
+.ztree li a {
+    height: 24px;
+    line-height: 24px;
+}
+.widget-header{
+    min-height: 40px;
+    box-shadow: 1px 0 3px 0px rgba(0, 0, 0, .3);
+    border-radius: 2px 2px 0 0;
+    padding-right: 4px;
+}
+.widget-body{
+    box-shadow: 1px 0 3px 0px rgba(0, 0, 0, .3);
+    border-radius: 0 0 2px 2px;
+}
+.widget-body{
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+textarea{
+    resize: none;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.radio-inline{
+    padding-left: 0;
+}
+.departmentAdd,.departmentEdit{
+    display: none;
+}
+.departmentInfo .widget-body,.departmentAdd .widget-body,.departmentEdit .widget-body{
+    padding-top: 30px;
+}
+
+

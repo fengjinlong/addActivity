@@ -17,9 +17,9 @@
         }
         @media (min-width: 1600px) {
             body {
-                width: 1600px;
+                /* width: 1600px;
                 margin: 0 auto;
-                position: relative;
+                position: relative; */
             }
         }
     </style>
@@ -38,6 +38,10 @@
         <img src="aloneImages/tab.png" alt="">
 
     </header>
+    <div class="iframeCon">
+        <button class="button">咨询</button>
+        <iframe class="mainContent" id="mainContent" width="100%" height="100%"></iframe>
+    </div>
     <div class="divcon">
 
 
@@ -237,6 +241,10 @@
             isH5play: true,
             fastMode: localStorage.fastmode
         });
+        $('.button').click(function () {
+            $('#iframeCon').slideUp()
+            $('#iframeCon').slideDown()
+        })
         //view.csslcloud.net/api/view/callback?roomid=B07C86584BFCEA789C33DC5901307461&userid=5A48BAD2AA7C86FC&recordid=DA22708647CCFAF1&liveid=4308BC5587CFE566
     </script>
 

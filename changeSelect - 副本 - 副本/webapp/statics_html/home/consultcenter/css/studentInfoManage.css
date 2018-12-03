@@ -1,0 +1,227 @@
+.modal-body {
+    padding-bottom: 25px;
+    overflow: inherit;
+}
+
+.widget-body form .control-label {
+    padding-right: 0;
+}
+
+textarea {
+    resize: none;
+    overflow-y: auto;
+}
+
+.col-sm-12 .margin-left {
+    margin-left: -33px
+}
+
+.modal .form-group button, .modal .form-group button:focus, .modal .form-group button:visited {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.modal-header, #errorPrompt .modal-header {
+    height: 40px;
+    line-height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 0 15px;
+}
+
+.modal-header .close {
+    margin-top: 4px;
+    z-index: 999999999;
+    position: relative;
+}
+
+.modal-footer button {
+    color: #FFF;
+}
+
+.btn-toolbar {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.wysiwyg-toolbar .btn-group {
+    margin: 10px 10px 8px 0;
+}
+
+.modal-footer {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#errorPrompt .modal-dialog {
+    width: 380px;
+    height: 240px;
+    margin-top: 18%;
+}
+
+#errorPrompt .modal-body {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+#errorPrompt .modal-body p {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+#errorPrompt .modal-body .modal-footer {
+    margin-top: 20px;
+}
+
+#errorPrompt .modal-body .modal-footer button {
+    width: 80%;
+}
+
+.form-control {
+    padding: 6px 9px;
+}
+
+#editor2 {
+    cursor: not-allowed;
+}
+
+.help-block {
+    position: absolute;
+    margin-top: 3px;
+    height: 20px;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.attribution {
+    position: absolute !important;
+    top: 34px;
+    left: 17px;
+    z-index: 9999;
+    display: none;
+}
+
+.attribution .modal-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.attribution .modal-sm {
+    width: 300px;
+}
+
+.modal.fade .attribution .modal-dialog {
+    margin: 0;
+}
+
+.attribution .attribution-body {
+    padding: 15px;
+}
+
+.modal .attribution .form-group button {
+    height: 32px;
+}
+
+.nav-tabs > li {
+    margin-bottom: -2px;
+}
+
+.datepicker.dropdown-menu {
+    z-index: 99999 !important;
+}
+
+.chosen-container {
+    width: 100% !important;
+}
+
+.chosen-container-single .chosen-single {
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d5d5d5;
+}
+
+.contact-way {
+    margin-left: -23px;
+}
+
+.widget-body .form-group.choose-consultant {
+    margin-left: -30px;
+}
+
+.choose-consultant #status.form-control {
+    padding: 6px;
+}
+
+.consultant .btn {
+    padding: 6px 1px;
+}
+
+.distribution-consultant {
+    margin-left: 30px;
+}
+
+.chosen-container-single .chosen-single span {
+    overflow: inherit;
+    margin-right: 6px;
+}
+
+.row_padding.form-horizontal .form-group {
+    margin-bottom: 5px;
+}
+
+.forward-visit-time {
+    width: 51%;
+}
+
+.forward-visit {
+    margin-left: -32px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-12.form-group .col-sm-9 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-sm-12.form-group .col-md-9 {
+        width: 82%;
+    }
+}
+
+.ke-container {
+    width: 668px !important;
+}
+
+.choose-consultant .chosen-container-single {
+    width: 120px !important;
+}
+
+.chosen-container-active .chosen-single{
+    box-shadow: none;
+}
+
+.allocation input[type=radio] + .text {
+    cursor: pointer;
+}
+
+.modal form{
+    border: 1px solid #C9C5C5;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+
+.addInquiries .modal-dialog,.viewInfo .modal-dialog,.editUser .modal-dialog {
+    margin-top: 10%;
+}
+.has-feedback i.form-control-feedback{
+    left: auto;
+    right: 0 !important;
+}

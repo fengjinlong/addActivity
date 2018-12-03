@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head -->
+
+	<head>
+		<meta charset="utf-8" />
+		<title>数据字典-学员属性</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+
+		<!--Basic Styles-->
+		<link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet" />
+
+		<!--Beyond styles-->
+		<link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css" />
+		<link href="../../dep/assets/css/typicons.min.css" rel="stylesheet" />
+		<link href="../../dep/assets/css/animate.min.css" rel="stylesheet" />
+		<link href="../../css/common.css" rel="stylesheet" />
+		<link href="../../home/sysconf/student.css" rel="stylesheet" />
+
+		<script src="../../dep/assets/js/skins.min.js"></script>
+	</head>
+<style>
+	
+</style>
+	<body>
+		<div class="main-container container-fluid">
+			<div class="page-container">
+				<!-- S= 左侧菜单栏 -->
+				<div class="page-sidebar" id="sidebar">
+					<!-- S= 左侧菜单栏头部 -->
+					<div class="sidebar-header-wrapper">
+						<!--S= logo-->
+						<div class="logo-1">
+							<img src="../../dep/assets/img/logo1.png" alt="">
+						</div>
+						<div class="logo-2">
+							<img src="../../dep/assets/img/logo2.png" alt="">
+						</div>
+						<!--E= logo-->
+						<!--S= 折叠按钮-->
+						<div class="sidebar-collapse" id="sidebar-collapse">
+							<img src="../../dep/assets/img/collapse-btn.png" alt="">
+						</div>
+						<!--E= 折叠按钮-->
+					</div>
+					<!-- E= 左侧菜单栏头部 -->
+
+					<!-- S= 功能菜单 -->
+					<ul class="nav sidebar-menu">
+						<!--工作台-->
+						<li>
+							<a href="index.html">
+								<i class="menu-icon glyphicon glyphicon-home"></i>
+								<span class="menu-text">工作台</span>
+							</a>
+						</li>
+						<!--咨询中心-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon fa fa-comments"></i>
+								<span class="menu-text">咨询中心</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">信息采集管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">信息分发管理</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<!--服务中心-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon fa fa-stack-exchange"></i>
+								<span class="menu-text">服务中心</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">招生资源管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">报告管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">服务管理</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<!--财务中心-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon glyphicon glyphicon-tasks"></i>
+								<span class="menu-text">财务中心</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">集团财务</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">分校财务</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">中培财务</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<!--质检中心-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon fa fa-star-half-empty"></i>
+								<span class="menu-text">质检中心</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">奖励管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">罚款管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">回访管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">查漏管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">变更管理(学员)</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<!--配置中心-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon fa fa-pencil-square-o"></i>
+								<span class="menu-text">配置中心</span>
+								<i class="menu-expand"></i>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">活动管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">藏宝阁管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">分校分成比例管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">财务配置</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<!--系统管理-->
+						<li class="open">
+							<a href="" class="menu-dropdown">
+								<i class="menu-icon fa fa-bar-chart-o"></i>
+								<span class="menu-text">系统管理</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="userManagement.html">
+										<span class="menu-text">用户管理</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="../../html/departmentManagement.html">
+										<span class="menu-text">部门管理(职位)</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">权限管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">菜单管理</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="menu-dropdown active" >
+										<span class="menu-text">字典管理</span>
+										<i class="menu-expand"></i>
+									</a>
+									<ul class="submenu">
+										<li>
+											<a href="#">
+												<span>学员属性</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span>区域属性</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="menu-dropdown">
+										<span class="menu-text">公告管理</span>
+										<i class="menu-expand"></i>
+									</a>
+									<ul class="submenu">
+										<li>
+											<a href="#">
+												<span>制度管理</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span>奖惩明细</span>
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!--日志管理-->
+						<li>
+							<a href="#" class="menu-dropdown">
+								<i class="menu-icon glyphicon glyphicon-tasks"></i>
+								<span class="menu-text">日志管理</span>
+								<i class="menu-expand"></i>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="#">
+										<span class="menu-text">操作日志</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="menu-text">系统日志</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<!-- S= 功能菜单 -->
+				</div>
+				<!-- E= 左侧菜单栏 -->
+				<!-- S= 右侧内容 -->
+				<div class="page-content">
+					<!-- S= 右侧顶部导航 -->
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="navbar-container">
+								<!-- S= 通知 -->
+								<div class="navbar-header pull-left">
+									<i class="fa fa-bell pull-left"></i>
+									<ul class="list-unstyled notification pull-left">
+										<li>
+											<a href="">通知：上下滚动效果</a>
+										</li>
+									</ul>
+								</div>
+								<!-- E= 通知-->
+
+								<!-- S= 信息和设置 --->
+								<div class="navbar-header pull-right">
+									<div class="navbar-account">
+										<ul class="account-area">
+											<!--S= 信息-->
+											<li>
+												<a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
+													<i class="icon fa fa-envelope"></i>
+													<span class="badge">3</span>
+												</a>
+
+												<ul class="pull-right dropdown-menu dropdown-arrow dropdown-messages">
+													<li>
+														<a href="#">
+															<img src="../../dep/assets/img/avatars/divyia.jpg" class="message-avatar" alt="Divyia Austin">
+															<div class="message">
+																<span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+																<span class="message-time">
+                                                    两分钟前
+                                                </span>
+																<span class="message-subject">
+                                                    邮件标题
+                                                </span>
+																<span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="../../dep/assets/img/avatars/bing.png" class="message-avatar" alt="Microsoft Bing">
+															<div class="message">
+																<span class="message-sender">
+                                                    集团质检中心经理-王大伟
+                                                </span>
+																<span class="message-time">
+                                                    昨天
+                                                </span>
+																<span class="message-subject">
+                                                    邮件标题
+                                                </span>
+																<span class="message-body">
+                                                    邮件内容邮件内容邮件内容
+                                                </span>
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="../../dep/assets/img/avatars/adam-jansen.jpg" class="message-avatar" alt="Divyia Austin">
+															<div class="message">
+																<span class="message-sender">
+                                                        集团质检中心经理-王大伟
+                                                    </span>
+																<span class="message-time">
+                                                        一周前
+                                                    </span>
+																<span class="message-subject">
+                                                        邮件标题
+                                                    </span>
+																<span class="message-body">
+                                                        邮件内容邮件内容邮件内容
+                                                    </span>
+															</div>
+														</a>
+													</li>
+												</ul>
+											</li>
+											<!--E= 信息-->
+											<!-- S=任务-->
+											<li>
+												<a class="dropdown-toggle" data-toggle="dropdown" title="Tasks" href="#">
+													<i class="icon fa fa-tasks"></i>
+													<span class="badge">4</span>
+												</a>
+
+												<ul class="pull-right dropdown-menu dropdown-tasks dropdown-arrow ">
+													<li class="dropdown-header bordered-darkorange">
+														标题
+													</li>
+													<li>
+														<a href="#">
+															<div class="clearfix">
+																<span class="pull-left">Account Creation</span>
+																<span class="pull-right">65%</span>
+															</div>
+
+															<div class="progress progress-xs">
+																<div style="width:65%" class="progress-bar"></div>
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<div class="clearfix">
+																<span class="pull-left">Profile Data</span>
+																<span class="pull-right">35%</span>
+															</div>
+
+															<div class="progress progress-xs">
+																<div style="width:35%" class="progress-bar progress-bar-success"></div>
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<div class="clearfix">
+																<span class="pull-left">Updating Resume</span>
+																<span class="pull-right">75%</span>
+															</div>
+
+															<div class="progress progress-xs">
+																<div style="width:75%" class="progress-bar progress-bar-darkorange"></div>
+															</div>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<div class="clearfix">
+																<span class="pull-left">Adding Contacts</span>
+																<span class="pull-right">10%</span>
+															</div>
+
+															<div class="progress progress-xs">
+																<div style="width:10%" class="progress-bar progress-bar-warning"></div>
+															</div>
+														</a>
+													</li>
+													<li class="dropdown-footer">
+														<a href="#">
+															See All Tasks
+														</a>
+														<button class="btn btn-xs btn-default shiny darkorange icon-only pull-right">
+                                                    <i
+                                                            class="fa fa-check"></i></button>
+													</li>
+												</ul>
+											</li>
+											<!-- E= 任务-->
+											<!-- S= 用户信息-->
+											<li>
+												<a class="login-area dropdown-toggle" data-toggle="dropdown">
+													<div class="avatar" title="View your public profile">
+														<img src="../../dep/assets/img/avatars/adam-jansen.jpg">
+													</div>
+													<section>
+														<h2><span class="profile"><span>集团质检中心经理-王大伟</span></span></h2>
+													</section>
+												</a>
+												<!--Login Area Dropdown-->
+												<ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
+													<li class="username">
+														<a>集团质检中心经理-王大伟</a>
+													</li>
+													<li class="email">
+														<a>wdw@xuehuiwang.com</a>
+													</li>
+													<!--Avatar Area-->
+													<li>
+														<div class="avatar-area">
+															<img src="../../dep/assets/img/avatars/adam-jansen.jpg" class="avatar">
+															<span class="caption">修改照片</span>
+														</div>
+													</li>
+													<!--Avatar Area-->
+													<li class="edit">
+														<a href="profile.html" class="pull-left">简介</a>
+														<a href="#" class="pull-right">设置</a>
+													</li>
+													<!-- E= 颜色主题-->
+													<li class="theme-area">
+														<ul class="colorpicker" id="skin-changer">
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="../../dep/assets/css/skins/blue.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="../../dep/assets/css/skins/azure.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="../../dep/assets/css/skins/teal.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="../../dep/assets/css/skins/green.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="../../dep/assets/css/skins/orange.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="../../dep/assets/css/skins/pink.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="../../dep/assets/css/skins/darkred.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="../../dep/assets/css/skins/purple.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="../../dep/assets/css/skins/darkblue.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#585858;" rel="../../dep/assets/css/skins/gray.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#474544;" rel="../../dep/assets/css/skins/black.min.css"></a>
+															</li>
+															<li>
+																<a class="colorpick-btn" href="#" style="background-color:#001940;" rel="../../dep/assets/css/skins/deepblue.min.css"></a>
+															</li>
+														</ul>
+													</li>
+													<!-- E= 颜色主题-->
+													<li class="dropdown-footer">
+														<a href="login.html">
+															退出
+														</a>
+													</li>
+												</ul>
+
+											</li>
+											<!-- E= 用户信息-->
+										</ul>
+										<!-- S= 设置-->
+										<div class="setting">
+											<a id="btn-setting" title="Setting" href="#">
+												<i class="icon glyphicon glyphicon-cog"></i>
+											</a>
+										</div>
+										<div class="setting-container">
+											<label>
+                                        <input type="checkbox" id="checkbox_fixednavbar">
+                                        <span class="text">固定导航条</span>
+                                    </label>
+											<label>
+                                        <input type="checkbox" id="checkbox_fixedsidebar">
+                                        <span class="text">固定左侧导航</span>
+                                    </label>
+											<label>
+                                        <input type="checkbox" id="checkbox_fixedbreadcrumbs">
+                                        <span class="text">固定面包屑导航</span>
+                                    </label>
+											<label>
+                                        <input type="checkbox" id="checkbox_fixedheader">
+                                        <span class="text">固定头部</span>
+                                    </label>
+										</div>
+										<!-- E= Settings -->
+									</div>
+								</div>
+								<!-- E= 信息和设置 --->
+							</div>
+						</div>
+					</div>
+					<!-- S= 右侧顶部导航 -->
+					<!-- S= 右侧头部按钮 -->
+					<div class="page-header position-relative">
+						<div class="header-buttons">
+							<a class="sidebar-toggler" href="#">
+								<i class="fa fa-arrows-h"></i>
+							</a>
+							<a class="refresh" id="refresh-toggler" href="">
+								<i class="glyphicon glyphicon-refresh"></i>
+							</a>
+							<a class="fullscreen" id="fullscreen-toggler" href="#">
+								<i class="glyphicon glyphicon-fullscreen"></i>
+							</a>
+						</div>
+						<!--S= 功能切换-->
+						<div class="tabs">
+							<ul class="tabs-list">
+								<li>
+									<a href="#">
+										<i class="menu-icon glyphicon glyphicon-home"></i>
+										<span>工作台</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<!--<i class="menu-icon glyphicon glyphicon-home"></i>-->
+										<span>职位设置</span>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">
+										<!--<i class="menu-icon glyphicon glyphicon-home"></i>-->
+										<span>学员属性</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--E= 功能切换-->
+					</div>
+					<!-- = 右侧头部按钮 -->
+
+					<!-- S= 右侧页面主体 -->
+					<div class="page-body">
+
+						<h5 class="row-title">
+                    <img src="../../dep/assets/img/department-icon.png" alt="">
+                    <span>学员属性</span>
+                </h5>
+
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 col-xs-12">
+								<div class="row">
+									<div class="col-lg-10 col-sm-10 col-xs-12">
+										<div class="widget">
+											<div class="widget-header">
+
+												<div class="widget-buttons">
+													<a href="#" data-toggle="config">
+														<i class="fa fa-cog"></i>
+													</a>
+													<a href="#" data-toggle="maximize">
+														<i class="fa fa-expand"></i>
+													</a>
+													<a href="#" data-toggle="collapse">
+														<i class="fa fa-minus"></i>
+													</a>
+													<a href="#" data-toggle="dispose">
+														<i class="fa fa-times"></i>
+													</a>
+												</div>
+											</div>
+
+											<div class="widget-body widget-body-1">
+												<div class="widget-main ">
+													<div class="tabbable">
+														<ul class="nav nav-tabs tabs-flat myTab11" id="myTab11">
+															<li class="active">
+																<a class="tab" data-toggle="tab" href="#home11">
+																	媒体来源
+																</a>
+															</li>
+															<li>
+																<a class="tab" data-toggle="tab" href="#profile11">
+																	咨询者类型
+																</a>
+															</li>
+															<li class="">
+																<a class="tab" data-toggle="tab" href="#education">
+																	学员学历
+																</a>
+															</li>
+														</ul>
+														<div class="tab-content tabs-flat tab-content_1">
+															<div id="home11" class="tab-pane in active">
+																<div class="">
+																		<div class="row row_padding">
+																			<div class="col-lg-2 col-lg-offset-1  col-padd">
+																				<div class="form-group">
+																					<span class="input-icon icon-right">
+																					<input type="text" class="form-control" style="border-radius:30px!important;" placeholder="来源名称">
+																					<i class="glyphicon glyphicon-search blue"></i>
+																					</span>
+																				</div>
+																			</div>
+																			<div class="col-lg-5"></div>
+																			<div class="col-lg-2 btn-group">
+																				<a class="btn btn-default DTTT_button_print pointer" id="" title="View print view"><span>打印</span></a>
+																				<a class="btn btn-default DTTT_button_collection export" id=""><span>导出 <i class="fa fa-angle-up"></i></span></a>
+																				<span class="btn increase" href="javascript:void(0);">新增 <i class="fa  fa-plus-square-o right"></i></span>
+																			</div>
+																		
+																		<table class="table table-striped table-hover table-bordered"  id="bodyHtml" >
+                                <thead>
+                                    <tr role="row">
+                                        <th width="5%" >
+                                            <label>
+                                                <input type="checkbox"  id="hvtck">
+                                                <span class="text" id="dohovertree"></span>
+
+                                            </label>
+                                        </th>
+                                        <th >
+                                            会员编号 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                        <th>
+                                            姓名 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                        <th>
+                                            手机号码 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                        <th>
+                                            性别 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                        <th >
+                                           单位 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                        <th>
+                                           渠道来源 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+
+                                        <th >
+                                           操作 <span class="fa indicator fa-unsorted"></span>
+                                        </th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                   <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                      <td>
+                                            <label>
+                                                <input type="checkbox" name="myHoverTreechk">
+                                                <span class="text"></span>
+                                            </label>
+                                        </td>
+                                        <td >0125842642</td>
+                                        <td >张三疯</td>
+                                        <td>15866945582</td>
+                                        <td >男</td>
+                                        <td>北京中和教育集团</td>
+                                        <td>好大夫</td>
+
+                                        <td>
+                                            <a href="information_common_look.html" class="btn btn-ck btn-xs edit"><i class="fa fa-folder-open-o"></i> 查看</a>
+                                            <a href="addinformation_common.html" class="btn btn-info btn-xs edit"><i class="fa fa-pencil"></i> 修改</a>
+                                            <a href="#" class="btn btn-danger btn-xs removeClass"><i class="fa fa-trash-o"></i> 删除</a>
+                                            <a href="../surveyReport.html" class="btn btn-magenta btn-xs "><i class="fa  fa-file-text"></i> 问卷调查</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                             </table>
+																		<div class="row DTTTFooter">
+																			<div class="col-sm-6">
+																				
+																			</div>
+																			<div class="col-sm-6">
+																				
+																			</div>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+
+															<div id="profile11" class="tab-pane">
+																<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+															</div>
+
+															<div id="education" class="tab-pane in ">
+																<p>Raw denim you probably haven't heard of them jean shorts Austin.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- E= 右侧页面主体 -->
+				</div>
+				<!-- E= 右侧内容 -->
+			</div>
+		</div>
+
+		<!--Basic Scripts-->
+		<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+		<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+		<!--Beyond Scripts-->
+		<script src="../../dep/assets/js/jquery.dataTables.min.js"></script>
+		<script src="assets/js/datatable/jquery.dataTables.min.js"></script>
+		<script src="../../dep/assets/js/beyond.min.js"></script>
+		<script src="../../js/common.js"></script>
+		<script src="../../dep/assets/js/dataTables.tableTools.min.js"></script>
+		<script src="../../dep/assets/js/dataTables.bootstrap.min.js"></script>
+		<script src="../../dep/assets/js/datatables-init.js"></script>
+	<script>
+        InitiateSimpleDataTable.init();
+        InitiateEditableDataTable.init();
+        InitiateExpandableDataTable.init();
+        InitiateSearchableDataTable.init();
+    </script>
+    <script type="text/javascript">
+			var old = null; //用来保存原来的对象  
+			$(".radio").each(function() { //循环绑定事件  
+				if(this.checked) {
+					old = this; //如果当前对象选中，保存该对象  
+				}
+				this.onclick = function() {
+					if(this == old) { //如果点击的对象原来是选中的，取消选中  
+						this.checked = false;
+						old = null;
+					} else {
+						old = this;
+					}
+				}
+			});
+
+			var check_old = null;
+			$(".check").click(function() {
+				
+				if(this== check_old) {
+					$(".radio").attr("checked", false);
+					check_old = null;
+
+				} else {
+					$(".radio").attr("checked", true);
+					check_old = this;
+
+				}
+
+			});
+
+
+    </script>
+	</body>
+
+</html>
+

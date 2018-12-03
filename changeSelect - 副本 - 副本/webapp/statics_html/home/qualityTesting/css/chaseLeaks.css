@@ -1,0 +1,26 @@
+.widget-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-sm-12 .label-text {
+    margin-left: -33px
+}
+
+.pagelinks {
+    width: 80%;
+}
+
+.contact-way {
+    margin-left: -23px;
+}
+
+#checkPhone > .form-group {
+    position: relative;
+}
+
+.examine-btn {
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+}

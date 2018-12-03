@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.login-container {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/login-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    font-family: "microsoft yahei";
+}
+
+.login-container .login-header {
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 14px 0 14px 290px;
+}
+
+.login-container .loginbox {
+    width: 460px !important;
+    height: 452px !important;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 32%;
+    right: 10%;
+}
+
+.login-container .loginbox {
+    padding: 0 40px;
+}
+
+.login-container .loginbox .loginbox-title {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    height: 96px;
+    line-height: 96px;
+    border-bottom: 1px solid #c0b7b6;
+    font-family: "microsoft yahei";
+}
+
+.login-container .loginbox .loginbox-body {
+    padding-top: 20px;
+}
+
+.login-container .loginbox .loginbox-body .form-group {
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+    height: 42px;
+    line-height: 42px;
+    border-radius: 6px !important;
+    font-size: 16px;
+}
+
+button[type="submit"], button[type="submit"]:hover, button[type="submit"]:focus {
+    color: #FFF;
+    border-radius: 6px !important;
+    height: 42px;
+    font-size: 16px;
+}
+.loginbox-footer {
+    font-size: 16px;
+}
+
+.input-icon > input {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.input-icon .user-icon,.input-icon .password-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+}
+
+.input-icon i.user-icon {
+    background: url("../image/username.png") no-repeat;
+}
+
+.input-icon i.password-icon {
+    background: url("../image/password.png") no-repeat;
+}
+
+.checkbox label {
+    padding-left: 0;
+}
+
+input[type=checkbox] + .text:before, input[type=radio] + .text:before,
+input[type=checkbox] + .text:hover:before, input[type=radio] + .text:hover:before,
+input[type=checkbox]:checked + .text:before, input[type=radio]:checked + .text:before {
+    border-radius: 3px !important;
+    color: #555 !important;
+    border-color: #d5d5d5;;
+}
+
+.text, .forgetPassword {
+    font-size: 16px;
+}
+
+.errorMessage{
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #e22;
+}
+
+.form-group.has-error .help-block, .input-group.has-error .help-block,
+.form-group.has-error .help-inline, .input-group.has-error .help-inline{
+    font-size: 15px;
+}
+
+.has-feedback i.form-control-feedback{
+    height: 41px;
+    line-height: 34px;
+    left: auto;
+    right: 0 !important;
+}
+

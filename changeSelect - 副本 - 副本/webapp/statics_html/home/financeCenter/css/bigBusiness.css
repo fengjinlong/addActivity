@@ -1,0 +1,24 @@
+.search-box.form-group {
+    width: 85px;
+    margin-left: 15px;
+}
+
+.search .btn {
+    width: 85px;
+}
+
+.datetimepicker.dropdown-menu {
+    top: 234px !important;
+}
+
+.remarkText {
+    margin-left: -40px;
+}
+
+.remarkContent {
+    width: 85%;
+}
+
+.fineView .input-group .input-group-addon {
+    border-color: #e5e5e5;
+}

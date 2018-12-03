@@ -1,0 +1,24 @@
+button.form-control,button.form-control:hover,button.form-control:focus,button.form-control:visited {
+    color: #FFF;
+}
+.datepicker.dropdown-menu{
+    z-index:9999 !important;
+}
+.textContent{
+    padding-right: 2px;
+}
+.labelText {
+    margin-left: -41px;
+}
+.search-btn{
+    width: 74px;
+    padding: 0;
+}
+.row.form-horizontal .form-group{
+    margin-bottom: 0;
+}
+
+.chosen-disabled {
+    opacity: 0.7 !important;
+    cursor: default;
+}

@@ -1,0 +1,39 @@
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.Bulkimport {
+    background: #eee;
+    margin-left: 0 !important;
+    line-height: 36px;
+}
+
+.Bulkimport a {
+    color: blue;
+}
+
+#write, #reply {
+    margin-left: 30px;
+}
+
+#write .load-btn {
+    margin-left: 5px;
+}
+
+#write .project {
+    position: relative;
+    z-index: 99;
+}
+
+.ke-container {
+    width: 668px !important;
+}

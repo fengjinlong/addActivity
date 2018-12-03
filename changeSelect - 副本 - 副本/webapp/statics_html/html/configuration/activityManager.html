@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>配置中心--活动管理</title>
+    <!--[if lt IE 8]> <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"> <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="../../dep/assets/img/favicon.png"
+          type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link id="bootstrap-rtl-link" href="" rel="stylesheet"/>
+    <link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="../../dep/assets/css/beyond.min.css"
+          rel="stylesheet" type="text/css"/>
+    <link href="../../dep/assets/css/animate.min.css" rel="stylesheet"/>
+    <link id="skin-link" href="" rel="stylesheet" type="text/css"/>
+    <link href="../../common/css/common.css" rel="stylesheet">
+    <link href="../../home/configuration/css/activityManager.css" rel="stylesheet">
+
+    <script src="../../dep/assets/js/skins.js"></script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+<body>
+
+<!-- Loading Container -->
+<div class="loading-container">
+    <div class="loading-progress ">
+        <div class="rotator">
+            <div class="rotator">
+                <div class="rotator colored">
+                    <div class="rotator">
+                        <div class="rotator colored">
+                            <div class="rotator colored"></div>
+                            <div class="rotator"></div>
+                        </div>
+                        <div class="rotator colored"></div>
+                    </div>
+                    <div class="rotator"></div>
+                </div>
+                <div class="rotator"></div>
+            </div>
+            <div class="rotator"></div>
+        </div>
+        <div class="rotator"></div>
+    </div>
+</div>
+<!--  /Loading Container -->
+<!-- 顶部导航条 -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-container">
+            <!-- Navbar Barnd -->
+            <div class="navbar-header pull-left">
+                <a href="#" class="navbar-brand">
+                    <small>
+                        <img src="../../dep/assets/img/logo.png" alt=""/>
+                    </small>
+                </a>
+            </div>
+            <!-- /Navbar Barnd -->
+
+            <!-- Sidebar Collapse -->
+            <div class="sidebar-collapse" id="sidebar-collapse">
+                <i class="collapse-icon fa fa-bars"></i>
+            </div>
+            <!-- /Sidebar Collapse -->
+            <!-- Account Area and Settings --->
+            <div class="navbar-header pull-right">
+                <div class="navbar-account">
+                    <ul class="account-area">
+                        <li>
+                            <a class=" dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
+                                <i class="icon fa fa-warning"></i>
+                            </a>
+                            <!--Notification Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-arrow dropdown-notifications">
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <div class="notification-icon">
+                                                <i class="fa fa-phone bg-themeprimary white"></i>
+                                            </div>
+                                            <div class="notification-body">
+                                                <span class="title">Skype meeting with Patty</span>
+                                                <span class="description">01:00 pm</span>
+                                            </div>
+                                            <div class="notification-extra">
+                                                <i class="fa fa-clock-o themeprimary"></i>
+                                                <span class="description">office</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <div class="notification-icon">
+                                                <i class="fa fa-check bg-darkorange white"></i>
+                                            </div>
+                                            <div class="notification-body">
+                                                <span class="title">Uncharted break</span>
+                                                <span class="description">03:30 pm - 05:15 pm</span>
+                                            </div>
+                                            <div class="notification-extra">
+                                                <i class="fa fa-clock-o darkorange"></i>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <div class="notification-icon">
+                                                <i class="fa fa-gift bg-warning white"></i>
+                                            </div>
+                                            <div class="notification-body">
+                                                <span class="title">Kate birthday party</span>
+                                                <span class="description">08:30 pm</span>
+                                            </div>
+                                            <div class="notification-extra">
+                                                <i class="fa fa-calendar warning"></i>
+                                                <i class="fa fa-clock-o warning"></i>
+                                                <span class="description">at home</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <div class="notification-icon">
+                                                <i class="fa fa-glass bg-success white"></i>
+                                            </div>
+                                            <div class="notification-body">
+                                                <span class="title">Dinner with friends</span>
+                                                <span class="description">10:30 pm</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-footer ">
+                                        <span>
+                                            Today, March 28
+                                        </span>
+                                        <span class="pull-right">
+                                            10°c
+                                            <i class="wi wi-cloudy"></i>
+                                        </span>
+                                </li>
+                            </ul>
+                            <!--/Notification Dropdown-->
+                        </li>
+                        <li>
+                            <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
+                                <i class="icon fa fa-envelope"></i>
+                                <span class="badge">3</span>
+                            </a>
+                            <!--Messages Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-arrow dropdown-messages">
+                                <li>
+                                    <a href="#">
+                                        <img src="../../dep/assets/img/avatars/divyia.jpg"
+                                             class="message-avatar" alt="Divyia Austin">
+                                        <div class="message">
+                                                <span class="message-sender">
+                                                    Divyia Austin
+                                                </span>
+                                                <span class="message-time">
+                                                    2 minutes ago
+                                                </span>
+                                                <span class="message-subject">
+                                                    Here's the recipe for apple pie
+                                                </span>
+                                                <span class="message-body">
+                                                    to identify the sending application when the senders image is shown for the main icon
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../dep/assets/img/avatars/bing.png"
+                                             class="message-avatar" alt="Microsoft Bing">
+                                        <div class="message">
+                                                <span class="message-sender">
+                                                    Bing.com
+                                                </span>
+                                                <span class="message-time">
+                                                    Yesterday
+                                                </span>
+                                                <span class="message-subject">
+                                                    Bing Newsletter: The January Issue‏
+                                                </span>
+                                                <span class="message-body">
+                                                    Discover new music just in time for the Grammy® Awards.
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                             class="message-avatar" alt="Divyia Austin">
+                                        <div class="message">
+                                                <span class="message-sender">
+                                                    Nicolas
+                                                </span>
+                                                <span class="message-time">
+                                                    Friday, September 22
+                                                </span>
+                                                <span class="message-subject">
+                                                    New 4K Cameras
+                                                </span>
+                                                <span class="message-body">
+                                                    The 4K revolution has come over the horizon and is reaching the general populous
+                                                </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--/Messages Dropdown-->
+                        </li>
+
+                        <li>
+                            <a class="dropdown-toggle" data-toggle="dropdown" title="Tasks" href="#">
+                                <i class="icon fa fa-tasks"></i>
+                                <span class="badge">4</span>
+                            </a>
+                            <!--Tasks Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-tasks dropdown-arrow ">
+                                <li class="dropdown-header bordered-darkorange">
+                                    <i class="fa fa-tasks"></i>
+                                    4 Tasks In Progress
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <span class="pull-left">Account Creation</span>
+                                            <span class="pull-right">65%</span>
+                                        </div>
+
+                                        <div class="progress progress-xs">
+                                            <div style="width:65%" class="progress-bar"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <span class="pull-left">Profile Data</span>
+                                            <span class="pull-right">35%</span>
+                                        </div>
+
+                                        <div class="progress progress-xs">
+                                            <div style="width:35%" class="progress-bar progress-bar-success"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <span class="pull-left">Updating Resume</span>
+                                            <span class="pull-right">75%</span>
+                                        </div>
+
+                                        <div class="progress progress-xs">
+                                            <div style="width:75%" class="progress-bar progress-bar-darkorange"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="clearfix">
+                                            <span class="pull-left">Adding Contacts</span>
+                                            <span class="pull-right">10%</span>
+                                        </div>
+
+                                        <div class="progress progress-xs">
+                                            <div style="width:10%" class="progress-bar progress-bar-warning"></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="#">
+                                        See All Tasks
+                                    </a>
+                                    <button class="btn btn-xs btn-default shiny darkorange icon-only pull-right"><i
+                                            class="fa fa-check"></i></button>
+                                </li>
+                            </ul>
+                            <!--/Tasks Dropdown-->
+                        </li>
+                        <li>
+                            <a class="login-area dropdown-toggle" data-toggle="dropdown">
+                                <div class="avatar" title="View your public profile">
+                                    <img src="../../dep/assets/img/avatars/adam-jansen.jpg">
+                                </div>
+                                <section>
+                                    <h2><span class="profile"><span>David Stevenson</span></span></h2>
+                                </section>
+                            </a>
+                            <!--Login Area Dropdown-->
+                            <ul class="pull-right dropdown-menu dropdown-arrow dropdown-login-area">
+                                <li class="username"><a>David Stevenson</a></li>
+                                <li class="email"><a>David.Stevenson@live.com</a></li>
+                                <!--Avatar Area-->
+                                <li>
+                                    <div class="avatar-area">
+                                        <img src="../../dep/assets/img/avatars/adam-jansen.jpg"
+                                             class="avatar">
+                                        <span class="caption">Change Photo</span>
+                                    </div>
+                                </li>
+                                <!--Avatar Area-->
+                                <li class="edit">
+                                    <a href="profile.html" class="pull-left">Profile</a>
+                                    <a href="#" class="pull-right">Setting</a>
+                                </li>
+                                <!--Theme Selector Area-->
+                                <li class="theme-area">
+                                    <ul class="colorpicker" id="skin-changer">
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#5DB2FF;"
+                                               rel="../../dep/assets/css/skins/blue.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#2dc3e8;"
+                                               rel="../../dep/assets/css/skins/azure.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#03B3B2;"
+                                               rel="../../dep/assets/css/skins/teal.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#53a93f;"
+                                               rel="../../dep/assets/css/skins/green.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#FF8F32;"
+                                               rel="../../dep/assets/css/skins/orange.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#cc324b;"
+                                               rel="../../dep/assets/css/skins/pink.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#AC193D;"
+                                               rel="../../dep/assets/css/skins/darkred.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#8C0095;"
+                                               rel="../../dep/assets/css/skins/purple.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#0072C6;"
+                                               rel="../../dep/assets/css/skins/darkblue.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#585858;"
+                                               rel="../../dep/assets/css/skins/gray.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#474544;"
+                                               rel="../../dep/assets/css/skins/black.min.css"></a>
+                                        </li>
+                                        <li><a class="colorpick-btn" href="#" style="background-color:#001940;"
+                                               rel="../../dep/assets/css/skins/deepblue.min.css"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!--/Theme Selector Area-->
+                                <li class="dropdown-footer">
+                                    <a href="login.html">
+                                        Sign out
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--/Login Area Dropdown-->
+                        </li>
+                        <!-- /Account Area -->
+                        <!--Note: notice that setting div must start right after account area list.
+                        no space must be between these elements-->
+                        <!-- Settings -->
+                    </ul>
+                    <div class="setting">
+                        <a id="btn-setting" title="Setting" href="#">
+                            <i class="icon glyphicon glyphicon-cog"></i>
+                        </a>
+                    </div>
+                    <div class="setting-container">
+                        <label>
+                            <input type="checkbox" id="checkbox_fixednavbar">
+                            <span class="text">Fixed Navbar</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="checkbox_fixedsidebar">
+                            <span class="text">Fixed SideBar</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="checkbox_fixedbreadcrumbs">
+                            <span class="text">Fixed BreadCrumbs</span>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="checkbox_fixedheader">
+                            <span class="text">Fixed Header</span>
+                        </label>
+                    </div>
+                    <!-- Settings -->
+                </div>
+            </div>
+            <!-- /Account Area and Settings -->
+        </div>
+    </div>
+</div>
+<!-- /顶部导航条 -->
+<!-- Main Container -->
+<div class="main-container container-fluid">
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- Page Sidebar -->
+        <div class="page-sidebar" id="sidebar">
+            <!-- 左侧菜单 -->
+            <ul class="nav sidebar-menu">
+                <!--工作台-->
+                <li class="active">
+                    <a href="main.html">
+                        <i class="menu-icon glyphicon glyphicon-home"></i>
+                        <span class="menu-text">工作台</span>
+                    </a>
+                </li>
+                <!--咨询中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-comments"></i>
+                        <span class="menu-text">咨询中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="../consultcenter/infoManagement.html">
+                                <span class="menu-text">信息管理中心</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="../consultcenter/infoDistribution.html">
+                                <span class="menu-text">信息分发中心</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../consultcenter/consultWorkbench.html">
+                                <span class="menu-text">咨询工作台</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--服务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-headphones"></i>
+                        <span class="menu-text">服务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="../serviceCenter/examWorkbench.html">
+                                <span class="menu-text">报考工作台</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">服务工作台</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../serviceCenter/graduateStudents.html">
+                                        <span class="menu-text">毕业学员</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/serviceCenter.html">
+                                        <span class="menu-text">学员服务中心</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/certificate.html">
+                                        <span class="menu-text">证书管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/infoBulletin.html">
+                                        <span class="menu-text">信息公告</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/score.html">
+                                        <span class="menu-text">成绩管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/signIn.html">
+                                        <span class="menu-text">签到管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../serviceCenter/insideLetter.html">
+                                        <span class="menu-text">站内信</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--财务中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa  fa-dollar"></i>
+                        <span class="menu-text">财务中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">集团财务</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../financeCenter/groupFinance.html">
+                                        <span class="menu-text">收入明细</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/comprehensive.html">
+                                        <span class="menu-text">综合部收入</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/application.html">
+                                        <span class="menu-text">财务申请</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/cwzhichu.html">
+                                        <span class="menu-text">财务支出</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../financeCenter/yumoney.html">
+                                        <span class="menu-text">余额查询</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/yingshou.html">
+                                        <span class="menu-text">应收款</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">分校财务</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../financeCenter/branchFinance.html">
+                                        <span class="menu-text">分校绩效表</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/performanceAdjust.html">
+                                        <span class="menu-text">分校绩效调整</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/fenxiaocw_new.html">
+                                        <span class="menu-text">分校财务收入</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/fenxiaozhichu.html">
+                                        <span class="menu-text">分校财务支出</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/yueselect.html">
+                                        <span class="menu-text">余额查询</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">中培财务</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../financeCenter/zhongpei_sr.html">
+                                        <span class="menu-text">中培财务收入</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../financeCenter/zhongpei_zc.html">
+                                        <span class="menu-text">中培财务支出</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--审批工作台-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-edit"></i>
+                        <span class="menu-text">审批工作台</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="../examineApprove/apply.html" class="menu-dropdown">
+                                <span class="menu-text">申请</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../examineApprove/accraditation.html" class="menu-dropdown">
+                                <span class="menu-text">审批</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../examineApprove/handle.html" class="menu-dropdown">
+                                <span class="menu-text">经办</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../examineApprove/applied.html" class="menu-dropdown">
+                                <span class="menu-text">已申请</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--质检中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-wrench"></i>
+                        <span class="menu-text">质检中心</span>
+
+                        <i class="menu-expand"></i>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="../qualityTesting/rewardPunish.html">
+                                <span class="menu-text">奖罚管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../qualityTesting/callback.html">
+                                <span class="menu-text">回访管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../qualityTesting/chaseLeaks.html">
+                                <span class="menu-text">查漏管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../qualityTesting/change.html">
+                                <span class="menu-text">变更管理</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--产品数据库-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-bar-chart-o"></i>
+                        <span class="menu-text">产品数据库</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="../productDatabase/professional.html">
+                                <span class="menu-text">职业资格招生简章</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../productDatabase/liveStudent.html">
+                                <span class="menu-text">直播招生简章</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../productDatabase/education.html">
+                                <span class="menu-text">学历招生简章</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--配置中心-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon glyphicon glyphicon-cog"></i>
+                        <span class="menu-text">配置中心</span>
+                        <i class="menu-expand"></i>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">产品配置</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../configuration/collegeName.html">
+                                        <span class="menu-text">院校名称管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/majorName.html">
+                                        <span class="menu-text">专业名称管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/projectLevel.html">
+                                        <span class="menu-text">项目、级别管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/productPricing.html">
+                                        <span class="menu-text">产品定价</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/productConfig.html">
+                                        <span class="menu-text">产品配置</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/partnerManage.html">
+                                        <span class="menu-text">合作方管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/examinationFee.html">
+                                        <span class="menu-text">考务费设置</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/examSittings.html">
+                                        <span class="menu-text">考期设置</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/entryForm.html">
+                                        <span class="menu-text">报名表说明配置</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">咨询配置</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../configuration/activityManager.html">
+                                        <span class="menu-text">活动管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/inquiriesRules.html">
+                                        <span class="menu-text">咨询规则管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/inquiries.html">
+                                        <span class="menu-text">咨询量分配设置</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/infoQuantity.html">
+                                        <span class="menu-text">信息量归属管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/personnelMatch.html">
+                                        <span class="menu-text">人员城市匹配</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/brandSetting.html">
+                                        <span class="menu-text">品牌设置</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">财务配置</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../configuration/branchDivide.html">
+                                        <span class="menu-text">分校分成比例管理</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/financeConfig.html">
+                                        <span class="menu-text">财务配置</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">质检配置</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../configuration/rewardsCategory.html">
+                                        <span class="menu-text">奖惩类别设置</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">服务配置</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../configuration/serviceClass.html">
+                                        <span class="menu-text">服务类别配置</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../configuration/dataUpload.html">
+                                        <span class="menu-text">学员资料上传配置</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--系统管理-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-th"></i>
+                        <span class="menu-text">系统管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="../sysconf/user.html">
+                                <span class="menu-text">用户管理</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="../sysconf/department.html">
+                                <span class="menu-text">部门管理(职位)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../sysconf/permission.html">
+                                <span class="menu-text">权限管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../sysconf/menu.html">
+                                <span class="menu-text">菜单管理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">字典管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../sysconf/widgets.html">
+                                        <span class="menu-text">学员属性</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../sysconf/city.html">
+                                        <span class="menu-text">区域属性</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-dropdown">
+                                <span class="menu-text">公告管理</span>
+                                <i class="menu-expand"></i>
+                            </a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="../sysconf/zhidu.html">
+                                        <span class="menu-text">制度管理</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="../sysconf/rewardPunish.html">
+                                        <span class="menu-text">奖惩明细</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--日志管理-->
+                <li>
+                    <a href="#" class="menu-dropdown">
+                        <i class="menu-icon fa fa-book"></i>
+                        <span class="menu-text">日志管理</span>
+                        <i class="menu-expand"></i>
+                    </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="../logManagement/logOperation.html">
+                                <span class="menu-text">操作日期</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../logManagement/logSystem.html">
+                                <span class="menu-text">系统日志</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- /左侧菜单 -->
+        </div>
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="#">配置中心</a>
+                    </li>
+                    <li>
+                        <a href="#">咨询配置</a>
+                    </li>
+                    <li>
+                        活动管理
+                    </li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+            <!-- Page Header -->
+            <div class="page-header position-relative">
+                <div class="header-title">
+                    <h5 class="title">活动管理</h5>
+                </div>
+                <!--Header Buttons-->
+                <div class="header-buttons">
+                    <a class="sidebar-toggler" href="#">
+                        <i class="fa fa-arrows-h"></i>
+                    </a>
+                    <a class="refresh" id="refresh-toggler" href="">
+                        <i class="glyphicon glyphicon-refresh"></i>
+                    </a>
+                    <a class="fullscreen" id="fullscreen-toggler" href="#">
+                        <i class="glyphicon glyphicon-fullscreen"></i>
+                    </a>
+                </div>
+                <!--Header Buttons End-->
+            </div>
+            <!-- /Page Header -->
+            <!-- Page Body -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-xs-12">
+                                <div class="widget">
+                                    <div class="widget-header">
+                                        <div class="widget-buttons">
+                                            <a href="#" data-toggle="collapse">
+                                                <i class="fa fa-minus"></i>
+                                            </a>
+                                            <a href="#" data-toggle="dispose">
+                                                <i class="fa fa-times"></i>
+                                            </a>
+                                        </div>
+                                        <!--Widget Buttons-->
+                                    </div>
+                                    <!--Widget Header-->
+                                    <div class="widget-body">
+                                        <div class="widget-main ">
+                                            <div class="tabbable">
+                                                <ul class="nav nav-tabs tabs-flat">
+                                                    <li class="active">
+                                                        <a data-toggle="tab" href="#promoCode">
+                                                            优惠码
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a data-toggle="tab" href="#salesPromotion">
+                                                            促销活动
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content tabs-flat bordered-blue">
+                                                    <div id="promoCode" class="tab-pane in active">
+                                                        <div class="row row_padding form-horizontal">
+                                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group col-lg-6 col-md-6 col-sm-8 no-margin-right">
+                                                                    <select name="satatus" class="form-control">
+                                                                        <option value="0">状态</option>
+                                                                        <option value="1">未使用</option>
+                                                                        <option value="2">已使用</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group col-lg-2 col-md-4 col-sm-4">
+                                                                    <button type="button"
+                                                                            class="btn btn-blue form-control search-btn">
+                                                                        搜索
+                                                                    </button>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-lg-3 col-md-4 col-sm-5 col-lg-offset-3 col-md-offset-2 col-xs-12 btn-group">
+                                                            <span class="btn btn-default pointer"
+                                                                  title="View print view"><span>打印</span></span>
+                                                                <div class="btn-group">
+                                                                    <button type="button"
+                                                                            class="btn btn-default dropdown-toggle"
+                                                                            data-toggle="dropdown">
+                                                                        导出
+                                                                        <i class="fa fa-angle-up"></i>
+                                                                    </button>
+                                                                    <ul class="dropdown-menu" role="menu">
+                                                                        <li><a href="#">保存PDF</a></li>
+                                                                        <li><a href="#">导出EXCEL</a></li>
+                                                                        <li><a href="#">导出CSV</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <button class="btn increase pull-right col-sm-4"
+                                                                        data-toggle="modal"
+                                                                        data-target=".promoCodeAdd"
+                                                                        data-backdrop="static">新增
+                                                                    <i class="fa fa-plus-square-o right"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <table class="table table-striped table-hover table-bordered dataTable no-footer">
+                                                            <thead>
+                                                            <tr role="row">
+                                                                <th width="5%">
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </th>
+                                                                <th>优惠码 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>使用起止日期 <span
+                                                                        class="fa indicator fa-unsorted"></span></th>
+                                                                <th>状态<span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>金额 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>使用时间 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>使用人<span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                            </tr>
+                                                            </thead>
+
+                                                            <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    C2PXM=NA06MY
+                                                                </td>
+                                                                <td>2016-10-10 - 2016-10-15</td>
+                                                                <td>未使用</td>
+                                                                <td>150</td>
+                                                                <td>2016-10-10 12:35:00</td>
+                                                                <td>
+                                                                    李会盟
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    C2PXM=NA06MY
+                                                                </td>
+                                                                <td>2016-10-10 - 2016-10-15</td>
+                                                                <td>未使用</td>
+                                                                <td>150</td>
+                                                                <td>2016-10-10 12:35:00</td>
+                                                                <td>
+                                                                    李会盟
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    C2PXM=NA06MY
+                                                                </td>
+                                                                <td>2016-10-10 - 2016-10-15</td>
+                                                                <td>未使用</td>
+                                                                <td>150</td>
+                                                                <td>2016-10-10 12:35:00</td>
+                                                                <td>
+                                                                    李会盟
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    C2PXM=NA06MY
+                                                                </td>
+                                                                <td>2016-10-10 - 2016-10-15</td>
+                                                                <td>未使用</td>
+                                                                <td>150</td>
+                                                                <td>2016-10-10 12:35:00</td>
+                                                                <td>
+                                                                    李会盟
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    C2PXM=NA06MY
+                                                                </td>
+                                                                <td>2016-10-10 - 2016-10-15</td>
+                                                                <td>未使用</td>
+                                                                <td>150</td>
+                                                                <td>2016-10-10 12:35:00</td>
+                                                                <td>
+                                                                    李会盟
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div id="salesPromotion" class="tab-pane">
+                                                        <div class="row row_padding form-horizontal">
+                                                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                                                <div class="form-group">
+                                                                    <label class="col-lg-2 col-md-3 col-sm-3 control-label no-padding-right">日期</label>
+                                                                    <div class="col-lg-10 col-md-9 col-sm-9">
+                                                                        <div class="controls">
+                                                                            <div class="input-group date">
+                                                                                <input type="text" class="form-control"
+                                                                                       id="duration1">
+                                                                                <span class="input-group-addon"><i
+                                                                                        class="fa fa-calendar"></i></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                                <div class="form-group col-md-6 col-sm-4 no-margin-right">
+                                                                    <input type="text" class="form-control"
+                                                                           placeholder="标题/项目名称/类型">
+                                                                </div>
+                                                                <div class="form-group col-lg-4 col-md-4 col-sm-4 no-margin-right">
+                                                                    <select class="form-control" name="status">
+                                                                        <option value="0">状态</option>
+                                                                        <option value="1">禁用</option>
+                                                                        <option value="2">启用</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                <div class="form-group col-lg-2 col-md-3 col-sm-4">
+                                                                    <button type="button"
+                                                                            class="btn btn-blue form-control search-btn">
+                                                                        搜索
+                                                                    </button>
+
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="col-md-3 col-sm-3 col-xs-12 btn-group">
+                                                                <span class="btn btn-default pointer"
+                                                                      title="View print view"><span>打印</span></span>
+                                                                <div class="btn-group">
+                                                                    <button type="button"
+                                                                            class="btn btn-default dropdown-toggle"
+                                                                            data-toggle="dropdown">
+                                                                        导出
+                                                                        <i class="fa fa-angle-up"></i>
+                                                                    </button>
+                                                                    <ul class="dropdown-menu" role="menu">
+                                                                        <li><a href="#">保存PDF</a></li>
+                                                                        <li><a href="#">导出EXCEL</a></li>
+                                                                        <li><a href="#">导出CSV</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <button class="btn increase pull-right col-sm-4"
+                                                                        data-toggle="modal"
+                                                                        data-target=".salesPromotionAdd"
+                                                                        data-backdrop="static">新增
+                                                                    <i class="fa fa-plus-square-o right"></i></button>
+                                                            </div>
+                                                        </div>
+
+                                                        <table class="table table-striped table-hover table-bordered dataTable no-footer">
+                                                            <thead>
+                                                            <tr role="row">
+                                                                <th width="5%">
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </th>
+                                                                <th>标题 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>项目名称 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>开始日期 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>结束日期 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>折扣 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>类型 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>状态 <span class="fa indicator fa-unsorted"></span>
+                                                                </th>
+                                                                <th>操作</th>
+                                                            </tr>
+                                                            </thead>
+
+                                                            <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    双十一学历折扣
+                                                                </td>
+                                                                <td>学历</td>
+                                                                <td>2016-10-01</td>
+                                                                <td>2016-10-05</td>
+                                                                <td>0.8</td>
+                                                                <td>报名折扣</td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-use btn-xs status-btn"><i
+                                                                            class="fa fa-check-square-o"></i> 启用</a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-warning btn-xs"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionView"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-folder-open-o"></i> 查看</a>
+                                                                    <a href="#" class="btn btn-info btn-xs edit"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionEdit"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-edit"></i> 编辑</a>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    双十一学历折扣
+                                                                </td>
+                                                                <td>学历</td>
+                                                                <td>2016-10-01</td>
+                                                                <td>2016-10-05</td>
+                                                                <td>0.8</td>
+                                                                <td>报名折扣</td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-use btn-xs status-btn"><i
+                                                                            class="fa fa-check-square-o"></i> 启用</a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-warning btn-xs"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionView"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-folder-open-o"></i> 查看</a>
+                                                                    <a href="#" class="btn btn-info btn-xs edit"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionEdit"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-edit"></i> 编辑</a>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    双十一学历折扣
+                                                                </td>
+                                                                <td>学历</td>
+                                                                <td>2016-10-01</td>
+                                                                <td>2016-10-05</td>
+                                                                <td>0.8</td>
+                                                                <td>报名折扣</td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-nouse btn-xs status-btn"><i
+                                                                            class="fa fa-ban"></i> 禁用</a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-warning btn-xs"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionView"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-folder-open-o"></i> 查看</a>
+                                                                    <a href="#" class="btn btn-info btn-xs edit"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionEdit"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-edit"></i> 编辑</a>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    双十一学历折扣
+                                                                </td>
+                                                                <td>学历</td>
+                                                                <td>2016-10-01</td>
+                                                                <td>2016-10-05</td>
+                                                                <td>0.8</td>
+                                                                <td>报名折扣</td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-nouse btn-xs status-btn"><i
+                                                                            class="fa fa-ban"></i> 禁用</a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-warning btn-xs"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionView"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-folder-open-o"></i> 查看</a>
+                                                                    <a href="#" class="btn btn-info btn-xs edit"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionEdit"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-edit"></i> 编辑</a>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <label>
+                                                                        <input type="checkbox">
+                                                                        <span class="text"></span>
+                                                                    </label>
+                                                                </td>
+                                                                <td>
+                                                                    双十一学历折扣
+                                                                </td>
+                                                                <td>学历</td>
+                                                                <td>2016-10-01</td>
+                                                                <td>2016-10-05</td>
+                                                                <td>0.8</td>
+                                                                <td>报名折扣</td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-use btn-xs status-btn"><i
+                                                                            class="fa fa-check-square-o"></i> 启用</a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="btn btn-warning btn-xs"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionView"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-folder-open-o"></i> 查看</a>
+                                                                    <a href="#" class="btn btn-info btn-xs edit"
+                                                                       data-toggle="modal"
+                                                                       data-target=".salesPromotionEdit"
+                                                                       data-backdrop="static">
+                                                                        <i class="fa fa-edit"></i> 编辑</a>
+                                                                </td>
+                                                                </td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Widget-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Content -->
+        </div>
+        <!-- /Page Container -->
+        <!-- Main Container -->
+    </div>
+</div>
+
+<!--新增优惠码-->
+<div class="modal fade promoCodeAdd" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header bordered-blue">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <span class="widget-caption">新增</span>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="promoCodeAdd">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3 no-padding-right">金额</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-addon">元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3 no-padding-right">数量</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3 no-padding-right">起止日期</label>
+                        <div class="col-sm-8">
+                            <div class="input-group date">
+                                <input type="text" class="form-control" id="duration">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group modal-footer">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button type="submit" class="btn btn-primary form-control">生成优惠码</button>
+                        </div>
+                        <div class="col-sm-4 ">
+                            <button type="button" class="btn btn-danger form-control" data-dismiss="modal">取消</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--新增促销活动-->
+<div class="modal fade salesPromotionAdd" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bordered-blue">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <span class="widget-caption" id="myModalLabel">新增</span>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="salesPromotionAdd">
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">标题</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">所属项目</label>
+                        <div class="col-sm-9">
+                            <select class="form-control">
+                                <option value="0">人力</option>
+                                <option value="1">学历</option>
+                                <option value="2">心理</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 activityType">
+                        <label class="control-label col-sm-3 no-padding-right">类型</label>
+                        <div class="col-sm-9">
+                            <select name="activityType" class="form-control" id="activityAdd">
+                                <option value="0">--请选择--</option>
+                                <option value="1">报名折扣</option>
+                                <option value="2">满额返券</option>
+                                <option value="3">优惠码</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 overlay">
+                        <label class="control-label col-sm-3 no-padding-right">可叠加优惠</label>
+                        <div class="col-sm-9">
+                            <select name="overlay" class="form-control" id="overlayAdd">
+                                <option value="0">--请选择--</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 discount">
+                        <label class="control-label col-sm-3 no-padding-right">折扣</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="discount">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit1">
+                        <label class="control-label col-sm-3 no-padding-right">下限(1)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="lowerLimit1">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit2">
+                        <label class="control-label col-sm-3 no-padding-right">下限(2)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="lowerLimit2">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">起止日期</label>
+                        <div class="col-sm-9">
+                            <div class="input-group date">
+                                <input type="text" class="form-control" id="duration3">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">状态</label>
+                        <div class="col-sm-9">
+                            <select name="" class="form-control">
+                                <option value="0">启用</option>
+                                <option value="1">禁用</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <label class="control-label col-sm-2 no-padding-right remarkText">备注</label>
+                        <div class="col-sm-10 remarkContent">
+                            <textarea class="form-control" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group modal-footer">
+                        <div class="col-sm-2 col-sm-offset-4">
+                            <button type="submit" class="btn btn-primary form-control">确定</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <button type="button" class="btn btn-danger form-control" data-dismiss="modal">取消</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--查看-->
+<div class="modal fade salesPromotionView" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bordered-blue">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <span class="widget-caption">查看</span>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="salesPromotionView">
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">标题</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="双十一学历折扣" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">所属项目</label>
+                        <div class="col-sm-9">
+                            <select name="" class="form-control" disabled>
+                                <option value="0">人力</option>
+                                <option value="1">学历</option>
+                                <option value="2">心理</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 activityType">
+                        <label class="control-label col-sm-3 no-padding-right">类型</label>
+                        <div class="col-sm-9">
+                            <select name="activityType" class="form-control" disabled>
+                                <option value="0">报名折扣</option>
+                                <option value="1">满额返券</option>
+                                <option value="2">优惠码</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">可叠加优惠</label>
+                        <div class="col-sm-9">
+                            <select name="overlay" class="form-control overlay" disabled>
+                                <option value="0">独立</option>
+                                <option value="1">报名折扣</option>
+                                <option value="2">满额返券</option>
+                                <option value="3">优惠码</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 discount">
+                        <label class="control-label col-sm-3 no-padding-right">折扣</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.8" name="discount" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit1">
+                        <label class="control-label col-sm-3 no-padding-right">下限(1)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.00" name="lowerLimit1" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit2">
+                        <label class="control-label col-sm-3 no-padding-right">下限(2)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.00" name="lowerLimit2" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">起止日期</label>
+                        <div class="col-sm-9">
+                            <div class="input-group date">
+                                <input type="text" class="form-control" value="2016-10-01 - 2016-10-08" disabled>
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">状态</label>
+                        <div class="col-sm-9">
+                            <select name="" class="form-control" disabled>
+                                <option value="0">启用</option>
+                                <option value="1">禁用</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <label class="control-label col-sm-2 no-padding-right remarkText">备注</label>
+                        <div class="col-sm-10 remarkContent">
+                            <textarea class="form-control" rows="8"
+                                      disabled>2015年11月12日,第七个天猫双11全球狂欢节落下帷幕.........</textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--编辑-->
+<div class="modal fade salesPromotionEdit" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bordered-blue">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <span class="widget-caption">编辑</span>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="salesPromotionEdit">
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">标题</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="双十一学历折扣">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">所属项目</label>
+                        <div class="col-sm-9">
+                            <select name="" class="form-control">
+                                <option value="0">人力</option>
+                                <option value="1">学历</option>
+                                <option value="2">心理</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 activityType">
+                        <label class="control-label col-sm-3 no-padding-right">类型</label>
+                        <div class="col-sm-9">
+                            <select name="activityType" class="form-control" id="activityEdit">
+                                <option value="0">--请选择--</option>
+                                <option value="1">报名折扣</option>
+                                <option value="2">满额返券</option>
+                                <option value="3">优惠码</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 overlay">
+                        <label class="control-label col-sm-3 no-padding-right">可叠加优惠</label>
+                        <div class="col-sm-9">
+                            <select name="overlay" class="form-control" id="overlayEdit">
+                                <option value="0">--请选择--</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 discount">
+                        <label class="control-label col-sm-3 no-padding-right">折扣</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.8" name="discount">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit1">
+                        <label class="control-label col-sm-3 no-padding-right">下限(1)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.00" name="lowerLimit1">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 lowerLimit2">
+                        <label class="control-label col-sm-3 no-padding-right">下限(2)</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" value="0.00" name="lowerLimit2">
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">起止日期</label>
+                        <div class="col-sm-9">
+                            <div class="input-group date">
+                                <input type="text" class="form-control" id="duration2" value="11/14/2016 - 11/18/2016">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label class="control-label col-sm-3 no-padding-right">状态</label>
+                        <div class="col-sm-9">
+                            <select name="" class="form-control">
+                                <option value="0">启用</option>
+                                <option value="1">禁用</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <label class="control-label col-sm-2 no-padding-right remarkText">备注</label>
+                        <div class="col-sm-10 remarkContent">
+                            <textarea class="form-control" rows="8">2015年11月12日,第七个天猫双11全球狂欢节落下帷幕.........</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group modal-footer">
+                        <div class="col-sm-2 col-sm-offset-4">
+                            <button type="submit" class="btn btn-primary form-control">确定</button>
+                        </div>
+                        <div class="col-sm-2 ">
+                            <button type="button" class="btn btn-danger form-control" data-dismiss="modal">取消</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="../../dep/assets/js/beyond.min.js"></script>
+
+<!--日期插件-->
+<script src="../../dep/assets/js/datetime/moment.js"></script>
+<script src="../../dep/assets/js/datetime/daterangepicker.js"></script>
+
+<script src="../../home/configuration/js/activityManager.js"></script>
+</body>
+</html>

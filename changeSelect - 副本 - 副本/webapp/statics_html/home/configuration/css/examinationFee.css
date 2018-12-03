@@ -1,0 +1,81 @@
+.examinationAdd-body,.examinationEdit-body {
+    padding: 15px;
+    z-index: 99;
+}
+
+.modal-header {
+    background-color: #fff;
+    border-width: 2px;
+}
+
+.modal-header .modal-title {
+    font: 600 16px "Microsoft YaHei" !important;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.form-horizontal .active-time label.control-label {
+    margin-left: -10px;
+}
+
+.form-horizontal .active-time .col-sm-6 {
+    width: 48.4%;
+}
+
+.examinationAdd select {
+    padding: 4px 4px;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.attribution {
+    position: absolute !important;
+    top: 34px;
+    left: 17px;
+    z-index: 9999;
+    display: none;
+}
+
+.attribution .modal-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.attribution .modal-sm {
+    width: 300px;
+}
+
+.modal.fade .attribution .modal-dialog {
+    margin: 0;
+}
+
+.attribution .attribution-body {
+    padding: 15px;
+}
+
+.modal .attribution .form-group button {
+    height: 32px;
+}
+
+.chosen-container {
+    width: 100%;
+}
+
+.chosen-container-single .chosen-single {
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d5d5d5;
+}
+
+.contact-way {
+    margin-left: -23px;
+}
+
+.examinationAdd .modal-dialog,.examinationEdit .modal-dialog{
+    margin-top: 10%;
+}
