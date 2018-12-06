@@ -1,0 +1,818 @@
+.tabs-min_height {
+    max-height: 162px;
+    overflow-x: auto
+}
+
+.list_lh {
+    height: 162px;
+    overflow: hidden;
+    margin: 15px 0px
+}
+
+.list_lh ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list_lh li {
+    padding: 2px;
+}
+
+.list_lh li:hover {
+    cursor: pointer;
+}
+
+.list_lh li p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.beizhu_bg {
+    background: #ddd;
+    margin: 10px 0px 0px 0px;
+}
+
+textarea.beizhu {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    resize: none;
+    min-height: 120px;
+}
+
+.kecheng {
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.ranking img {
+    margin: 0 auto;
+}
+
+.cz_btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 2%;
+    margin-top: 5px;
+}
+
+.mg_top {
+    margin-top: 3px;
+}
+
+.tab_content_1 {
+    padding: 12px 12px !important;
+    min-height: 162px;
+    max-height: 162px;
+    overflow-y: auto;
+}
+
+.tab_content_1 .special td {
+    height: 70px !important;
+    line-height: 70px
+}
+
+li.length_special {
+    line-height: 20px !important;
+}
+
+.phone {
+    background: #97ab38
+}
+
+.huifang {
+    background: #53a93f
+}
+
+.message {
+    background: #57b5e3
+}
+
+.yuyue {
+    background: #ed4e2a
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.modal-header {
+    height: 40px;
+    line-height: 40px;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 0 15px;
+    border-bottom: 2px solid #5db2ff !important;
+}
+
+.modal-header .close {
+    margin-top: 4px;
+    z-index: 999999999;
+    position: relative;
+}
+
+.jiaofeil.modal.fade .modal-dialog  {
+    position: relative;
+    bottom:100px;
+}
+
+.touxiang-box {
+    position: relative;
+}
+
+.touxiang img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.nc_name {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.paiming {
+    background: url('../../sysconf/image/jiangpai.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 160px;
+}
+
+span.number, span.student_name, span.tips {
+    color: #f00
+}
+
+.slippage {
+    overflow: hidden;
+    max-height: 162px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 3px
+}
+
+.touxiang-box {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 3px;
+    padding-top: 10px;
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+div.modal_padding {
+    padding: 0px !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.btn_special_edit {
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+i.fa-call {
+    background-position: 2px -1px;
+}
+
+i.fa-huifang {
+    background-position: -27px -1px;
+}
+
+i.fa-message {
+    background-position: -68px 2px;
+}
+
+i.fa-yuyue {
+    background-position: -100px 0px;
+}
+
+i.fa-shangmen {
+    background-position: -132px 0px;
+}
+
+i.fa-dingzuo {
+    background-position: -163px 0px;
+}
+
+i.fa-baoming {
+    background-position: 3px -32px;
+}
+
+i.fa-gonglue {
+    width: 34px;
+    height: 34px;
+    background: url('../../consultcenter/image/gong.png') no-repeat;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    background-position-x: 5px;
+    background-position-y: 5px;
+}
+
+i.fa-jiaofei {
+    background-position: -28px -32px;
+}
+
+i.fa-yidong {
+    background-position: 6px -64px;
+}
+
+i.fa-tuifei {
+    background-position: -71px -33px;
+}
+
+i.fa-zhuangban {
+    background-position: -100px -33px;
+}
+
+i.fa-xiuxue {
+    background-position: -132px -33px;
+}
+
+i.fa-email {
+    background-position: -28px -70px;
+}
+
+ul.tab_content li.mg_bottom {
+    margin-bottom: 0
+}
+
+.position_rel {
+    position: relative;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.form_margin {
+    margin: 0 15px;
+}
+
+.add_row, .minus_row {
+    padding: 0 12px
+}
+
+.minus_row {
+    margin-top: 6px;
+}
+
+label.week {
+    padding-left: 13px !important
+}
+
+.medal p {
+    line-height: 42px !important;
+    padding-bottom: 15px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -56px !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+input[type=checkbox]:checked + .text:before, input[type=radio]:checked + .text:before {
+    border-color: #c8c8c8;
+}
+
+input[type=checkbox] + .text:before, input[type=radio] + .text:before {
+    border: 1px solid #c8c8c8;
+    color: #333;
+}
+
+.filtrate-text {
+    margin-left: -21px;
+}
+
+.preferentialType input[type=checkbox] + .text, .preferentialType input[type=radio] + .text {
+    width: 130px;
+}
+
+.preferentialType .col-sm-2.no-padding {
+    margin-right: 11px;
+}
+
+.holidayPromoCode .checkbox {
+    margin-left: 58px;
+    margin-top: 15px;
+    margin-right: -27px;
+}
+
+.holidayPromoCode input.form-control {
+    padding-right: 10px;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 34px;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+.datepicker {
+    z-index: 9999;
+}
+
+.examRegionText, .examBranchText {
+    margin-left: -41px;
+}
+
+.modal-body {
+    position: relative;
+}
+
+.gt_content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.label-box {
+    border: 1px solid #5db2ff;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.school {
+    display: inline-block;
+}
+
+.school select {
+    background: #d6e9fb !important;
+}
+
+.label-box {
+    position: relative;
+}
+
+.tag-close {
+    position: absolute;
+    right: -4px;
+    top: -1px;
+    font-size: 10px;
+    display: none;
+}
+
+/*固定按钮图标*/
+.right-toolbar {
+    position: fixed;
+    left: 100%;
+    top:10px;
+    z-index: 5;
+    padding-left: 0;
+}
+
+.right-toolbar a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: rgb(85, 122, 254);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 2px;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    -moz-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+.right-toolbar a .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background: #215594;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    display: none;
+}
+
+.right-toolbar a .up p {
+    padding: 4px 6px;
+}
+
+.right-toolbar a img {
+    vertical-align: middle;
+}
+
+.right-toolbar a i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.yidong {
+    position: relative;
+}
+
+.yidong ul {
+    padding-left: 52px;
+}
+
+.modal-footer {
+    margin-bottom: 15px;
+}
+
+.well .header[class*="bordered-"] {
+    border-bottom: 2px solid #fff;
+}
+
+.collapse-btn i {
+    line-height: 38px;
+}
+
+#showPage {
+    padding: 0;
+}
+
+table > tbody > tr > td a {
+    margin-right: 8px;
+}
+
+.tab-pane table > tbody > tr > td a i {
+    font-size: 18px;
+    padding: 0 3px;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    color: #000;
+}
+
+.tooltip-arrow {
+    border-top-color: #aaa !important;
+}
+
+th {
+    text-align: center !important;
+}
+
+.ranking-num {
+    background-size: 100px 100px !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% !important;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px !important;
+    cursor: pointer;
+}
+
+.ranking-num:hover {
+    color: red !important;
+}
+
+.ranking-wen {
+    line-height: 30px;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    bottom: auto;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.bs-example-modal-lg, .bs-example-modal-lga {
+    height: 100%;
+}
+
+.bs-example-modal-lg1 > .modal-dialog > .modal-content > .modal-body, .bs-example-modal-lga > .modal-dialog > .modal-content > .modal-body {
+    overflow-y: auto !important;
+}
+
+.attribution {
+    position: absolute !important;
+    top: 34px;
+    left: 17px;
+    z-index: 9999;
+    display: none;
+}
+
+.attribution .modal-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.attribution .modal-sm {
+    width: 220px;
+}
+
+.attribution .modal-dialog {
+    margin: 0 auto !important;
+}
+
+.attribution .attribution-body {
+    padding: 15px;
+}
+
+.modal .attribution .form-group button, .modal .attribution .form-group button,
+.modal .attribution .form-group button:focus, .modal .attribution .form-group button:visited {
+    height: 32px;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.attribution .modal-footer {
+    padding: 0;
+
+}
+
+.payment {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.payment .fa-plus-circle {
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.payment .fa-minus-circle {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px !important;
+}
+
+.payment-time {
+    left: 15px;
+}
+
+.payment-text {
+    margin-left: -31px;
+}
+
+.col-sm-12 .margin-left {
+    margin-left: -33px
+}
+
+.chosen-container {
+    width: 100%;
+}
+
+.chosen-container-single .chosen-single {
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d5d5d5;
+}
+
+.contact-way {
+    margin-left: -23px;
+}
+
+#idcard2 {
+    padding: 2px !important
+}
+
+.return {
+    font-style: normal !important;
+    border-radius: 50%;
+    font-size: 14px !important;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #4374e0;
+    border-radius: 50%;
+}
+
+.bs-example-modal-lgyywsm .modal-dialog {
+    margin: 10% auto;
+}
+
+#dropModelDiv .modal-body {
+    padding-top: 30px !important;
+}
+
+.forward-visit-time {
+    width: 49%;
+}
+
+.forward-visit {
+    margin-left: -32px;
+}
+
+.summation {
+    position: relative;
+    top: 2px;
+}
+
+.forward-visit-time {
+    width: 51%;
+}
+
+.ke-container {
+    width: 668px !important;
+}
+
+#mustPaySum {
+    border-bottom: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .col-sm-12.form-group .col-sm-9 {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-sm-12.form-group .col-md-9 {
+        width: 82%;
+    }
+}
+
+.professionView, .educationView {
+    width: 700px;
+    margin-left: 46.4%;
+}
+
+.professionView .modal-dialog, .educationView .modal-dialog {
+    width: 100%;
+}
+
+.strategy {
+    width: 600px;
+    overflow: hidden !important;
+}
+
+.aaa .modal-dialog, .bs-example-modal-lga .modal-dialog, .strategy .modal-dialog {
+    margin: 50px auto;
+}
+
+.strategy .modal-body {
+    overflow-y: auto;
+}
+
+#tablezy_wrapper .dataTables_info, #tablexl_wrapper .dataTables_info {
+    width: auto !important;
+    margin-left: 15px;
+}
+
+#tablezy_wrapper .dataTables_paginate, #tablexl_wrapper .dataTables_paginate {
+    max-width: 296px !important;
+    padding-top: 0;
+}
+
+#tablezy_wrapper table > tbody > tr > td a, #tablexl_wrapper table > tbody > tr > td a {
+    margin-right: 0;
+}
+
+.orders-footer {
+    display: none;
+}
+
+.bs-example-modal-lg4 .modal-body {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.customer .modal-dialog {
+    margin-top: 10%;
+}
+
+.item-booker {
+    cursor: pointer;
+}
+
+.tagAdd {
+    position: absolute;
+    right: 55px;
+}
+
+.information .modal-dialog {
+    margin-top: 10%;
+}
+
+.orders-header h6 {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+}
+
+#myTab3.nav-tabs > li:last-child > a, #myTab3.nav-tabs > li.active > a,
+#myTab3.nav-tabs > li.active > a:hover, #myTab3.nav-tabs > li.active > a:focus {
+    line-height: 14px !important;
+}
+
+#tablezy_wrapper .jumpPage, #tablexl_wrapper .jumpPage {
+    display: none;
+}
+
+.coacheeInfo, .infoAscription {
+    border-bottom: 1px dashed #9c9999;
+    margin-bottom: 20px;
+}
+
+.addInquiries form {
+    border: 1px solid #C9C5C5;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+
+/*高级搜索*/
+.advanced-filter {
+    cursor: pointer;
+}
+
+#customerTree {
+    min-height: 100px;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    display: none !important;
+}
+
+.addInquiries .has-feedback i.form-control-feedback {
+    left: auto;
+    right: 0 !important;
+    display: block !important;
+}
+
+#appendPayTr .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.orders-container .orders-body {
+    height: 80%;
+    overflow: hidden;
+}
+
+.orders-container .orders-list .order-item {
+    height: 43px;
+    line-height: 43px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+.orders-container .orders-list .order-item:hover a {
+    color: rgb(45, 195, 232)
+}
+#imgs[src=""],#imgs:not([src]){
+ opacity:0
+}

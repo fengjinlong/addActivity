@@ -1,0 +1,117 @@
+.disctionary-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.disctionary-title .addBtn {
+    width: 65px;
+    margin-top: 5px;
+}
+
+.tableAdd .operate-btn {
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.dictionary-config dl dd {
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.navMenu {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navMenu > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+.navMenu > li > a {
+    display: block;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    color: #000;
+    transition: all .3s;
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navMenu > li.open > a {
+    border-bottom: 1px solid #ccc;
+}
+
+.navMenu > li > a > i {
+    font-size: 20px;
+    float: left;
+    font-style: normal;
+    margin: 0 5px;
+}
+
+.navMenu li a .arrow {
+    line-height: 40px;
+}
+
+
+.navMenu > li > ul.sub-menu {
+    list-style: none;
+    clear: both;
+    margin: 8px 0px 0px 10px;
+    padding-bottom: 5px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
+
+.navMenu > li > ul.sub-menu li {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navMenu > li > ul.sub-menu li > a {
+    display: block;
+    font-size: 16px;
+    line-height: 36px;
+    padding-left: 20px;
+    color: #000;
+    clear: both;
+    position: relative;
+}
+.navMenu > li > ul.sub-menu li > a i{
+    line-height: 36px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.navMenu > li > ul.sub-menu li > a:before {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top:15px;
+}
+
+.navMenu > li > ul.sub-menu li > a.active, .navMenu > li > ul.sub-menu li > a:hover, .navMenu > li > ul.sub-menu > li.active > a {
+
+}
+
+

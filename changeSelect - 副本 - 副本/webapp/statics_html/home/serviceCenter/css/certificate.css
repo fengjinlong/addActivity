@@ -1,0 +1,56 @@
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.Bulkimport {
+    background: #eee;
+    margin-left: 0 !important;
+    line-height: 36px;
+}
+
+.Bulkimport a {
+    color: blue;
+}
+
+#kvFileinputModal .modal-header {
+    height: auto;
+    padding: 10px 15px;
+}
+
+#kvFileinputModal .btn-navigate i {
+    font-size: 60px;
+}
+
+.file-footer-buttons button.btn-xs {
+    padding: 4px 7px;
+}
+
+.file-footer-buttons button.btn-xs i.glyphicon {
+    top: 0;
+}
+
+.ke-container.ke-container-default{
+	width:100% !important;
+}
+
+table > tbody > tr > td a {
+    margin-right: 10px;
+}
+
+table > tbody > tr > td a i {
+    font-size: 18px;
+}
+
+.modal-body .form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}

@@ -1,0 +1,24 @@
+.modal-header{
+	border-bottom:2px solid #2dc3e8 !important;
+	background:none!important;
+}
+.modal-header span{
+	color:#333;
+	font-size:16px;
+	
+}
+textarea{
+	width:100%;
+	resize:vertical;
+	min-height:100px;
+}
+.margin-left_24{
+	margin-left:-24px;
+}
+textarea.yijian{
+	min-height:280px;
+}
+
+.bg_white{
+	background:#fff!important;
+}

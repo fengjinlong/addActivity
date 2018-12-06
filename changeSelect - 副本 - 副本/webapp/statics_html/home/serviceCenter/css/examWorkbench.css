@@ -1,0 +1,553 @@
+ul {
+    padding: 0;
+}
+
+.print {
+    border-right: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.widget-body {
+    padding-top: 30px;
+    min-height: 550px;
+}
+
+.content {
+    padding: 18px;
+    border: 1px solid #e5e5e5;
+    border-top: 2px solid #2dc3e8;
+}
+
+.tab-content {
+    overflow: hidden;
+    box-shadow: none;
+    min-height: 600px;
+}
+
+.nav-tabs {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.tabs-left > .nav-tabs {
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    min-height: 350px;
+}
+
+#myTab > li > a, #myTab > li > a:focus {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#myTab > li {
+    margin-bottom: -5px;
+}
+
+ul.nav-tabs > li.active > a, ul.nav-tabs > li.active > a:hover, ul.nav-tabs > li.active > a:focus {
+    border: 1px solid #2dc3e8;
+    border-radius: 3px 3px 0 0 !important;
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+.tabs-left > .nav-tabs > li.active > a, .tabs-left > .nav-tabs > li.active > a:focus, .tabs-left > .nav-tabs > li.active > a:hover {
+    border: 1px solid #e5e5e5;
+    border-left: 2px solid #5db2ff;
+    box-shadow: none;
+
+}
+
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.form-title {
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.isEntryForm {
+    line-height: 34px;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+.search-box .conditions .btn {
+    margin-right: 20px;
+}
+
+.search-box .form-group {
+    margin-bottom: 15px;
+}
+
+.search-box .conditions .form-group:last-child .btn {
+    margin-right: 0;
+}
+
+#waitExam li {
+    line-height: 22px;
+}
+
+#waitExam .view-btn, #waitExam .apply-btn {
+    margin: 0 10px;
+    font-size: 10px;
+}
+
+#waitExam .apply-btn {
+    margin: 0;
+}
+
+#xueliDiv {
+    display: none;
+}
+
+.well .header[class*="bordered-"] {
+    border-width: 2px;
+}
+
+.list_lh {
+    height: 162px;
+    overflow: hidden;
+    margin: 15px 0px
+}
+
+.list_lh ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list_lh li {
+    padding: 2px;
+}
+
+.list_lh li:hover {
+    cursor: pointer;
+}
+
+.list_lh li p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.beizhu_bg {
+    background: #ddd;
+    margin: 10px 0px 0px 0px;
+}
+
+textarea.beizhu {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    resize: none;
+    min-height: 120px;
+}
+
+.kecheng {
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.ranking img {
+    margin: 0 auto;
+}
+
+.cz_btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 2%;
+    margin-top: 5px;
+}
+
+.mg_top {
+    margin-top: 3px;
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+div.modal_padding {
+    padding: 0px !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.modal-header_border {
+    border-bottom: 2px solid #5db2ff !important;
+}
+
+h5.xian, h5.xian_1 {
+    cursor: pointer
+}
+
+h5.xian:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    height: 1px;
+    width: 480px;
+    background: #f2f2f2;
+}
+
+h5.xian_1:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    height: 1px;
+    width: 450px;
+    background: #f2f2f2;
+}
+
+.position_rel {
+    position: relative;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.form_margin {
+    margin: 0 15px;
+}
+
+.add_row, .minus_row {
+    padding: 0 12px
+}
+
+.minus_row {
+    margin-top: 6px;
+}
+
+label.week {
+    padding-left: 13px !important
+}
+
+.medal p {
+    line-height: 42px !important;
+    padding-bottom: 15px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -56px !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+/*右侧固定按钮*/
+.right-toolbar {
+    position: fixed;
+    left: 100%;
+    z-index: 5;
+    padding-left: 0;
+    bottom: 200px;
+}
+
+.right-toolbar a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: rgb(85, 122, 254);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 2px;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    -moz-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+.right-toolbar a .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background: #215594;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    display: none;
+}
+
+.right-toolbar a .up p {
+    padding: 4px 6px;
+}
+
+.right-toolbar a img {
+    vertical-align: middle;
+}
+
+.right-toolbar a i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+input[type=checkbox]:checked + .text:before {
+    border-color: #c8c8c8;
+}
+
+input[type=checkbox] + .text:before {
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+}
+
+input[type=checkbox] + .text:before {
+    color: #333;
+}
+
+.preferentialType input[type=checkbox] + .text {
+    width: 130px;
+}
+
+.preferentialType .col-sm-2.no-padding {
+    margin-right: 11px;
+}
+
+.holidayPromoCode .checkbox {
+    margin-left: 58px;
+    margin-top: 15px;
+    margin-right: -27px;
+}
+
+.holidayPromoCode input.form-control {
+    padding-right: 10px;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 34px;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.datepicker {
+    z-index: 9999;
+}
+
+.examRegionText, .examBranchText {
+    margin-left: -41px;
+}
+
+.modal-body {
+    position: relative;
+}
+
+.table_time {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+    top: 5px;
+}
+
+i.fa-mail-reply {
+    cursor: pointer;
+    position: relative;
+    top: 7px
+}
+
+table > tbody > tr > td a {
+    margin-right: 8px;
+}
+
+.tab-pane table > tbody > tr > td a i {
+    font-size: 18px;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    color: #000;
+}
+
+.tooltip-arrow {
+    border-top-color: #aaa !important;
+}
+
+.waitExamList, .partnerList, .alreadyExamList {
+    overflow-y: auto;
+    border: 1px solid #e5e5e5;
+}
+
+.drop-down {
+    box-shadow: none;
+}
+
+.drop-down > .sidebar-menu > li > .menu-dropdown, .drop-down > .sidebar-menu > li > .menu-dropdown:hover, .sidebar-menu > li > .menu-dropdown:focus {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.drop-down .sidebar-menu > li > .submenu > li > a > i {
+    padding: 10px 0;
+}
+
+.drop-down .sidebar-menu > li .submenu {
+    display: none;
+}
+
+.drop-down .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #fff;
+}
+
+.enrollment .modal-dialog {
+    margin-top: 10%;
+}
+
+.Bulkimport {
+    background: #eee;
+    margin-left: 0 !important;
+    line-height: 36px;
+}
+
+.Bulkimport a {
+    color: blue;
+}
+
+a.current {
+    color: #5db2ff;
+}
+
+.examFee .operate {
+    background-clip: padding-box !important;
+    color: #858585;
+    background-color: #fbfbfb;
+    border: 1px solid #d5d5d5;
+    font-family: inherit;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 3px !important;
+    margin-right: 8px;
+}
+
+.scoreManage .save-score, .scoreManage .cancel-score {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.scoreManage .modal-dialog, .examFee .modal-dialog, .examFeeReturn .modal-dialog, .infoVerifyInfo .modal-dialog, .information .modal-dialog {
+    margin-top: 10%;
+}
+
+.return-text {
+    font-size: 20px;
+}
+
+#myTab > li > a {
+    cursor: pointer !important;
+}
+
+.collapse-btn i {
+    line-height: 40px;
+}
+
+.table > tbody > tr > td {
+}
+
+.infoVerifyBtn {
+    margin-bottom: 15px;
+}
+
+.infoVerifyBtn .active {
+    background-color: #4da7fd;
+    color: #fff;
+    border: 1px solid #4aa6fc;
+}
+
+.verifyData {
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.drop-down > .sidebar-menu > li > .submenu > li > a {
+    padding-left: 30px;
+}
+
+.drop-down > .sidebar-menu > li > .submenu > li > a:before {
+    left: 22px;
+}
+
+.drop-down > .sidebar-menu > li > .submenu:before {
+    left: 25px;
+    z-index: 9;
+}
+.drop-down > .sidebar-menu > li > .submenu .submenu{
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+}
+.drop-down > .sidebar-menu > li > .submenu .submenu > li > a {
+    padding-left: 60px;
+}
+
+.drop-down > .sidebar-menu > li > .submenu .submenu > li > a i,
+.drop-down > .sidebar-menu > li > .submenu .submenu > li > a:before,
+.drop-down > .sidebar-menu > li > .submenu .submenu:before {
+    display: none;
+}
+.drop-down > .sidebar-menu li a.active .menu-text{
+    color: #2dc3e8;
+}

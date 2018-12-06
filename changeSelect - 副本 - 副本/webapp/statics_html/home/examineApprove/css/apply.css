@@ -1,0 +1,121 @@
+.pricing-container {
+    padding: 0;
+    overflow: hidden;
+}
+
+.pricing-container .header, .pricing-container a {
+    font-family: "microsoft yahei";
+}
+
+.pricing-container .plan {
+    margin: 0;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+}
+
+.pricing-container .plan .header {
+    font-size: 16px;
+    border-bottom-width: 2px;
+    padding: 8px 15px;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.pricing-container .plan>ul {
+    height: 296px;
+    overflow-y: auto;
+}
+
+.pricing-container .plan ul {
+    margin: 0;
+}
+
+.pricing-container .plan ul li {
+    padding: 0;
+}
+
+.pricing-container .plan ul li:last-child a {
+    border-radius: 0 0 4px 4px;
+}
+
+.pricing-container .plan ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pricing-container .plan ul li a:hover {
+    background-color: #f5f5f5;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:focus, .modal-footer button:visited {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 0 !important;
+}
+
+.applicationFlow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.applicationFlow div {
+    margin-bottom: 13px;
+}
+
+.applicationFlow label {
+    position: relative;
+}
+
+.applicationFlow a {
+    display: inline-block;
+}
+
+.applicationFlow .label {
+    font-size: 16px;
+    padding: 10px;
+    width: 132px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.applicationFlow .glyphicon-arrow-right, .applicationFlow .glyphicon-arrow-left {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #57b5e3;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+}
+
+.round {
+    color: #57b5e3;
+    font-size: 24px;
+    transform: translateY(24px) rotate(122deg);
+}
+
+.fa-mail-reply {
+    color: #57b5e3;
+    font-size: 24px;
+    transform: translateY(24px) rotate(223deg);
+    position: absolute;
+    left: -30px;
+}
+
+.datepicker {
+    z-index: 9999;
+}

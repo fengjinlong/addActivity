@@ -1,0 +1,368 @@
+.page-body h5.row-title {
+    width: 150px;
+}
+
+.userManagement {
+    margin-top: 0;
+}
+
+.userManagement .widget-header {
+    padding-left: 0;
+    min-height: 204px;
+}
+
+.userManagement .widget-header .widget-buttons {
+    min-height: 49px;
+}
+
+.userManagement .widget-header > .widget-caption {
+    line-height: 49px;
+}
+
+.userManagement .widget-buttons {
+    height: 49px;
+    line-height: 49px;
+}
+
+.userManagement .addUser-btn {
+    padding: 10px 24px 10px 26px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+}
+
+.userManagement #addUser .fa-plus-square-o {
+    margin-left: 16px;
+}
+
+.userManagement div.conditionQuery {
+    min-height: 94px;
+    background-color: #EBF0F5;
+    padding: 26px;
+}
+
+.userManagement .conditionQuery .row:first-child {
+    margin-bottom: 26px;
+}
+
+.userManagement .conditionQuery .form-group {
+    margin-bottom: 0;
+}
+
+.userManagement .conditionQuery input[type="search"] {
+    border-radius: 15px !important;
+}
+
+.userManagement .conditionQuery .search-box {
+    position: relative;
+}
+
+.userManagement .conditionQuery span.fa-search {
+    font-size: 18px;
+    position: absolute;
+    top: 20%;
+    left: 92%;
+    color: #439CEE;
+}
+
+.userManagement .conditionQuery .creationDate {
+    padding-left: 28px;
+    text-align: right;
+}
+
+.userManagement .conditionQuery .creationDate label {
+    line-height: 34px;
+}
+
+.userManagement .conditionQuery .creationDate .input-group {
+    padding-left: 10px;
+}
+
+.userManagement .conditionQuery .date-picker {
+    border-radius: 3px 0 0 3px !important;
+}
+
+.userManagement .conditionQuery .save-btn span {
+    margin-right: 10px;
+}
+
+.userManagement .conditionQuery .btn-group a {
+
+}
+
+.userManagement .widget-body {
+    padding: 0;
+}
+
+.userManagement .widget-body .table > thead:first-child > tr:first-child > th {
+    background-color: #2D3541;
+    color: #E9F0F4;
+    line-height: 23px;
+}
+
+.userManagement .widget-body > table {
+    border: 0;
+}
+
+.userManagement .widget-body .btn-info {
+    margin-right: 10px;
+}
+
+.userManagement .table-bordered > tbody > tr > td:last-child {
+    padding-left: 52px;
+}
+
+.userManagement .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border-color: #D9E3EB;
+}
+
+.userManagement .widget-body > table > tbody > tr:nth-of-type(odd) {
+    background: #E9F3FD;
+}
+
+.userManagement .widget-footer {
+    padding: 50px 34px 50px;
+}
+
+ul.userManagement .pagination > li.active > a, ul.pagination > li.active > a:hover,
+ul.pagination > li.active > a, ul.pagination > li.active > a:hover {
+    background-color: #EF695F;
+    border-color: #EF695F;
+}
+
+.userManagement .widget-body .line {
+    position: relative;
+    top: -2px;
+}
+
+.userManagement table .fa-user {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #FFF;
+}
+
+/*添加用户样式*/
+.addUser .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.addUser .radio label, .checkbox label {
+    padding-left: 0;
+    margin-right: 25px;
+}
+
+.addUser .widget-header {
+    min-height: 45px;
+    border-bottom: 1px solid #D9E3EB;
+}
+
+.addUser .widget-buttons {
+    height: 45px;
+    line-height: 45px;
+}
+
+.addUser .widget-body {
+    padding: 0;
+}
+
+.addUser .widget-body .addUser-guide {
+    min-height: 146px;
+    background-color: #5A99D4;
+    padding: 49px 81px;
+    border-bottom: 1px solid #D9E3EB;
+}
+
+.addUser .widget-body .addUser-guide .progress {
+    width: 713px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.addUser .widget-body .addUser-guide .progress .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    width: 18%;
+}
+
+.addUser .widget-body .addUser-guide .steps {
+    font-size: 16px;
+    font-family: "Arial";
+    color: #FFF;
+}
+
+.addUser .widget-body .addUser-guide .steps {
+    position: relative;
+    width: 713px;
+    margin: 0 auto;
+    top: 7px;
+    left: 109px;
+}
+
+.addUser .widget-body .addUser-guide .steps span {
+    width: 42px;
+    height: 42px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    font-size: 26px;
+    font-family: "Arial";
+    color: #FFF;
+    border: 4px solid #FFF;
+    background-color: #9E9E9F;
+}
+
+.addUser .widget-body .addUser-guide .steps .step2 {
+    position: relative;
+    right: -229px;
+}
+
+.addUser .widget-body .addUser-guide .steps .active span {
+    background-color: #f06960;
+}
+
+.addUser .widget-body .addUser-guide .steps .title {
+    margin-left: -7%;
+    margin-top: 21px;
+}
+
+.addUser .addUser-content {
+    padding-top: 83px;
+    padding-bottom: 116px;
+}
+
+.addUser .addUser-content .step-pane {
+    width: 80%;
+    border: 1px solid #dce5ec;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px #e0e5e9;
+    margin: 0 auto;
+}
+
+.addUser .addUser-content .dentifying i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 11px;
+    font-style: normal;
+    color: #f06960;
+    border: 1px solid #f06960;
+}
+
+.addUser .addUser-content .step-pane .step-title {
+    margin: 0;
+    font: 16px "微软雅黑";
+    font-weight: bold !important;
+    border-bottom: 2px solid #439cee;
+    line-height: 16px;
+    padding: 16px 18px;
+}
+
+.addUser .addUser-content .step-pane .basic-info {
+    padding: 20px 32px;
+}
+
+.addUser .addUser-content .step-pane .basic-info .mandatory {
+    color: #f06960;
+    text-align: center;
+}
+
+.addUser .addUser-content .step-pane .basic-info .form-group > label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.addUser button {
+    width: 210px;
+    height: 55px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#step1 .form-group {
+    margin-bottom: 25px;
+}
+
+.addUser #step2 .step-pane {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+
+}
+
+.addUser #step2 .timeline:before {
+    width: 1px;
+    box-shadow: none;
+    background-color: #dae4eb;
+}
+
+.addUser #step2 .timeline:before, .addUser #step2 .timeline > li .timeline-badge {
+    left: -55px;
+    top: 5px;
+    bottom: 80px;
+}
+
+.addUser #step2 .timeline > li .timeline-badge {
+    width: 36px;
+    height: 36px;
+
+}
+
+.addUser #step2 .timeline > li.timeline-inverted > .timeline-panel {
+    float: none;
+    width: 100%;
+}
+
+.addUser #step2 .timeline > li.timeline-inverted > .timeline-panel {
+    border: 1px solid #dce5ec;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px #e0e5e9;
+}
+
+.addUser #step2 .step-title {
+    position: relative;
+}
+
+.addUser #step2 .collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.addUser #step2 .collapse-btn i.fa-angle-down {
+    font-size: 24px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.menuContent{
+	position:absolute !important;
+	overflow:auto !important;
+	left:1490.44px !important;
+	top:200px !important;
+	display:block !important;
+}
+.ztree{
+	height:100px !important;
+	overflow-y:auto !important;
+}

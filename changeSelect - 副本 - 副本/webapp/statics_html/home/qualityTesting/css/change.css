@@ -1,0 +1,58 @@
+#adjustment .control-label{
+    font-size: 20px;
+    line-height: 30px;
+}
+.search-btn, .adjustment-btn{
+    width: 60px;
+    padding: 6px 0;
+    height: 34px;
+}
+.adjustment .modal-dialog{
+    margin-top: 10%;
+}
+.adjustment .modal-footer button{
+    margin-top: 0;
+}
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.td_border td {
+    border-top: none !important;
+}
+.changeView .form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.collapse-btn i{
+    line-height: 38px;
+}

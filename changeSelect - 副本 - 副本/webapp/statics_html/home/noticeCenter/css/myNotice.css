@@ -1,0 +1,13 @@
+.notice-title h3{
+   margin-top: 10px;
+}
+.notice-content{
+    font-size: 14px;
+}
+.notice-content h5{
+    font-weight: 600 !important;
+}
+
+.notice-content p{
+    text-indent: 2em;
+}

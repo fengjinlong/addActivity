@@ -1,0 +1,650 @@
+.color-s {
+    color: #fff !important;
+}
+
+.line {
+    margin-top: 10px;
+}
+
+.mask {
+    z-index: 99999 !important;
+}
+
+.mask-parent {
+    width: 600px;
+    height: 200px;
+}
+
+.xunteacher {
+    padding-right: 2px;
+}
+
+.datepicker.dropdown-menu {
+    z-index: 99999 !important;
+}
+
+.tabs-min_height {
+    max-height: 162px;
+    overflow-x: auto
+}
+
+.list_lh {
+    height: 162px;
+    overflow: hidden;
+    margin: 15px 0px
+}
+
+.examRegionText, .examBranchText {
+    margin-left: -36px;
+}
+
+.preferentialType input[type=checkbox] + .text, .preferentialType input[type=radio] + .text {
+    width: 130px;
+}
+
+.preferentialType .col-sm-2.no-padding {
+    margin-right: 11px;
+}
+
+.holidaynum .checkbox {
+    margin-left: 50px !important;
+    margin-top: 15px !important;
+    margin-right: -27px !important;
+}
+
+.list_lh ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list_lh li {
+    padding: 2px;
+}
+
+.list_lh li:hover {
+    cursor: pointer;
+}
+
+.list_lh li p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.beizhu_bg {
+    background: #ddd;
+    margin: 10px 0px 0px 0px;
+}
+
+textarea.beizhu {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    resize: none;
+    min-height: 120px;
+}
+
+.kecheng {
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.ranking img {
+    margin: 0 auto;
+}
+
+.cz_btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 2%;
+    margin-top: 5px;
+}
+
+.mg_top {
+    margin-top: 3px;
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.nc_name {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.slippage {
+    overflow: hidden;
+    max-height: 162px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 3px
+}
+
+.touxiang-box {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 3px
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.btn_special_edit {
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.cost {
+    position: relative;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    margin-bottom: 20px;
+}
+
+.cost-header {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    padding: 0 10px;
+}
+
+h5 {
+    font-family: "microsoft yahei";
+}
+
+.cost-body {
+    padding: 15px 0 0 15px;
+}
+
+.cost-body .add-cost, .cost-body .minus-cost {
+    font-size: 18px;
+}
+
+.form_margin {
+    margin: 0 15px;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+input[type=checkbox]:checked + .text:before, input[type=radio]:checked + .text:before {
+    border-color: #c8c8c8;
+}
+
+input[type=checkbox] + .text:before, input[type=radio] + .text:before {
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+}
+
+input[type=checkbox] + .text:before, input[type=radio] + .text:before {
+    color: #333;
+}
+
+.preferentialType input[type=checkbox] + .text, .preferentialType input[type=radio] + .text {
+    width: 130px;
+}
+
+.preferentialType .col-sm-2.no-padding {
+    margin-right: 11px;
+}
+
+.holidayPromoCode .checkbox {
+    margin-left: 58px;
+    margin-top: 15px;
+    margin-right: -27px;
+}
+
+.holidayPromoCode input.form-control {
+    padding-right: 10px;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 34px;
+}
+
+.servercenter-rheader {
+    padding-top: 30px;
+}
+
+.Confirmtoadd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.DynamicImage img {
+    width: 41px;
+    height: 41px;
+}
+
+.dynamic-head-left {
+    font-size: 12px;
+    color: blue;
+}
+
+.dynamic-head-right {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.dynamic-content {
+    text-align: center;
+
+}
+
+.dynamic-content1-left {
+    border: 1px solid #888888;
+    padding: 5px;
+}
+
+.dynamic-content1-right {
+    border: 1px solid #799153;
+    padding: 5px;
+    color: #799153;
+}
+
+.media-footer {
+    color: #ccc;
+}
+
+.glyphicon-arrow-right {
+    color: #ccc;
+}
+
+.center-sel {
+    border: none !important;
+    height: 38px !important;
+    padding: 0 !important;
+    height: 36.01px !important;
+}
+
+.media-wen {
+    border: 1px solid #eee !important;
+}
+
+.media-body-content {
+    padding: 10px;
+}
+
+.talk-right {
+    float: right;
+    color: #71b7e5;
+}
+
+.talk-right a {
+    color: #71b7e5;
+    padding-right: 5px;
+}
+
+.media-talk {
+    background: #eee;
+}
+
+.media-headphones {
+    width: 18px;
+    height: 18px;
+    background: #71b7e5;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    padding-top: 2px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.media-headphones:hover, .media-headphones:visited {
+    color: #fff;
+}
+
+.server-head {
+    width: 84px;
+    height: 74px;
+    margin-right: 5px;
+}
+
+.server-pic {
+    margin-left: -14px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.server-pic .center-iconr {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #169bd5;
+    font-size: 16px;
+}
+
+.server-pic .center-iconl {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: #169bd5;
+    font-size: 16px;
+}
+
+.all-dowload {
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+.dowload-zi {
+    margin-left: 11px;
+}
+
+#myTabContent {
+    height: 369px;
+    overflow-y: scroll;
+}
+
+.center-sel option {
+    background: #fbfbfb;
+}
+
+#myTab {
+
+    border: 1px solid #ccc;
+}
+
+#myTab li {
+    float: left;
+}
+
+nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.center-sel:hover {
+    background: #eee;
+}
+
+.form-control, select {
+    font-size: 13px;
+    color: #2D3541 !important;
+    /*padding-top: 3px !important;*/
+}
+
+.serviceView .widget-body {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 1px 0 4px 1px rgba(0, 0, 0, .3) !important;
+    -moz-box-shadow: 1px 0 4px 1px rgba(0, 0, 0, .3) !important;
+    box-shadow: 1px 0 4px 1px rgba(0, 0, 0, .3) !important;
+}
+
+.tab-content {
+    box-shadow: none;
+}
+
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.collapse-btn .fa-angle-down {
+    line-height: 38px;
+}
+
+/*固定按钮图标*/
+.right-toolbar {
+    position: fixed;
+    left: 100%;
+    bottom: 200px;
+    z-index: 5;
+    padding-left: 0;
+}
+
+.right-toolbar a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: rgb(85, 122, 254);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 2px;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    -moz-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+.right-toolbar a .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background: #215594;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    display: none;
+}
+
+.right-toolbar a .up p {
+    padding: 4px 6px;
+}
+
+.right-toolbar a .up p.common {
+    padding: 15px 5px;
+}
+
+.right-toolbar a img {
+    vertical-align: middle;
+}
+
+.right-toolbar a i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.yidong {
+    position: relative;
+}
+
+.yidong ul {
+    padding-left: 52px;
+}
+
+.modal-footer {
+    margin-bottom: 15px;
+}
+
+.right-toolbar > li {
+    position: relative;
+}
+
+.right-toolbar > li > ul {
+    position: absolute;
+    left: 12px;
+    top: 47px;
+    display: none;
+}
+
+table > tbody > tr > td a {
+    margin-right: 10px;
+}
+
+table > tbody > tr > td a i {
+    font-size: 18px;
+}
+
+.serviceView .widget-header {
+    padding: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.transaction a {
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.quitSchool .modal-dialog {
+    margin-top: 15%;
+}
+
+.quitSchool h3 {
+    font-family: 'microsoft yahei';
+    font-size: 18px;
+}
+
+.quitSchool .modal-footer {
+    margin-bottom: 0;
+}
+
+.have-cost {
+    margin-left: -28px;
+}
+
+.pre-step h5, .nex-step h5 {
+    margin-top: 0;
+    padding: 0 0 5px 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(176, 176, 176, 0.48);
+}
+
+.file-caption-name {
+    height: 26px;
+    line-height: 26px;
+}
+
+.serviceView .student-info {
+    font-size: 18px;
+    margin-top: 12%;
+    margin-left: 20px;
+}
+
+.serviceView .transaction {
+    margin-top: 20px;
+}
+
+.refund-apply .refund-add,.refund-apply .refund-minus {
+     position: absolute;
+     right: 0;
+     top: 7px;
+     font-size: 20px;
+ }
+
+.applicationFlow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.applicationFlow div{
+    margin-bottom: 13px;
+}
+.applicationFlow label{
+    position: relative;
+}
+.applicationFlow a{
+    display: inline-block;
+}
+.applicationFlow .label {
+    font-size: 16px;
+    padding: 10px;
+    width: 132px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.applicationFlow .glyphicon-arrow-right, .applicationFlow .glyphicon-arrow-left {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #57b5e3;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+}
+.round {
+    color: #57b5e3;
+    font-size: 24px;
+    transform: translateY(24px) rotate(122deg);
+}
+#refundApply .fa-mail-reply{
+    color: #57b5e3;
+    font-size: 24px;
+    transform: translateY(24px) rotate(223deg);
+    position: absolute;
+    left: -30px;
+}
+.refund-apply .back-btn{
+    margin-top: 12px;
+    margin-right: 5px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    transform: rotate(15deg);
+}
+
+#payMentTableInfo{
+    border: 0;
+}
+.mask .modal-dialog{
+    margin-top: 12%;
+}
+
+.payFees .modal-body{
+    height: 700px;
+}
+
+.refundApplicationIssue{
+    padding-left: 15px !important;
+    padding-right: 10px;
+}

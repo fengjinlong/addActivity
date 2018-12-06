@@ -1,0 +1,296 @@
+.modal-header{
+	border-bottom:2px solid #2dc3e8 !important;
+	background:none!important;
+}
+.modal-header span{
+	color:#333;
+	font-size:16px;
+	
+}
+textarea{
+	width:100%;
+	resize:vertical;
+	min-height:100px;
+}
+.margin-left_24{
+	margin-left:-24px;
+}
+textarea.yijian{
+	min-height:280px;
+}
+
+.bg_white{
+	background:#fff!important;
+}
+.tab-content_1 {
+	background:#fff!important;
+}
+.nav-tabs > li:first-child > a{
+	border-left:none!important;
+}
+.tab-content.tabs-flat{
+	border-top:1px solid #2DC3E8!important;
+}
+.datepicker.dropdown-menu{
+	z-index:1600
+}
+
+
+.tab_content_1 {
+    padding: 12px 12px !important;
+    min-height: 162px;
+    max-height: 162px;
+    overflow-y: auto;
+}
+
+.tab_content_1 .special td {
+    height: 70px !important;
+    line-height: 70px
+}
+
+ul.tab_content {
+    margin: 0px;
+    padding: 0px !important;
+    position: fixed;
+    right: -82px;
+    bottom: 150px;
+}
+
+ul.tab_content li {
+    padding: 8px 0px;
+    width: 82px;
+    text-align: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+    background: #439cee;
+    height: 66px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*ul.tab_content li:hover{
+	background:#f06960;
+}*/
+ul.tab_content li span {
+    color: #fff;
+    padding: 0 2px
+}
+
+ul.tab_content li p {
+    color: #fff !important;
+    line-height: 1 !important
+}
+
+ul.tab_content li ul {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 7px
+}
+
+ul.tab_content li ul li {
+    background: #428bca;
+    border-radius: 0 5px 0px 5px
+}
+
+li.length_special {
+    line-height: 20px !important;
+}
+
+.phone {
+    background: #97ab38
+}
+
+.huifang {
+    background: #53a93f
+}
+
+.message {
+    background: #57b5e3
+}
+
+.yuyue {
+    background: #ed4e2a
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+
+.touxiang {
+    min-height: 210px;
+}
+
+.touxiang-box {
+    position: relative;
+}
+
+.touxiang img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.nc_name {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+div.modal_padding {
+    padding: 0px !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.btn_special_edit {
+    position: absolute;
+    top: 8px;
+    right: 55px;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.tab_net i {
+    width: 34px;
+    height: 34px;
+    background: url('../../consultcenter/image/phone.png') no-repeat;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%
+}
+
+i.fa-call {
+    background-position: 2px -1px;
+}
+
+i.fa-huifang {
+    background-position: -27px -1px;
+}
+
+i.fa-message {
+    background-position: -68px 2px;
+}
+
+i.fa-yuyue {
+    background-position: -100px 0px;
+}
+
+i.fa-shangmen {
+    background-position: -132px 0px;
+}
+
+i.fa-dingzuo {
+    background-position: -163px 0px;
+}
+
+i.fa-baoming {
+    background-position: 3px -32px;
+}
+
+i.fa-jiaofei {
+    background-position: -28px -32px;
+}
+
+i.fa-yidong {
+    background-position: 6px -64px;
+}
+
+i.fa-tuifei {
+    background-position: -71px -33px;
+}
+
+i.fa-zhuangban {
+    background-position: -100px -33px;
+}
+
+i.fa-xiuxue {
+    background-position: -132px -33px;
+}
+
+i.fa-email {
+    background-position: -28px -70px;
+}
+
+ul.tab_content li.mg_bottom {
+    margin-bottom: 0
+}
+
+.modal-header_border {
+    border-bottom: 2px solid #5db2ff !important;
+}
+.tab_content_11 {
+    right: -46px !important
+}
+
+.tab_content_11 li {
+    width: 45px !important;
+    height: 45px !important;
+    position: relative;
+}
+
+.tab_content_11 div {
+    width: 45px;
+    height: 45px;
+    display: none;;
+    position: absolute;
+    top: 0px;
+    background: #f06960;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tab_content_11 div p {
+    padding: 10px 4px;
+}
+
+.tab_content_11 div p.special {
+    padding: 10px 2px;
+}

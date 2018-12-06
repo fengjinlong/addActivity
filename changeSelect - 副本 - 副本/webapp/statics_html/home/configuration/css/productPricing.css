@@ -1,0 +1,71 @@
+.tab-content.tabs-flat {
+    border-top-width: 2px;
+}
+
+.nav-tabs > li {
+    margin-bottom: -2px;
+}
+
+ul.nav-tabs > li.active > a, ul.nav-tabs > li.active > a:hover, ul.nav-tabs > li.active > a:focus {
+    border: 1px solid #2dc3e8;
+    border-radius: 3px 3px 0 0 !important;
+    border-bottom: 0;
+}
+
+.modal-header {
+    background-color: #fff;
+    border-width: 2px;
+}
+
+.modal-header .modal-title {
+    font: 600 16px "Microsoft YaHei" !important;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+div.dropdown-menu {
+    border: 0 !important;
+    padding: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+
+}
+
+div.dropdown-menu .dropdown-menu {
+    border: 0 !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline-style: none !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #fff;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder {
+    color: #333;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+.branch label.control-label {
+    margin-left: -57px;
+}
+
+.branch .col-sm-8 {
+    width: 67.5%;
+}
+
+.btn-toolbar {
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 18px;
+}

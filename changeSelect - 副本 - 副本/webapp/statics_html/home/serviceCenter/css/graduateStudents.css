@@ -1,0 +1,266 @@
+.table > tbody > tr > td {
+    white-space: nowrap;
+}
+
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 18px;
+    border: 1px solid #e5e5e5;
+    border-top: 2px solid #2dc3e8;
+}
+
+button.form-control, button.form-control:hover, button.form-control:focus, button.form-control:visited {
+    color: #FFF;
+}
+
+.form-title {
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.isEntryForm {
+    line-height: 34px;
+}
+
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+.search-box {
+    margin-bottom: 15px;
+}
+
+.well .header[class*="bordered-"] {
+    border-width: 2px;
+}
+
+.list_lh {
+    height: 162px;
+    overflow: hidden;
+    margin: 15px 0px
+}
+
+.list_lh ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list_lh li {
+    padding: 2px;
+}
+
+.list_lh li:hover {
+    cursor: pointer;
+}
+
+.list_lh li p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.beizhu_bg {
+    background: #ddd;
+    margin: 10px 0px 0px 0px;
+}
+
+textarea.beizhu {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    resize: none;
+    min-height: 120px;
+}
+
+.kecheng {
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.ranking img {
+    margin: 0 auto;
+}
+
+.cz_btn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 2%;
+    margin-top: 5px;
+}
+
+.mg_top {
+    margin-top: 3px;
+}
+
+.form-group-margin .form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.modal-content .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+table.table_border {
+    margin-bottom: 25px !important;
+}
+
+table.table_border td {
+    height: 50px;
+    line-height: 50px !important;
+    border-top: none !important;
+    background: #d6e9fb;
+}
+
+.td_border td {
+    border-top: none !important;
+}
+
+div.modal_padding {
+    padding: 0px !important;
+}
+
+.well {
+    background: #fff !important;
+}
+
+.collapse-btn {
+    position: absolute;
+    width: 48px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-left: 1px solid #dce5ec;
+    float: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.collapse-btn i {
+    line-height: 38px;
+}
+
+/*固定按钮图标*/
+.right-toolbar {
+    position: fixed;
+    left: 100%;
+    z-index: 5;
+    padding-left: 0;
+    bottom: 200px;
+}
+
+.right-toolbar a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: rgb(85, 122, 254);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 2px;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    -moz-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    font-family: "microsoft YaHei";
+    font-size: 14px;
+}
+
+.right-toolbar a .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 52px;
+    height: 52px;
+    background: #215594;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    display: none;
+}
+
+.right-toolbar a .up p {
+    padding: 4px 6px;
+}
+
+.right-toolbar a img {
+    vertical-align: middle;
+}
+
+.right-toolbar a i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 34px;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.examRegionText, .examBranchText {
+    margin-left: -41px;
+}
+
+.modal-body {
+    position: relative;
+}
+
+.table_time {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: right;
+    top: 5px;
+}
+
+i.fa-mail-reply {
+    cursor: pointer;
+    position: relative;
+    top: 7px
+}
+
+table > tbody > tr > td a {
+    margin-right: 8px;
+}
+
+table > tbody > tr > td a i {
+    font-size: 18px;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    border: 1px solid #CCC;
+    color: #000;
+}
+
+.tooltip-arrow {
+    border-top-color: #aaa !important;
+}
+
+.information  .modal-dialog,.getDiploma .modal-dialog, .sendDiploma .modal-dialog {
+    margin-top: 12%;
+}
+
+
+

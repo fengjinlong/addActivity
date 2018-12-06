@@ -1,0 +1,375 @@
+button.form-control,button.form-control:hover,button.form-control:focus,button.form-control:visited {
+    color: #FFF;
+}
+.Bulkimport{
+    background:#eee;
+    margin-left:0 !important;
+    line-height:36px;
+}
+.Bulkimport a{
+    color:blue;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    background: none repeat scroll 0 0 transparent;
+    cursor: inherit;
+    display: block;
+}
+.file-caption-name {
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-all;
+}
+.file-caption-name [class*=icon-],
+.file-caption-name .glyphicon {
+    margin-right: 7px;
+}
+.file-input-new .file-caption-name {
+    color: #999999;
+}
+.file-input-new .file-caption-name > [class*=icon-],
+.file-input-new .file-caption-name > .glyphicon {
+    display: none;
+}
+.file-error-message {
+    position: relative;
+    background-color: #f2dede;
+    color: #a94442;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 5px 5px 5px;
+}
+.file-drop-zone .file-error-message {
+    margin-top: 5px;
+}
+.file-error-message .close {
+    margin-top: 1px;
+    color: #a94442;
+}
+.file-error-message pre,
+.file-error-message ul {
+    margin: 7px 0;
+    text-align: left;
+}
+.file-caption-disabled {
+    background-color: #fafafa;
+    cursor: not-allowed;
+}
+.file-caption-disabled .file-caption-name {
+    color: #ccc;
+}
+.file-preview-detail-modal {
+    text-align: left;
+}
+.file-preview {
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+.file-preview > .close {
+    font-weight: 400;
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 8px;
+    line-height: 0.6;
+    border-radius: 3px;
+    color: #555;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.file-preview-frame {
+    margin: 7px;
+    margin-right: 0;
+    height: 160px;
+    display: table;
+    float: left;
+    vertical-align: middle;
+}
+.file-drop-zone .file-preview-frame {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.file-preview-image {
+    height: 160px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+@media (max-width: 768px) {
+    .file-preview-image {
+        max-width: 100%;
+    }
+}
+.file-preview-text {
+    text-align: left;
+    width: 160px;
+    margin-bottom: 2px;
+    color: #428bca;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.file-preview-other {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 160px;
+    height: 160px;
+}
+.file-preview-other:after {
+    content: "\ea0c";
+    font-family: "icomoon";
+    display: block;
+    font-size: 64px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.file-preview-other .glyphicon {
+    display: none;
+}
+.file-preview-status {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #333333;
+    background-color: rgba(250, 250, 250, 0.8);
+    border-top: 1px solid #ddd;
+    padding: 7px 12px;
+    font-size: 12px;
+    line-height: 1.6666667;
+    color: #333333 !important;
+}
+.file-preview-status:empty {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+.file-thumb-loading {
+    min-height: 107px;
+}
+.file-thumb-loading:before,
+.file-uploading:before {
+    content: "";
+    display: inline-block;
+    background-color: #263238;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -33.5px 0 0 -16px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
+}
+.file-thumb-loading:after,
+.file-uploading:after {
+    content: "\eb55";
+    font-family: "icomoon";
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin: -25.5px 0 0 -8px;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation: rotation 1s linear infinite;
+    -o-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+.file-upload-indicator {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: default;
+    text-align: left;
+    padding-left: 8px;
+}
+.file-input-new .file-preview,
+.file-input-new .close,
+.file-input-new .glyphicon-file,
+.file-input-new .fileinput-remove-button,
+.file-input-new .fileinput-upload-button {
+    display: none;
+}
+.file-input-ajax-new .fileinput-remove-button,
+.file-input-ajax-new .fileinput-upload-button,
+.file-input-ajax-new .fileinput-remove,
+.file-input-ajax-new .file-caption-name > [class*=icon-],
+.file-input-ajax-new .file-caption-name > .glyphicon {
+    display: none;
+}
+.file-actions {
+    margin-top: 5px;
+    border-top: 1px solid #eeeeee;
+}
+.file-actions .btn > [class*=icon-],
+.file-actions .btn > .glyphicon {
+    margin-right: 0;
+}
+.file-footer-buttons {
+    float: right;
+}
+.file-footer-caption {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+    text-align: center;
+    font-size: 11px;
+    padding: 12px 7px 7px 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.file-preview-error {
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.file-drop-zone {
+    border: 1px dashed #ddd;
+    border-radius: 3px;
+    height: 100%;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 5px;
+}
+.file-drop-zone-title {
+    color: #999999;
+    font-size: 21px;
+    font-weight: 300;
+    padding: 85px 10px;
+}
+.file-highlighted {
+    border-color: #ccc;
+    background-color: #fafafa;
+}
+.file-thumb-progress {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+}
+.file-thumb-progress .progress,
+.file-thumb-progress .progress-bar {
+    height: 5px;
+    border-radius: 0;
+    font-size: 0;
+}
+.file-thumbnail-footer {
+    position: relative;
+}
+.btn-file ::-ms-browse {
+    width: 100%;
+    height: 100%;
+}
+.file-zoom-fullscreen.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.file-zoom-fullscreen .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.file-zoom-fullscreen .modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.file-zoom-fullscreen .modal-body {
+    overflow-y: auto;
+}
+.file-zoom-dialog .btn-navigate {
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.file-zoom-dialog .btn-navigate > i {
+    display: block;
+    font-size: 32px;
+}
+.file-zoom-dialog .btn-navigate:not([disabled]):hover,
+.file-zoom-dialog .btn-navigate:not([disabled]):focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.file-zoom-dialog .btn-navigate[disabled] {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.file-zoom-dialog .btn-prev {
+    left: -42px;
+}
+.file-zoom-dialog .btn-next {
+    right: -42px;
+}
+.file-zoom-dialog .floating-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 0 0 0 3px;
+}
+.file-zoom-dialog .floating-buttons:not(:empty) {
+    padding: 0 0 20px 20px;
+}
+.file-zoom-dialog .floating-buttons,
+.file-zoom-dialog .floating-buttons .btn {
+    z-index: 3000;
+}
+.kv-zoom-actions {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -6px;
+}
+.file-zoom-content {
+    height: 480px;
+    text-align: center;
+}
+.file-drag-handle {
+    margin-right: 2px;
+    float: left;
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+.file-drag-handle:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}

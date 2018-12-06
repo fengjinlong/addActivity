@@ -1,0 +1,67 @@
+header {
+  width: 100%;
+  z-index: 5556;
+  position: relative;
+}
+header .p {
+  position: absolute;
+  color: #ddd;
+  top: 0;
+  font-size: 18px;
+  padding: 18px 20px;
+}
+header a.a {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 14px;
+  color: #ddd;
+}
+header a.aa {
+  right: 100px;
+}
+.divcon {
+  display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  height: 100%;
+}
+.divleft {
+  position: relative;
+  width: 299px;
+  height: 100%;
+  float: left;
+  background: url('../../aloneImages/bg_pic1.png') 100% 100%;
+  background-repeat-y: repeat;
+}
+.divleft .code {
+  position: absolute;
+  margin: 368px 19px auto 19px
+}
+.smallVideo {
+  width: 295px;
+  height: 295px;
+  background: #e4393c;
+}
+.divMiddle {
+  display:-webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+  flex:1;
+  background: rgba(48,48,48,.8);
+  align-items:center;
+  -webkit-align-items:center;
+  box-align:center;
+  -moz-box-align:center;
+  -webkit-box-align:center;
+}
+.video-middle .midVideo{
+  width:100%;
+  background: red
+
+}
+.video-right.live-right {
+  display:-webkit-box;     display: -moz-box;     display: -ms-flexbox;     display: -webkit-flex;     display: flex;
+  flex:0 0 340px
+}
+

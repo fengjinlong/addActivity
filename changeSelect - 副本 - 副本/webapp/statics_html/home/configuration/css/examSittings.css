@@ -1,0 +1,21 @@
+.modal-sm {
+    width: 500px;
+}
+
+.modal-header {
+    background-color: #fff;
+    border-width: 2px;
+}
+
+.modal-header .modal-title {
+    font: 600 16px "Microsoft YaHei" !important;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.datepicker {
+    z-index: 9999;
+}

@@ -1,0 +1,15 @@
+.nav-tabs > li {
+    margin-bottom: -2px !important;
+}
+
+.modal-dialog{
+    margin-top: 10%;
+}
+
+
+.ztreeList{
+    margin-top: 20px;
+}
+#ztreeList{
+    border: 1px solid #e5e5e5;
+}

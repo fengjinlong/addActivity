@@ -1,0 +1,410 @@
+.widget-header > .widget-caption, .widget-header .widget-icon {
+    line-height: 41px;
+    font-size: 14px;
+}
+
+.widget-header .widget-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.modal-header, .modal-footer.form-group {
+    background-color: #fff;
+    margin-left: 0;
+}
+
+.modal-body {
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+}
+
+.modal-header .widget-caption {
+    font: 600 16px "Microsoft YaHei" !important;
+}
+
+.modal-footer button, .modal-footer button:hover, .modal-footer button:visited {
+    color: #FFF;
+    font-size: 14px;
+}
+
+input[type=checkbox].checkbox-slider + .text:before {
+    width: 60px;
+    height: 23px;
+    line-height: 23px;
+}
+
+input[type=checkbox].checkbox-slider:checked + .text:after {
+    left: 40.8px;
+    width: 17px;
+    height: 17px;
+}
+
+input[type=checkbox].checkbox-slider.colored-blue + .text:after {
+    width: 17px;
+    height: 17px;
+}
+
+#addRole form {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding-top: 20px;
+}
+
+#addRole hr.wide {
+    width: 100%;
+    margin: 0;
+    border-top: 2px dotted #e5e5e5;
+}
+
+.custom {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+}
+
+.custom-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.custom-content {
+    padding-top: 15px;
+    border: 1px solid #e5e5e5;
+    width: 90%;
+    margin: 0px 40px 0;
+}
+
+#addRole .custom hr.wide {
+    width: 100%;
+    margin-left: 0px;
+}
+
+#addRole .modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+div.dropdown-menu {
+    border: 0 !important;
+    padding: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+}
+
+div.dropdown-menu .dropdown-menu {
+    border: 0 !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline-style: none !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background-color: #fff;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder {
+    color: #333;
+}
+
+.fa-plus-circle, .fa-minus-circle {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 48px;
+    position: relative;
+    left: 90px;
+}
+
+/*角色列表*/
+.nav > li > a {
+    padding: 10px 42px;
+}
+
+.permission .search-box {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.permission .widget-header.role-title {
+    height: 41px;
+    line-height: 41px;
+}
+
+.permission {
+    height: 741px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+.role-list {
+    height: 626px;
+
+}
+
+.permission .submenu {
+    display: none;
+}
+
+.role-list > .sidebar-menu > li > .submenu {
+    padding-left: 0;
+}
+
+.role-list > .sidebar-menu .submenu a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-right: 42px;
+}
+
+.role-list > .sidebar-menu > li > .menu-dropdown {
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
+}
+
+.role-list > .sidebar-menu > li .menu-dropdown:hover,
+.role-list > .sidebar-menu > li .menu-dropdown:focus,
+.role-list > .sidebar-menu > li .menu-dropdown:visited {
+    background-color: #fff;
+}
+
+.role-list > .sidebar-menu > li > .submenu > li > a {
+    padding-left: 70px;
+}
+
+.role-list > .sidebar-menu > li > .submenu a .menu-text {
+    margin-left: 6px;
+}
+
+.role-list > .sidebar-menu .submenu .submenu > li > a {
+    padding-left: 100px;
+}
+
+.role-list > .sidebar-menu .submenu > li .submenu li a:before {
+    left: 84px;
+}
+
+.role-list > .sidebar-menu > li > .submenu > li > .submenu > li > a:hover {
+    background-color: #D3E6F7;
+}
+
+.role-list > .sidebar-menu .submenu > li .submenu li a {
+    position: relative;
+}
+
+.role-list > .sidebar-menu .submenu > li .submenu li a:before {
+    content: "";
+    display: none;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #e2e2e2;
+    z-index: 2;
+    top: 17px;
+    border-radius: 50% !important;
+    border-color: #404040;
+    background-color: #fff;
+}
+
+.role-list > .sidebar-menu > li > .submenu > li > .submenu > li > a:hover:before {
+    background-color: #333;
+}
+
+.role-list > .sidebar-menu .submenu .submenu .submenu > li > a {
+    padding-left: 113px;
+}
+
+.role-list > .sidebar-menu .submenu .submenu .submenu .submenu > li > a {
+    padding-left: 130px;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu {
+    position: relative;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 19px;
+    border-left: 1px solid #e2e2e2;
+    left: 100px;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu a:hover {
+    color: #439CEE;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu a:hover:before {
+    background-color: #439CEE;
+    border-color: #439CEE;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu a:before {
+    left: 97px;
+    border-radius: 0 !important;
+}
+
+.role-list > .sidebar-menu > li > .menu-dropdown i {
+    font-size: 14px;
+}
+
+.role-list > .sidebar-menu > li > .menu-dropdown .menu-text {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.role-list > .sidebar-menu .submenu {
+    padding-left: 0;
+}
+
+.role-list > .sidebar-menu > li:not(:first-child) > .submenu {
+    display: none;
+}
+
+.role-list > .sidebar-menu .submenu:before,
+.role-list > .sidebar-menu .submenu > li > .submenu:before,
+.role-list > .sidebar-menu .submenu > li > a:before {
+    display: none;
+}
+
+.role-list > .sidebar-menu .submenu > li > .submenu > li > .submenu:before {
+    display: none;
+    border-color: #404040;
+}
+
+.role-list > .sidebar-menu .submenu a .pull-right {
+    height: 40px;
+    line-height: 40px;
+}
+
+.operate-btn label {
+    margin-bottom: 0;
+}
+
+.operate-btn i {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #CCC;
+}
+
+.addRole button {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.addRole button i {
+    margin-left: 10px;
+}
+
+/*权限配置树*/
+.permission-config {
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+
+.permission-config h3 {
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #439CEE;
+    color: #FFF;
+    border-color: #439CEE;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.permission-content h4 {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 9px;
+    line-height: 20px;
+    color: #439CEE;
+}
+
+.permission-content {
+    padding: 15px;
+    height: 700px;
+    overflow-y: auto;
+}
+
+.permission-content button, .permission-content button:hover, .permission-content button:focus {
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 16px;
+    height: 40px;
+}
+
+#permissionTree * {
+    font-size: 16px;
+    font-family: Microsoft YaHei, Verdana, Arial, Helvetica, AppleGothic, sans-serif;
+}
+
+#permissionTree {
+    color: #333;
+}
+
+#permissionTree li {
+    line-height: 18px;
+}
+
+/*配置树样式修改*/
+#permissionTree li a {
+    height: 20px;
+    line-height: 20px;
+}
+
+/*权限字段*/
+.radio label, .checkbox label {
+    padding-left: 0;
+}
+
+.permission-field .widget-header {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid transparent;
+}
+
+.permission-field .widget-header .widget-caption {
+    font-size: 16px;
+    font-weight: 600 !important;
+}
+
+.permission-field .widget-body {
+    padding: 30px;
+}
+
+.permission-field .widget-body, .permission-field .widget-body .form-horizontal {
+    width: 100%;
+    overflow: hidden;
+}
+
+.permission-field .widget-body .control-label {
+    padding-right: 0;
+}
+
+.permission-field .widget-body .save, .permission-field .widget-body .save:hover, .permission-field .widget-body .save:visited {
+    color: #FFF;
+}
+
+.permission-field .widget-body .chosen {
+    margin-top: 20px;
+}
+
+.permission-field .widget-body h3 {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.return-button {
+    margin-bottom: 10px;
+}

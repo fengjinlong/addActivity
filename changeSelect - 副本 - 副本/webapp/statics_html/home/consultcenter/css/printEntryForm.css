@@ -1,0 +1,27 @@
+.page-content {
+    margin-left: 0;
+}
+h3{
+    font-family: "microsoft yahei";
+}
+.entryForm{
+    border: 2px solid #CCC;
+    padding: 0;
+}
+body:before,.page-body{
+    background-color: #fff;
+}
+.checkbox{
+    opacity: 1 !important;
+    position: static !important;
+}
+label{
+    margin-right:10px;
+}
+.bg-darkgray{
+    background:#ccc !important;
+}
+.entryForm-title{
+    overflow: hidden;
+}
+

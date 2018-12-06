@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>打印报名表----学慧网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="../../dep/assets/img/favicon.png" type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="../../dep/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link id="bootstrap-rtl-link" href="" rel="stylesheet"/>
+    <link href="../../dep/assets/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="../../dep/assets/css/beyond.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../../dep/assets/css/animate.min.css" rel="stylesheet"/>
+    <link id="skin-link" href="" rel="stylesheet" type="text/css"/>
+    <link href="../../common/css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../dep/bootstrap-select/css/bootstrap-select.min.css">
+    <link href="../../home/consultcenter/css/printEntryForm.css" rel="stylesheet">
+
+    <script src="../../dep/assets/js/skins.js"></script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+
+<body>
+<!-- Loading Container -->
+<div class="loading-container">
+    <div class="loading-progress">
+        <div class="rotator">
+            <div class="rotator">
+                <div class="rotator colored">
+                    <div class="rotator">
+                        <div class="rotator colored">
+                            <div class="rotator colored"></div>
+                            <div class="rotator"></div>
+                        </div>
+                        <div class="rotator colored"></div>
+                    </div>
+                    <div class="rotator"></div>
+                </div>
+                <div class="rotator"></div>
+            </div>
+            <div class="rotator"></div>
+        </div>
+        <div class="rotator"></div>
+    </div>
+</div>
+<!--  /Loading Container -->
+<!-- Main Container -->
+<div class="main-container container-fluid">
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Body -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="print-btn pull-right margin-bottom-10">
+                            <button type="button" class="btn btn-primary">模板打印</button>
+                            <button type="button" class="btn btn-primary">普通打印</button>
+                        </div>
+                        <div class="entryForm col-md-12">
+                            <div class="entryForm-title">
+                                <div class="col-md-4 logobox padding-left-30 padding-top-10 padding-bottom-10">
+                                    <img src="../../home/consultcenter/image/logo-sm.png" alt="">
+                                </div>
+                                <div class="col-md-4 text-center margin-bottom-10">
+                                    <h3>学员信息表</h3>
+                                </div>
+                            </div>
+                            <!--Widget Header-->
+                            <div class="entryForm-body">
+                                <table class="table table-bordered text-center">
+                                    <tbody>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">个人信息</td>
+                                    </tr>
+                                    <tr>
+                                        <td width="12.5%">学员姓名</td>
+                                        <td width="12.5%"></td>
+                                        <td width="12.5%">性别</td>
+                                        <td width="12.5%"></td>
+                                        <td width="12.5%">证件类型</td>
+                                        <td width="12.5%"></td>
+                                        <td width="12.5%">证件号码</td>
+                                        <td width="12.5%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>教育程度</td>
+                                        <td></td>
+                                        <td>专业</td>
+                                        <td></td>
+                                        <td>民族</td>
+                                        <td></td>
+                                        <td>Email</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>手机</td>
+                                        <td></td>
+                                        <td>QQ号</td>
+                                        <td></td>
+                                        <td>工作单位</td>
+                                        <td colspan="3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>通讯地址</td>
+                                        <td colspan="3"></td>
+                                        <td>紧急联系人</td>
+                                        <td></td>
+                                        <td>联系方式</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">已提交资料</td>
+                                        <td colspan="6">
+                                            <label><input type="checkbox"><span class="text">照片</span></label>
+                                            <label><input type="checkbox"><span class="text">身份证</span></label>
+                                            <label><input type="checkbox"><span class="text">学历证书</span></label>
+                                            <label><input type="checkbox"><span class="text">上一级别证书</span></label>
+                                            <label><span class="text">其他</span><span style="text-decoration:underline">　　　　　</span></label>
+                                        </td>
+                                    </tr>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">课程信息</td>
+                                    </tr>
+                                    <tr>
+                                        <td>类型</td>
+                                        <td></td>
+                                        <td>项目</td>
+                                        <td></td>
+                                        <td>级别</td>
+                                        <td></td>
+                                        <td>授课形式</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>考期</td>
+                                        <td></td>
+                                        <td>考试地域</td>
+                                        <td></td>
+                                        <td>班型</td>
+                                        <td></td>
+                                        <td>班号</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">主考院校（*仅限自考项目填写）</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2">报考专业（*仅限自考项目填写）</td>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">缴费信息</td>
+                                    </tr>
+                                    <tr>
+                                        <td>收费项目</td>
+                                        <td colspan="2">应缴</td>
+                                        <td colspan="2">实缴</td>
+                                        <td colspan="2">支付方式</td>
+                                        <td>欠费</td>
+                                    </tr>
+                                    <tr>
+                                        <td>培训费</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>协议费</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>服务费（D）</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>教材费（D）</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>资料费（D）</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>考务费（D）</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>总额</td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">资料领取</td>
+                                    </tr>
+                                    <tr>
+                                        <td>教材</td>
+                                        <td></td>
+                                        <td>教辅</td>
+                                        <td></td>
+                                        <td>未领取</td>
+                                        <td colspan="3"></td>
+                                    </tr>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">学习中心</td>
+                                    </tr>
+                                    <tr>
+                                        <td>用户名</td>
+                                        <td></td>
+                                        <td>初始密码</td>
+                                        <td colspan="2"></td>
+                                        <td>网址</td>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr style="height:150px">
+                                        <td>说明</td>
+                                        <td colspan="7"></td>
+                                    </tr>
+                                    <tr class="text-center bg-darkgray">
+                                        <td colspan="8">培训项目服务协议</td>
+                                    </tr>
+                                    <tr style="border:none">
+                                        <td colspan="2" style="border:none">甲方：北京学慧网教育科技有限公司 </td>
+                                        <td colspan="4" style="border:none"></td>
+                                        <td colspan="2" class="pull-left" style="border:none">乙方：</td>
+                                    </tr>
+                                    <tr style="border:none" class="text-left">
+                                        <td colspan="8" style="border:none;padding-left:47px;padding-right:47px">
+                                            <p>按照中华人民共和国《合同法》等相关法律规定，甲乙双方自愿签署本服务协议，各自履行该协议约定的义务，承担相应责任并取得对等权利，该协议为有偿服务协议。</p>
+                                            <p>甲方按照上述课程信息为学员提供培训服务，收取培训费、协议费、服务费并代收资料费、教材费及考务费等各项费用。</p>
+                                            <p>乙方确保提供的个人信息真实有效。按照官方报名要求及时缴纳考试报名费用及报名资料。详情细则见背面协议附件内容。</p>
+                                            <p>甲乙双方已阅读该协议及附件细则并知晓双方权利义务。</p>
+                                            <p>本协议由乙方自报名即生效。如由他人代签请注明代签字样，甲方依然认可本协议约定内容；如果存在代签而未注明的，甲方有权拒绝履行协议并不予退费，相关责任由乙方自负。</p>
+                                            <p>本协议一式三份，乙方保留一份，甲方保留两份。该协议将作为甲方收取乙方费用的唯一凭证，请妥善保管。发生争议，双方协商无果可起诉至乙方所在地法院。</p>
+                                            <p style="margin-left:80px;margin-top:60px">本协议内容除签名外，其他手写无效。</p>
+                                        </td>
+                                    </tr>
+                                    <tr style="border:none;">
+                                        <td colspan="2" style="border:none">甲方：北京学慧网教育科技有限公司 </td>
+                                        <td colspan="4" style="border:none"></td>
+                                        <td colspan="2" class="pull-left" style="border:none;">乙方（签字）：</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <table class="table table-bordered text-center" style="border:none">
+                            <tbody>
+                            <tr style="border:none">
+                                <td class="col-md-1 text-right" style="border:none">经办人（签字）：</td>
+                                <td class="col-md-2" style="border:none"></td>
+                                <td class="col-md-1 text-right" style="border:none">审核人员（签字）：</td>
+                                <td class="col-md-2 text-left" style="border:none">
+                                    <div>
+                                       <select name="" class="selectpicker show-tick form-control"  data-live-search="true">
+                                            <option value="0">张三</option>
+                                            <option value="1">李四</option>
+                                            <option value="2">王五</option>
+                                        </select>
+                                    </div>
+                                </td>
+                                <td class="col-md-2" style="border:none">客服专线：</td>
+                            </tr>
+                            <tr style="border:none">
+                                <td style="border:none" class="col-md-2"></td>
+                                <td style="border:none" class="col-md-2">本协议表一式三联</td>
+                                <td style="border:none" class="col-md-2">第一联留总部（白色）</td>
+                                <td style="border:none" class="col-md-2">第一联留客户（粉色）</td>
+                                <td style="border:none" class="col-md-2">第三联留分布（黄色）</td>
+                                <td style="border:none" class="col-md-2"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Content -->
+        </div>
+        <!-- /Page Container -->
+        <!-- Main Container -->
+    </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="../../dep/assets/js/jquery-2.0.3.min.js"></script>
+<script src="../../dep/assets/js/bootstrap.min.js"></script>
+
+<!--Beyond Scripts-->
+<script src="../../dep/assets/js/beyond.min.js"></script>
+<!--下拉框搜索插件-->
+<script src="../../dep/bootstrap-select/js/bootstrap-select.min.js"></script>
+<script>
+    $(window).on('load', function () {
+        $('.selectpicker').selectpicker({
+            'selectedText': 'cat'
+        });
+        // $('.selectpicker').selectpicker('hide');
+    });
+</script>
+</body>
+
+</html>
