@@ -4,9 +4,33 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
-  <script src="3.js"></script>
+  <!-- <script src="3.js"></script> -->
 </head>
 <body>
-  
+  <input type="text">
+  <script>
+    const input = document.querySelector('input')
+    const obj = {}
+
+    Object.defineProperty(obj, 'data', {
+      _value: '',
+      enumerable: false,  // 不可枚举
+      configurable: false, // 不可删除
+      set(value){
+        input.value = value
+        _value = value
+        // console.log(input.value)
+      },
+      get(){
+        return _value
+      }
+    }) 
+    obj.data = '000'
+    input.onchange = e => {
+      console.log(1)
+      obj.data = e.target.value
+      console.log(obj.data)
+    }
+  </script>
 </body>
 </html>
